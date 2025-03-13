@@ -1,0 +1,34 @@
+Thành viên: 
+Đăng ký tài khoản thành viên
+Đăng nhập tài khoản
+Quên mật khẩu
+Chỉnh sửa thông tin cá nhân
+
+Tìm kiếm sách
+Xem các thể loại sách
+Xem danh mục sách theo thể loại
+Xem chi tiết thông tin sách
+
+Yêu cầu mượn sách
+Xem danh sách những quyển sách đang mượn
+Gia hạn sách
+Lịch sử mượn sách
+
+Yêu cầu trả sách
+Nhận thông báo đến hạn trả sách
+
+Đánh giá sách 
+Báo mất sách
+
+Thủ thư: 
+quản lý tác giả 
+Quản lý các thể loại sách
+Quản lý danh mục sách theo thể loại.
+Xử lý yêu cầu mượn sách từ thành viên.
+Xử lý yêu cầu trả sách từ thành viên.
+Thêm sách trong hệ thống.
+Chỉnh sửa sách trong hệ thống.
+Xem danh sách sách đã mượn và trả.
+Xuất báo cáo về tình trạng thư viện (sách sẵn có, sách đang mượn, danh sách thành viên, v.v.).
+
+
