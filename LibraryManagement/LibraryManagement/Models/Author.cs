@@ -1,6 +1,6 @@
 ﻿namespace LibraryManagement.Models
 {
-    public class Publisher
+    public class Author
     {
         public int Id { get; set; }
         public string Name { get; set; }

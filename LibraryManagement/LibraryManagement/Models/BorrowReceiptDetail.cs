@@ -11,6 +11,6 @@
         public DateTime DueDate { get; set; }
         public DateTime? ReturnedDate { get; set; }
         public bool IsReturned { get; set; } = false;
-        public string Notes { get; set; }
+        public string? Notes { get; set; }
     }
 }

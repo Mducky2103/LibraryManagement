@@ -15,7 +15,7 @@ namespace LibraryManagement.Data
         public DbSet<BorrowReceiptDetail> BorrowReceiptDetails { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Penalty> Penalties { get; set; }
-        public DbSet<Publisher> Publishers { get; set; }
+        public DbSet<Author> Authors { get; set; }
         public DbSet<ReturnHistory> ReturnHistories { get; set; }
         public DbSet<User> Users { get; set; }
 
