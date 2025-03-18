@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LibraryManagement.Migrations
 {
     [DbContext(typeof(LibraryDbContext))]
-    [Migration("20250317024506_InitialDb")]
+    [Migration("20250318075011_InitialDb")]
     partial class InitialDb
     {
         /// <inheritdoc />
@@ -25,6 +25,27 @@ namespace LibraryManagement.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("LibraryManagement.Models.Author", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Address")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Authors");
+                });
+
             modelBuilder.Entity("LibraryManagement.Models.Book", b =>
                 {
                     b.Property<int>("Id")
@@ -33,9 +54,8 @@ namespace LibraryManagement.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Author")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("AuthorId")
+                        .HasColumnType("int");
 
                     b.Property<int>("CategoryId")
                         .HasColumnType("int");
@@ -58,9 +78,6 @@ namespace LibraryManagement.Migrations
                     b.Property<double>("Price")
                         .HasColumnType("float");
 
-                    b.Property<int>("PublisherId")
-                        .HasColumnType("int");
-
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
 
@@ -69,9 +86,9 @@ namespace LibraryManagement.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CategoryId");
+                    b.HasIndex("AuthorId");
 
-                    b.HasIndex("PublisherId");
+                    b.HasIndex("CategoryId");
 
                     b.ToTable("Books");
                 });
@@ -130,11 +147,7 @@ namespace LibraryManagement.Migrations
                     b.Property<DateTime>("DueDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<bool>("IsReturned")
-                        .HasColumnType("bit");
-
                     b.Property<string>("Notes")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime?>("ReturnedDate")
@@ -203,27 +216,6 @@ namespace LibraryManagement.Migrations
                     b.ToTable("Penalties");
                 });
 
-            modelBuilder.Entity("LibraryManagement.Models.Publisher", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Address")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Publishers");
-                });
-
             modelBuilder.Entity("LibraryManagement.Models.ReturnHistory", b =>
                 {
                     b.Property<int>("Id")
@@ -235,9 +227,6 @@ namespace LibraryManagement.Migrations
                     b.Property<int>("BorrowReceiptId")
                         .HasColumnType("int");
 
-                    b.Property<bool>("IsLate")
-                        .HasColumnType("bit");
-
                     b.Property<DateTime>("ReturnedDate")
                         .HasColumnType("datetime2");
 
@@ -246,6 +235,35 @@ namespace LibraryManagement.Migrations
                     b.HasIndex("BorrowReceiptId");
 
                     b.ToTable("ReturnHistories");
+                });
+
+            modelBuilder.Entity("LibraryManagement.Models.ReturnedBooks", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("BorrowReceiptDetailId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("BorrowReceiptId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsReturned")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("ReturnedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BorrowReceiptDetailId");
+
+                    b.HasIndex("BorrowReceiptId");
+
+                    b.ToTable("ReturnedBooks");
                 });
 
             modelBuilder.Entity("LibraryManagement.Models.User", b =>
@@ -452,21 +470,21 @@ namespace LibraryManagement.Migrations
 
             modelBuilder.Entity("LibraryManagement.Models.Book", b =>
                 {
+                    b.HasOne("LibraryManagement.Models.Author", "Author")
+                        .WithMany("Books")
+                        .HasForeignKey("AuthorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("LibraryManagement.Models.Category", "Category")
                         .WithMany("Books")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("LibraryManagement.Models.Publisher", "Publisher")
-                        .WithMany("Books")
-                        .HasForeignKey("PublisherId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Navigation("Author");
 
                     b.Navigation("Category");
-
-                    b.Navigation("Publisher");
                 });
 
             modelBuilder.Entity("LibraryManagement.Models.BorrowReceipt", b =>
@@ -529,6 +547,25 @@ namespace LibraryManagement.Migrations
                     b.Navigation("BorrowReceipt");
                 });
 
+            modelBuilder.Entity("LibraryManagement.Models.ReturnedBooks", b =>
+                {
+                    b.HasOne("LibraryManagement.Models.BorrowReceiptDetail", "BorrowReceiptDetails")
+                        .WithMany("ReturnedBooks")
+                        .HasForeignKey("BorrowReceiptDetailId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.HasOne("LibraryManagement.Models.BorrowReceipt", "BorrowReceipts")
+                        .WithMany("ReturnedBooks")
+                        .HasForeignKey("BorrowReceiptId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.Navigation("BorrowReceiptDetails");
+
+                    b.Navigation("BorrowReceipts");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -580,17 +617,24 @@ namespace LibraryManagement.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("LibraryManagement.Models.BorrowReceipt", b =>
-                {
-                    b.Navigation("Details");
-                });
-
-            modelBuilder.Entity("LibraryManagement.Models.Category", b =>
+            modelBuilder.Entity("LibraryManagement.Models.Author", b =>
                 {
                     b.Navigation("Books");
                 });
 
-            modelBuilder.Entity("LibraryManagement.Models.Publisher", b =>
+            modelBuilder.Entity("LibraryManagement.Models.BorrowReceipt", b =>
+                {
+                    b.Navigation("Details");
+
+                    b.Navigation("ReturnedBooks");
+                });
+
+            modelBuilder.Entity("LibraryManagement.Models.BorrowReceiptDetail", b =>
+                {
+                    b.Navigation("ReturnedBooks");
+                });
+
+            modelBuilder.Entity("LibraryManagement.Models.Category", b =>
                 {
                     b.Navigation("Books");
                 });

@@ -6,6 +6,5 @@
         public int BorrowReceiptId { get; set; }
         public BorrowReceipt BorrowReceipt { get; set; }
         public DateTime ReturnedDate { get; set; }
-        public bool IsLate { get; set; }
     }
 }

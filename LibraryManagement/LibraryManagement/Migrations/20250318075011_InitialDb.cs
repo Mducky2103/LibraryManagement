@@ -52,6 +52,20 @@ namespace LibraryManagement.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Authors",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Address = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Authors", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Categories",
                 columns: table => new
                 {
@@ -62,20 +76,6 @@ namespace LibraryManagement.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Categories", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Publishers",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Address = table.Column<string>(type: "nvarchar(max)", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Publishers", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -216,9 +216,8 @@ namespace LibraryManagement.Migrations
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     CategoryId = table.Column<int>(type: "int", nullable: false),
-                    PublisherId = table.Column<int>(type: "int", nullable: false),
+                    AuthorId = table.Column<int>(type: "int", nullable: false),
                     YearPublished = table.Column<int>(type: "int", nullable: false),
-                    Author = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Price = table.Column<double>(type: "float", nullable: false),
                     Quantity = table.Column<int>(type: "int", nullable: false),
                     Image = table.Column<string>(type: "nvarchar(max)", nullable: false),
@@ -228,15 +227,15 @@ namespace LibraryManagement.Migrations
                 {
                     table.PrimaryKey("PK_Books", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Books_Categories_CategoryId",
-                        column: x => x.CategoryId,
-                        principalTable: "Categories",
+                        name: "FK_Books_Authors_AuthorId",
+                        column: x => x.AuthorId,
+                        principalTable: "Authors",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Books_Publishers_PublisherId",
-                        column: x => x.PublisherId,
-                        principalTable: "Publishers",
+                        name: "FK_Books_Categories_CategoryId",
+                        column: x => x.CategoryId,
+                        principalTable: "Categories",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -248,8 +247,7 @@ namespace LibraryManagement.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     BorrowReceiptId = table.Column<int>(type: "int", nullable: false),
-                    ReturnedDate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    IsLate = table.Column<bool>(type: "bit", nullable: false)
+                    ReturnedDate = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -273,8 +271,7 @@ namespace LibraryManagement.Migrations
                     BorrowedDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     DueDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     ReturnedDate = table.Column<DateTime>(type: "datetime2", nullable: true),
-                    IsReturned = table.Column<bool>(type: "bit", nullable: false),
-                    Notes = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Notes = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -323,6 +320,32 @@ namespace LibraryManagement.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "ReturnedBooks",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    BorrowReceiptId = table.Column<int>(type: "int", nullable: false),
+                    BorrowReceiptDetailId = table.Column<int>(type: "int", nullable: false),
+                    ReturnedDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    IsReturned = table.Column<bool>(type: "bit", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_ReturnedBooks", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_ReturnedBooks_BorrowReceiptDetails_BorrowReceiptDetailId",
+                        column: x => x.BorrowReceiptDetailId,
+                        principalTable: "BorrowReceiptDetails",
+                        principalColumn: "Id");
+                    table.ForeignKey(
+                        name: "FK_ReturnedBooks_BorrowReceipts_BorrowReceiptId",
+                        column: x => x.BorrowReceiptId,
+                        principalTable: "BorrowReceipts",
+                        principalColumn: "Id");
+                });
+
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
                 table: "AspNetRoleClaims",
@@ -363,14 +386,14 @@ namespace LibraryManagement.Migrations
                 filter: "[NormalizedUserName] IS NOT NULL");
 
             migrationBuilder.CreateIndex(
+                name: "IX_Books_AuthorId",
+                table: "Books",
+                column: "AuthorId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Books_CategoryId",
                 table: "Books",
                 column: "CategoryId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Books_PublisherId",
-                table: "Books",
-                column: "PublisherId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_BorrowReceiptDetails_BookId",
@@ -396,6 +419,16 @@ namespace LibraryManagement.Migrations
                 name: "IX_Penalties_UserId",
                 table: "Penalties",
                 column: "UserId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_ReturnedBooks_BorrowReceiptDetailId",
+                table: "ReturnedBooks",
+                column: "BorrowReceiptDetailId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_ReturnedBooks_BorrowReceiptId",
+                table: "ReturnedBooks",
+                column: "BorrowReceiptId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_ReturnHistories_BorrowReceiptId",
@@ -425,6 +458,9 @@ namespace LibraryManagement.Migrations
                 name: "Penalties");
 
             migrationBuilder.DropTable(
+                name: "ReturnedBooks");
+
+            migrationBuilder.DropTable(
                 name: "ReturnHistories");
 
             migrationBuilder.DropTable(
@@ -440,10 +476,10 @@ namespace LibraryManagement.Migrations
                 name: "BorrowReceipts");
 
             migrationBuilder.DropTable(
-                name: "Categories");
+                name: "Authors");
 
             migrationBuilder.DropTable(
-                name: "Publishers");
+                name: "Categories");
 
             migrationBuilder.DropTable(
                 name: "AspNetUsers");

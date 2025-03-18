@@ -144,9 +144,6 @@ namespace LibraryManagement.Migrations
                     b.Property<DateTime>("DueDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<bool>("IsReturned")
-                        .HasColumnType("bit");
-
                     b.Property<string>("Notes")
                         .HasColumnType("nvarchar(max)");
 
@@ -227,9 +224,6 @@ namespace LibraryManagement.Migrations
                     b.Property<int>("BorrowReceiptId")
                         .HasColumnType("int");
 
-                    b.Property<bool>("IsLate")
-                        .HasColumnType("bit");
-
                     b.Property<DateTime>("ReturnedDate")
                         .HasColumnType("datetime2");
 
@@ -238,6 +232,35 @@ namespace LibraryManagement.Migrations
                     b.HasIndex("BorrowReceiptId");
 
                     b.ToTable("ReturnHistories");
+                });
+
+            modelBuilder.Entity("LibraryManagement.Models.ReturnedBooks", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("BorrowReceiptDetailId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("BorrowReceiptId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsReturned")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("ReturnedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BorrowReceiptDetailId");
+
+                    b.HasIndex("BorrowReceiptId");
+
+                    b.ToTable("ReturnedBooks");
                 });
 
             modelBuilder.Entity("LibraryManagement.Models.User", b =>
@@ -521,6 +544,25 @@ namespace LibraryManagement.Migrations
                     b.Navigation("BorrowReceipt");
                 });
 
+            modelBuilder.Entity("LibraryManagement.Models.ReturnedBooks", b =>
+                {
+                    b.HasOne("LibraryManagement.Models.BorrowReceiptDetail", "BorrowReceiptDetails")
+                        .WithMany("ReturnedBooks")
+                        .HasForeignKey("BorrowReceiptDetailId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.HasOne("LibraryManagement.Models.BorrowReceipt", "BorrowReceipts")
+                        .WithMany("ReturnedBooks")
+                        .HasForeignKey("BorrowReceiptId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.Navigation("BorrowReceiptDetails");
+
+                    b.Navigation("BorrowReceipts");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -580,6 +622,13 @@ namespace LibraryManagement.Migrations
             modelBuilder.Entity("LibraryManagement.Models.BorrowReceipt", b =>
                 {
                     b.Navigation("Details");
+
+                    b.Navigation("ReturnedBooks");
+                });
+
+            modelBuilder.Entity("LibraryManagement.Models.BorrowReceiptDetail", b =>
+                {
+                    b.Navigation("ReturnedBooks");
                 });
 
             modelBuilder.Entity("LibraryManagement.Models.Category", b =>

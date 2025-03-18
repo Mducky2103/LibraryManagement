@@ -18,6 +18,7 @@ namespace LibraryManagement.Data
         public DbSet<Author> Authors { get; set; }
         public DbSet<ReturnHistory> ReturnHistories { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<ReturnedBooks> ReturnedBooks { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -25,6 +26,18 @@ namespace LibraryManagement.Data
                 .HasOne(b => b.User)
                 .WithMany()
                 .HasForeignKey(b => b.UserId)
+                .OnDelete(DeleteBehavior.NoAction);
+
+            builder.Entity<ReturnedBooks>()
+                .HasOne(rb => rb.BorrowReceipts)
+                .WithMany(br => br.ReturnedBooks)
+                .HasForeignKey(rb => rb.BorrowReceiptId)
+                .OnDelete(DeleteBehavior.NoAction);
+
+            builder.Entity<ReturnedBooks>()
+                .HasOne(rb => rb.BorrowReceiptDetails)
+                .WithMany(brd => brd.ReturnedBooks)
+                .HasForeignKey(rb => rb.BorrowReceiptDetailId)
                 .OnDelete(DeleteBehavior.NoAction);
 
             base.OnModelCreating(builder);

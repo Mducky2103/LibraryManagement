@@ -14,6 +14,7 @@ namespace LibraryManagement.Models
         public BorrowStatus Status { get; set; } = BorrowStatus.Pending;
         public int TotalBooks { get; set; }
         public ICollection<BorrowReceiptDetail> Details { get; set; } = new List<BorrowReceiptDetail>();
+        public ICollection<ReturnedBooks> ReturnedBooks { get; set; }
     }
 
     public enum BorrowStatus
