@@ -1,11 +1,15 @@
 
 using LibraryManagement.Controllers;
 using LibraryManagement.Data;
+using LibraryManagement.Extensions;
 using LibraryManagement.Models;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using System;
+using System.Text;
 
 namespace LibraryManagement
 {
@@ -18,57 +22,30 @@ namespace LibraryManagement
             // Add services to the container.
 
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-            builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
-
-            // Services from Identity Core.
-            builder.Services
-                .AddIdentityApiEndpoints<User>()
-                .AddEntityFrameworkStores<LibraryDbContext>();
-
-            builder.Services.Configure<IdentityOptions>(options =>
-            {
-                options.Password.RequireDigit = false;
-                options.Password.RequireUppercase = false;
-                options.Password.RequireLowercase = false;
-                options.User.RequireUniqueEmail = true;
-            });
-
-            builder.Services.AddDbContext<LibraryDbContext>(option =>
-            {
-                option.UseSqlServer(builder.Configuration.GetConnectionString("conn").ToString());
-            });
+            builder.Services.AddSwaggerExplorer()
+                            .InjectDbContext(builder.Configuration)
+                            .AddAppConfig(builder.Configuration)
+                            .AddIdentityHandlersAndStores()
+                            .ConfigureIdentityOptions()
+                            .AddIdentityAuth(builder.Configuration);
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment())
-            {
-                app.UseSwagger();
-                app.UseSwaggerUI();
-            }
-
-            #region Config. CORS
-            app.UseCors(options =>
-                options.WithOrigins("http://localhost:4200")
-                        .AllowAnyMethod()
-                        .AllowAnyHeader());
-            #endregion 
+            app.ConfigureSwaggerExplorer()
+               .ConfigureCORS(builder.Configuration)
+               .AddIdentityAuthMiddlewares();
 
             app.UseHttpsRedirection();
 
-            app.UseAuthorization();
-
-
             app.MapControllers();
 
-            app
-                .MapGroup("/api")
+            app.MapGroup("/api")
                 .MapIdentityApi<User>();
 
             app.MapGroup("/api")
-                .MapIdentityUserEndpoints();
+                .MapIdentityUserEndpoints()
+                .MapAccountEndpoints()
+                .MapAuthorizationDemoEndpoints();
             app.Run();
         }
     }

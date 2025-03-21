@@ -305,3 +305,5 @@ D:\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\static
 D:\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryM.685EF3B5.Up2Date
 D:\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.genruntimeconfig.cache
 D:\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\ref\LibraryManagement.dll
+D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\userdetails.json
+D:\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

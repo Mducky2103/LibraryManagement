@@ -1,4 +1,5 @@
 ﻿using LibraryManagement.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
@@ -14,6 +15,9 @@ namespace LibraryManagement.Controllers
         public string Email { get; set; }
         public string Password { get; set; }
         public string FullName { get; set; }
+        public string Role { get; set; }
+        public string Gender { get; set; }
+        public int Age { get; set; }
     }
 
     public class LoginModel
@@ -30,6 +34,7 @@ namespace LibraryManagement.Controllers
             return app;
         }
 
+        [AllowAnonymous]
         private static async Task<IResult> CreateUser(
             UserManager<User> userManager,
             [FromBody] UserRegistrationModel userRegistrationModel)
@@ -39,47 +44,50 @@ namespace LibraryManagement.Controllers
                 UserName = userRegistrationModel.Email,
                 Email = userRegistrationModel.Email,
                 FullName = userRegistrationModel.FullName,
+                Gender = userRegistrationModel.Gender,
+                DOB = DateOnly.FromDateTime(DateTime.Now.AddYears(-userRegistrationModel.Age))
             };
             var result = await userManager.CreateAsync(
                 user,
                 userRegistrationModel.Password);
+            await userManager.AddToRoleAsync(user, userRegistrationModel.Role);
 
-            if (result.Succeeded)
-                return Results.Ok(result);
-            else
-                return Results.BadRequest(result);
+            if (result.Succeeded) return Results.Ok(result);
+            else return Results.BadRequest(result);
         }
 
+        [AllowAnonymous]
         private static async Task<IResult> SignIn(
             UserManager<User> userManager,
-                [FromBody] LoginModel loginModel,
-                IOptions<AppSettings> appSettings)
-        {
-            var user = await userManager.FindByEmailAsync(loginModel.Email);
-            if (user != null && await userManager.CheckPasswordAsync(user, loginModel.Password))
+            [FromBody] LoginModel loginModel,
+            IOptions<AppSettings> appSettings)
             {
-                var signInKey = new SymmetricSecurityKey(
-                                Encoding.UTF8.GetBytes(appSettings.Value.JWTSecret)
-                                );
-                var tokenDescriptor = new SecurityTokenDescriptor
+                var user = await userManager.FindByEmailAsync(loginModel.Email);
+                if (user != null && await userManager.CheckPasswordAsync(user, loginModel.Password))
                 {
-                    Subject = new ClaimsIdentity(new Claim[]
+                var roles = await userManager.GetRolesAsync(user);
+                var signInKey = new SymmetricSecurityKey(
+                            Encoding.UTF8.GetBytes(appSettings.Value.JWTSecret));
+                ClaimsIdentity claims = new ClaimsIdentity(new Claim[]
+                {
+                    new Claim("userID",user.Id.ToString()),
+                    new Claim("gender", user.Gender.ToString()),
+                    new Claim("age", (DateTime.Now.Year - user.DOB.Year).ToString()),
+                    new Claim(ClaimTypes.Role, roles.First())
+                });  
+                var tokenDescriptor = new SecurityTokenDescriptor
                     {
-                    new Claim("UserID",user.Id.ToString())
-                    }),
-                    Expires = DateTime.UtcNow.AddDays(10),
-                    SigningCredentials = new SigningCredentials(
-                        signInKey,
-                        SecurityAlgorithms.HmacSha256Signature
-                        )
-                };
-                var tokenHandler = new JwtSecurityTokenHandler();
-                var securityToken = tokenHandler.CreateToken(tokenDescriptor);
-                var token = tokenHandler.WriteToken(securityToken);
-                return Results.Ok(new { token });
+                        Subject = claims,
+                        Expires = DateTime.UtcNow.AddMinutes(1),
+                        SigningCredentials = new SigningCredentials(signInKey, SecurityAlgorithms.HmacSha256Signature)
+                    };
+                    var tokenHandler = new JwtSecurityTokenHandler();
+                    var securityToken = tokenHandler.CreateToken(tokenDescriptor);
+                    var token = tokenHandler.WriteToken(securityToken);
+                    return Results.Ok(new { token });
+                }
+                else
+                    return Results.BadRequest(new { message = "Username or password is incorrect." });
             }
-            else
-                return Results.BadRequest(new { message = "Username or password is incorrect." });
-        }
     }
 }
