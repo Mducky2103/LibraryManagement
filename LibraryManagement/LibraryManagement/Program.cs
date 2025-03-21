@@ -1,5 +1,9 @@
 
+using LibraryManagement.Controllers;
 using LibraryManagement.Data;
+using LibraryManagement.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
 
@@ -18,6 +22,19 @@ namespace LibraryManagement
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            // Services from Identity Core.
+            builder.Services
+                .AddIdentityApiEndpoints<User>()
+                .AddEntityFrameworkStores<LibraryDbContext>();
+
+            builder.Services.Configure<IdentityOptions>(options =>
+            {
+                options.Password.RequireDigit = false;
+                options.Password.RequireUppercase = false;
+                options.Password.RequireLowercase = false;
+                options.User.RequireUniqueEmail = true;
+            });
+
             builder.Services.AddDbContext<LibraryDbContext>(option =>
             {
                 option.UseSqlServer(builder.Configuration.GetConnectionString("conn").ToString());
@@ -32,6 +49,13 @@ namespace LibraryManagement
                 app.UseSwaggerUI();
             }
 
+            #region Config. CORS
+            app.UseCors(options =>
+                options.WithOrigins("http://localhost:4200")
+                        .AllowAnyMethod()
+                        .AllowAnyHeader());
+            #endregion 
+
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
@@ -39,6 +63,12 @@ namespace LibraryManagement
 
             app.MapControllers();
 
+            app
+                .MapGroup("/api")
+                .MapIdentityApi<User>();
+
+            app.MapGroup("/api")
+                .MapIdentityUserEndpoints();
             app.Run();
         }
     }
