@@ -17,6 +17,7 @@ namespace LibraryManagement.Services
         public async Task<IEnumerable<BookVm>> GetAllBooksAsync()
         {
             var books = await _bookRepository.GetAllAsync();
+
             return books.Select(b => new BookVm
             {
                 Id = b.Id,
@@ -27,8 +28,8 @@ namespace LibraryManagement.Services
                 Quantity = b.Quantity,
                 Image = b.Image,
                 IsAvailable = b.IsAvailable,
-                CategoryName = b.Category.Name,
-                AuthorName = b.Author.Name
+                CategoryName = b.Category?.Name,
+                AuthorName = b.Author?.Name
             }).ToList();
         }
 
@@ -73,6 +74,7 @@ namespace LibraryManagement.Services
         public async Task UpdateBookAsync(int id, BookVm bookVm)
         {
             var book = await _bookRepository.GetByIdAsync(id);
+
             if (book == null)
             {
                 throw new Exception("Not found book.");

@@ -312,3 +312,5 @@ D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\MailKi
 D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\MimeKit.dll
 D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
 D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.staticwebassets.runtime.json
+D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Formats.Asn1.dll

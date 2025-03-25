@@ -3,6 +3,7 @@ using LibraryManagement.Controllers;
 using LibraryManagement.Data;
 using LibraryManagement.Extensions;
 using LibraryManagement.Models;
+using LibraryManagement.Repositories;
 using LibraryManagement.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -31,6 +32,13 @@ namespace LibraryManagement
                             .AddIdentityAuth(builder.Configuration);
             builder.Services.AddSingleton<EmailService>();
 
+            builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+            builder.Services.AddScoped<ICategoryService, CategoryService>();
+            builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
+            builder.Services.AddScoped<IAuthorService, AuthorService>();
+            builder.Services.AddScoped<IBookRepository, BookRepository>();
+            builder.Services.AddScoped<IBookService, BookService>();
+
             var app = builder.Build();
 
             app.ConfigureSwaggerExplorer()
@@ -38,6 +46,7 @@ namespace LibraryManagement
                .AddIdentityAuthMiddlewares();
 
             app.UseHttpsRedirection();
+            app.UseStaticFiles();
 
             app.MapControllers();
 

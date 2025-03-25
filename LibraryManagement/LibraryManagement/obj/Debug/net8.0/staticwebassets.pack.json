@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\album-anh-ve-ha-noi-01-0cbc70a3-b767-46e7-9904-d09ad5092662.webp",
+      "PackagePath": "staticwebassets\\images\\album-anh-ve-ha-noi-01-0cbc70a3-b767-46e7-9904-d09ad5092662.webp"
+    },
+    {
+      "Id": "D:\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\anh-dep-16.jpg",
+      "PackagePath": "staticwebassets\\images\\anh-dep-16.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LibraryManagement.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LibraryManagement.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.LibraryManagement.props",
+      "PackagePath": "build\\LibraryManagement.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.LibraryManagement.props",
+      "PackagePath": "buildMultiTargeting\\LibraryManagement.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.LibraryManagement.props",
+      "PackagePath": "buildTransitive\\LibraryManagement.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

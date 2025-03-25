@@ -15,21 +15,22 @@ namespace LibraryManagement.Repositories
 
         public async Task<IEnumerable<Book>> GetAllAsync()
         {
-            return await _context.Books.Include(b => b.Category).ToListAsync();
+            return await _context.Books.Include(b => b.Category).Include(b => b.Author).ToListAsync();
         }
 
         public async Task<Book> GetByIdAsync(int id)
         {
-            return await _context.Books.Include(b => b.Category).FirstOrDefaultAsync(b => b.Id == id);
+            return await _context.Books.Include(b => b.Category).Include(b => b.Author).FirstOrDefaultAsync(b => b.Id == id);
         }
 
         public async Task AddAsync(Book book)
         {
             await _context.Books.AddAsync(book);
+
             await _context.SaveChangesAsync();
         }
 
-        public async Task UpdateAsync(int id,Book book)
+        public async Task UpdateAsync(int id, Book book)
         {
             var bookFind = await _context.Books.FindAsync(id);
 
@@ -43,6 +44,7 @@ namespace LibraryManagement.Repositories
         public async Task DeleteAsync(int id)
         {
             var book = await _context.Books.FindAsync(id);
+
             if (book != null)
             {
                 _context.Books.Remove(book);
