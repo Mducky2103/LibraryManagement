@@ -1,0 +1,43 @@
+<div class="mb-4">
+    <h2 class="text-success">
+        Sign In
+    </h2>
+    <div>Don't have an account?
+        <a routerLink="/signup" class="text-decoration-none fw-medium text-success d-inlin-block">
+            Sign Up
+        </a>
+    </div>
+</div>
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <div class="mb-3">
+        <input class="form-control bg-body-secondary" placeholder="Email" formControlName="email">
+        <div class="error-feedback" *ngIf="hasDisplayableError('email') && form.controls.email.hasError('required')">
+            Please enter your email address.
+        </div>
+
+    </div>
+    <div class="mb-3">
+        <div class="input-group">
+            <input [type]="showPassword ? 'text' : 'password'" class="form-control bg-body-secondary"
+                placeholder="Password" formControlName="password">
+            <button type="button" class="btn btn-outline-secondary" (click)="togglePasswordVisibility()">
+                <i class="fa" [ngClass]="showPassword ? 'fa-eye-slash' : 'fa-eye'"></i>
+            </button>
+        </div>
+        <div class="error-feedback"
+            *ngIf="hasDisplayableError('password') && form.controls.password.hasError('required')">
+            Please enter your password.
+        </div>
+    </div>
+    <div>
+        <a routerLink="/forgot-password" class="text-decoration-none fw-medium text-success d-inlin-block">
+            Forgot Password?
+        </a>
+    </div>
+
+    <div class="mt-4">
+        <button type="submit" class="btn btn-success w-100 rounded-3">
+            Sign In
+        </button>
+    </div>
+</form>

@@ -1,0 +1,86 @@
+<div class="mb-4">
+    <h2 class="text-success">
+        Sign Up
+    </h2>
+    <div>Already have an account?
+        <a routerLink="/signin" class="text-decoration-none fw-medium text-success d-inlin-block">
+            Sign In
+        </a>
+    </div>
+</div>
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <div class="mb-3">
+        <input class="form-control bg-body-secondary" placeholder="Full Name" formControlName="fullName">
+        <div class="error-feedback"
+            *ngIf="hasDisplayableError('fullName') && form.controls.fullName.hasError('required')">
+            Full Name is required.
+        </div>
+    </div>
+    <div class="mb-3">
+        <input class="form-control bg-body-secondary" placeholder="Email" formControlName="email">
+        <div class="error-feedback" *ngIf="hasDisplayableError('email')">
+            <div *ngIf="form.controls.email.hasError('required')">
+                Please enter your email address.
+            </div>
+            <div *ngIf="form.controls.email.hasError('email')">
+                Please enter a valid email address.
+            </div>
+        </div>
+    </div>
+    <div class="mb-3">
+        <div class="input-group">
+            <input [type]="showPassword ? 'text' : 'password'" class="form-control bg-body-secondary"
+                placeholder="Password" formControlName="password">
+            <button type="button" class="btn btn-outline-secondary" (click)="togglePasswordVisibility('password')">
+                <i class="fa" [ngClass]="showPassword ? 'fa-eye-slash' : 'fa-eye'"></i>
+            </button>
+        </div>
+        <div class="error-feedback" *ngIf="hasDisplayableError('password')">
+            <ng-container [ngSwitch]="form.controls.password.errors | firstKey">
+                <div *ngSwitchCase="'required'">Please enter your password.</div>
+                <div *ngSwitchCase="'minlength'">Password must be at least 6 characters long.</div>
+                <div *ngSwitchCase="'pattern'">One or more special characters are required.</div>
+            </ng-container>
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <div class="input-group">
+            <input [type]="showConfirmPassword ? 'text' : 'password'" class="form-control bg-body-secondary"
+                placeholder="Confirm Password" formControlName="confirmPassword">
+            <button type="button" class="btn btn-outline-secondary"
+                (click)="togglePasswordVisibility('confirmPassword')">
+                <i class="fa" [ngClass]="showConfirmPassword ? 'fa-eye-slash' : 'fa-eye'"></i>
+            </button>
+        </div>
+        <div class="error-feedback"
+            *ngIf="hasDisplayableError('confirmPassword') && form.controls.confirmPassword.hasError('passwordMismatch')">
+            Passwords do not match.
+        </div>
+    </div>
+
+
+    <div class="mb-3">
+        <input class="form-control bg-body-secondary" placeholder="Gender" formControlName="gender">
+        <div class="error-feedback"
+            *ngIf="hasDisplayableError('gender') && form.controls.gender.hasError('invalidGender')">
+            Please enter a valid gender.
+        </div>
+    </div>
+    <div class="mb-3">
+        <input class="form-control bg-body-secondary" placeholder="Age" formControlName="age">
+        <div class="error-feedback" *ngIf="hasDisplayableError('age')">
+            <div *ngIf="form.controls.age.hasError('required')">
+                Age is required.
+            </div>
+            <div *ngIf="form.controls.age.hasError('invalidAge')">
+                Age must be a number between 18 and 100.
+            </div>
+        </div>
+    </div>
+    <div class="mt-4">
+        <button type="submit" class="btn btn-success w-100 rounded-3">
+            Register
+        </button>
+    </div>
+</form>
