@@ -13,6 +13,8 @@ import { ForbiddenComponent } from './forbidden/forbidden.component';
 import { claimReq } from './shared/utils/claimReq-utils';
 import { ForgotPasswordComponent } from './user/forgot-password/forgot-password.component';
 import { ChangePasswordComponent } from './user/change-password/change-password.component';
+import { BookListComponent } from './features/book/book-list/book-list.component';
+import { BookFormComponent } from './features/book/book-form/book-form.component';
 
 export const routes: Routes = [
     { path: '', redirectTo: 'signin', pathMatch: 'full' },
@@ -55,6 +57,14 @@ export const routes: Routes = [
                 canActivate: [authGuard]
             }
         ]
+    },
+    {
+        path: 'book',
+        component: BookListComponent
+    },
+    {
+        path: 'add-book',
+        component: BookFormComponent
     }
 
 ];

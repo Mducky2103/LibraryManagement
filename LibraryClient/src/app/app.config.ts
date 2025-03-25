@@ -14,3 +14,5 @@ export const appConfig: ApplicationConfig = {
   provideAnimationsAsync(),
   provideToastr({ positionClass: 'toast-top-center' }),]
 };
+
+export const API_URL = "https://localhost:7274/api";
