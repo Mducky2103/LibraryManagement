@@ -3,6 +3,7 @@ using LibraryManagement.Controllers;
 using LibraryManagement.Data;
 using LibraryManagement.Extensions;
 using LibraryManagement.Models;
+using LibraryManagement.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -28,6 +29,7 @@ namespace LibraryManagement
                             .AddIdentityHandlersAndStores()
                             .ConfigureIdentityOptions()
                             .AddIdentityAuth(builder.Configuration);
+            builder.Services.AddSingleton<EmailService>();
 
             var app = builder.Build();
 

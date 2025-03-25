@@ -1,4 +1,6 @@
 ﻿using LibraryManagement.Models;
+using LibraryManagement.Services;
+using LibraryManagement.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -31,6 +33,8 @@ namespace LibraryManagement.Controllers
         {
             app.MapPost("/signup", CreateUser);
             app.MapPost("/signin", SignIn);
+            app.MapPost("/forgot-password", ForgotPassword);
+            app.MapPost("/reset-password", ResetPassword);
             return app;
         }
 
@@ -78,7 +82,7 @@ namespace LibraryManagement.Controllers
                 var tokenDescriptor = new SecurityTokenDescriptor
                     {
                         Subject = claims,
-                        Expires = DateTime.UtcNow.AddMinutes(1),
+                        Expires = DateTime.UtcNow.AddDays(1),
                         SigningCredentials = new SigningCredentials(signInKey, SecurityAlgorithms.HmacSha256Signature)
                     };
                     var tokenHandler = new JwtSecurityTokenHandler();
@@ -89,5 +93,48 @@ namespace LibraryManagement.Controllers
                 else
                     return Results.BadRequest(new { message = "Username or password is incorrect." });
             }
+
+        [AllowAnonymous]
+        private static async Task<IResult> ForgotPassword(
+        UserManager<User> userManager,
+        [FromBody] ForgotPasswordVm forgotPasswordVm,
+        EmailService emailService)
+        {
+            var user = await userManager.FindByEmailAsync(forgotPasswordVm.Email);
+            if (user == null)
+            {
+                return Results.BadRequest(new { message = "User not found." });
+            }
+
+            var resetToken = await userManager.GeneratePasswordResetTokenAsync(user);
+            var resetLink = $"https://your-app-url/reset-password?token={resetToken}&email={forgotPasswordVm.Email}";
+
+            var message = $"<p>Please reset your password by clicking <a href='{resetLink}'>here</a>.</p>";
+            await emailService.SendEmailAsync(forgotPasswordVm.Email, "Password Reset", message);
+
+            return Results.Ok(new { resetToken, message = "Password reset link has been sent to your email." });
+        }
+
+        [AllowAnonymous]
+        private static async Task<IResult> ResetPassword(
+        UserManager<User> userManager,
+        [FromBody] ResetPasswordVm resetPasswordVm)
+        {
+            var user = await userManager.FindByEmailAsync(resetPasswordVm.Email);
+            if (user == null)
+            {
+                return Results.BadRequest(new { message = "User not found." });
+            }
+
+            var resetPassResult = await userManager.ResetPasswordAsync(user, resetPasswordVm.Token, resetPasswordVm.NewPassword);
+            if (resetPassResult.Succeeded)
+            {
+                return Results.Ok(new { message = "Password has been reset successfully." });
+            }
+            else
+            {
+                return Results.BadRequest(new { message = "Error resetting password.", errors = resetPassResult.Errors });
+            }
+        }
     }
 }
