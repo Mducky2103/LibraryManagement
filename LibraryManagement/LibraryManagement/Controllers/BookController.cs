@@ -18,6 +18,7 @@ namespace LibraryManagement.Controllers
             _bookService = bookService;
         }
 
+        [AllowAnonymous]
         [HttpGet("get-all-books")]
         public async Task<IActionResult> GetAllBook()
         {
@@ -27,7 +28,7 @@ namespace LibraryManagement.Controllers
             {
                 if (!string.IsNullOrEmpty(book.Image))
                 {
-                    book.Image = "images/" + book.Image;
+                    book.Image =  book.Image;
                 }
             }
 
@@ -52,6 +53,7 @@ namespace LibraryManagement.Controllers
             return Ok(book);
         }
 
+        [AllowAnonymous]
         [HttpPost("add-book")]
         public async Task<IActionResult> AddBook([FromForm] BookVm bookVm)
         {
@@ -99,6 +101,7 @@ namespace LibraryManagement.Controllers
             return Ok();
         }
 
+        [AllowAnonymous]
         [HttpGet("get-book-image/{imageName}")]
         public IActionResult GetBookImage(string imageName)
         {
@@ -109,7 +112,10 @@ namespace LibraryManagement.Controllers
                 return NotFound();
             }
 
-            return Ok("/images/" + imageName);
+            var imageBytes = System.IO.File.ReadAllBytes(imagePath);
+
+            // Trả về ảnh dưới dạng ContentResult với MIME type tương ứng
+            return File(imageBytes, "image/jpeg");
         }
     }
 }

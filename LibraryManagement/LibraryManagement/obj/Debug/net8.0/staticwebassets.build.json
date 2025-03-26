@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "21rEQz8JW1ZEJSdgVRtmvxb9QTen42j9K0QAxrHGq4w=",
+  "Hash": "9/7bcSurtsQenNmYfOFEt4i63JR+Pc4UH/+ElwfOXEE=",
   "Source": "LibraryManagement",
   "BasePath": "_content/LibraryManagement",
   "Mode": "Default",
@@ -83,7 +83,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 09:22:41 GMT"
+          "Value": "Tue, 25 Mar 2025 09:21:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -128,7 +128,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 09:22:41 GMT"
+          "Value": "Tue, 25 Mar 2025 09:21:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -165,7 +165,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 08:01:33 GMT"
+          "Value": "Wed, 26 Mar 2025 02:13:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -210,7 +210,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 24 Mar 2025 08:01:33 GMT"
+          "Value": "Wed, 26 Mar 2025 02:13:09 GMT"
         },
         {
           "Name": "Cache-Control",
