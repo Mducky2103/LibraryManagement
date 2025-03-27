@@ -55,18 +55,18 @@ namespace LibraryManagement.Controllers
 
         [AllowAnonymous]
         [HttpPost("add-book")]
-        public async Task<IActionResult> AddBook([FromForm] BookVm bookVm)
+        public async Task<IActionResult> AddBook([FromForm] BookAddVm bookVm, IFormFile picture)
         {
-            if (bookVm.Picture.Length > 0)
+            if (picture.Length > 0)
             {
-                var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", bookVm.Picture.FileName);
+                var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", picture.FileName);
 
                 using (var stream = System.IO.File.Create(path))
                 {
-                    await bookVm.Picture.CopyToAsync(stream);
+                    await picture.CopyToAsync(stream);
                 }
 
-                bookVm.Image = bookVm.Picture.FileName;
+                bookVm.Image = picture.FileName;
             }
             else
             {
@@ -93,6 +93,7 @@ namespace LibraryManagement.Controllers
             }
         }
 
+        [AllowAnonymous]
         [HttpDelete("delete-book/{id}")]
         public async Task<IActionResult> DeleteBook(int id)
         {
@@ -114,7 +115,6 @@ namespace LibraryManagement.Controllers
 
             var imageBytes = System.IO.File.ReadAllBytes(imagePath);
 
-            // Trả về ảnh dưới dạng ContentResult với MIME type tương ứng
             return File(imageBytes, "image/jpeg");
         }
     }

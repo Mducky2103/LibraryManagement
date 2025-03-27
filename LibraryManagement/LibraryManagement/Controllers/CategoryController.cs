@@ -1,5 +1,6 @@
 ﻿using LibraryManagement.Services;
 using LibraryManagement.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -16,6 +17,7 @@ namespace LibraryManagement.Controllers
             _categoryService = categoryService;
         }
 
+        [AllowAnonymous]
         [HttpGet("get-all-categories")]
         public async Task<IActionResult> GetAllCategory()
         {

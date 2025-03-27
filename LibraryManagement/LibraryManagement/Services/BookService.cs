@@ -53,7 +53,7 @@ namespace LibraryManagement.Services
             };
         }
 
-        public async Task AddBookAsync(BookVm bookVm)
+        public async Task AddBookAsync(BookAddVm bookVm)
         {
             var book = new Book
             {

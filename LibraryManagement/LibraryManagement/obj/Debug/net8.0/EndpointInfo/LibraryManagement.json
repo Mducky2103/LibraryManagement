@@ -267,17 +267,11 @@
                     "type": "integer",
                     "format": "int32"
                   },
-                  "AuthorName": {
-                    "type": "string"
-                  },
                   "CategoryId": {
                     "type": "integer",
                     "format": "int32"
                   },
-                  "CategoryName": {
-                    "type": "string"
-                  },
-                  "Picture": {
+                  "picture": {
                     "type": "string",
                     "format": "binary"
                   }
@@ -311,16 +305,10 @@
                 "AuthorId": {
                   "style": "form"
                 },
-                "AuthorName": {
-                  "style": "form"
-                },
                 "CategoryId": {
                   "style": "form"
                 },
-                "CategoryName": {
-                  "style": "form"
-                },
-                "Picture": {
+                "picture": {
                   "style": "form"
                 }
               }
@@ -1128,11 +1116,6 @@
           },
           "categoryName": {
             "type": "string",
-            "nullable": true
-          },
-          "picture": {
-            "type": "string",
-            "format": "binary",
             "nullable": true
           }
         },

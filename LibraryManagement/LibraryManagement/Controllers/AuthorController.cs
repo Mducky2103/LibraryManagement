@@ -1,5 +1,6 @@
 ﻿using LibraryManagement.Services;
 using LibraryManagement.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -16,6 +17,7 @@ namespace LibraryManagement.Controllers
             _authorService = authorService;
         }
 
+        [AllowAnonymous]
         [HttpGet("get-all-authors")]
         public async Task<IActionResult> GetAllAuthor()
         {

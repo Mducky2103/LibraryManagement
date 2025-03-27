@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9/7bcSurtsQenNmYfOFEt4i63JR+Pc4UH/+ElwfOXEE=",
+  "Hash": "HJv3tOjEutEYi7bXMGVVPWoGUlyYhb+oMu0RlLa8bLs=",
   "Source": "LibraryManagement",
   "BasePath": "_content/LibraryManagement",
   "Mode": "Default",
@@ -57,6 +57,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\anh-dep-16.jpg"
+    },
+    {
+      "Identity": "D:\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\lich_su_sach_-_bia_1_ee2af9044fd549d89e0429aad039ddf0.jpg",
+      "SourceId": "LibraryManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\",
+      "BasePath": "_content/LibraryManagement",
+      "RelativePath": "images/lich_su_sach_-_bia_1_ee2af9044fd549d89e0429aad039ddf0#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gecu6gwsi4",
+      "Integrity": "SKDMwEIkAZs51ipwbaPVgyPfITj2VDF2RUZdSaYmRZE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\lich_su_sach_-_bia_1_ee2af9044fd549d89e0429aad039ddf0.jpg"
+    },
+    {
+      "Identity": "D:\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\mau-bia-sach-dep.jpg",
+      "SourceId": "LibraryManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\",
+      "BasePath": "_content/LibraryManagement",
+      "RelativePath": "images/mau-bia-sach-dep#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cqc8h5rh81",
+      "Integrity": "jDj8IKYtHyupU90EOxY/Y+A68X5xaqE5tnc4vE/qjg0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\mau-bia-sach-dep.jpg"
+    },
+    {
+      "Identity": "D:\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\trang-tri-bia-sach-5.jpg",
+      "SourceId": "LibraryManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\",
+      "BasePath": "_content/LibraryManagement",
+      "RelativePath": "images/trang-tri-bia-sach-5#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "w5xd61zzxv",
+      "Integrity": "3LwCx35pBNy9z/v5z4IObT0fHbkfKiAEV7vb2TmWRdk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\trang-tri-bia-sach-5.jpg"
     }
   ],
   "Endpoints": [
@@ -221,6 +284,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-isHXIfwSgik9CjY8ZJtRDRtFIsxMFzHNBUTLqLAf80Y="
+        }
+      ]
+    },
+    {
+      "Route": "images/lich_su_sach_-_bia_1_ee2af9044fd549d89e0429aad039ddf0.gecu6gwsi4.jpg",
+      "AssetFile": "D:\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\lich_su_sach_-_bia_1_ee2af9044fd549d89e0429aad039ddf0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "282882"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SKDMwEIkAZs51ipwbaPVgyPfITj2VDF2RUZdSaYmRZE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 08:19:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gecu6gwsi4"
+        },
+        {
+          "Name": "label",
+          "Value": "images/lich_su_sach_-_bia_1_ee2af9044fd549d89e0429aad039ddf0.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SKDMwEIkAZs51ipwbaPVgyPfITj2VDF2RUZdSaYmRZE="
+        }
+      ]
+    },
+    {
+      "Route": "images/lich_su_sach_-_bia_1_ee2af9044fd549d89e0429aad039ddf0.jpg",
+      "AssetFile": "D:\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\lich_su_sach_-_bia_1_ee2af9044fd549d89e0429aad039ddf0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "282882"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SKDMwEIkAZs51ipwbaPVgyPfITj2VDF2RUZdSaYmRZE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 08:19:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SKDMwEIkAZs51ipwbaPVgyPfITj2VDF2RUZdSaYmRZE="
+        }
+      ]
+    },
+    {
+      "Route": "images/mau-bia-sach-dep.cqc8h5rh81.jpg",
+      "AssetFile": "D:\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\mau-bia-sach-dep.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "71421"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jDj8IKYtHyupU90EOxY/Y+A68X5xaqE5tnc4vE/qjg0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:47:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cqc8h5rh81"
+        },
+        {
+          "Name": "label",
+          "Value": "images/mau-bia-sach-dep.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jDj8IKYtHyupU90EOxY/Y+A68X5xaqE5tnc4vE/qjg0="
+        }
+      ]
+    },
+    {
+      "Route": "images/mau-bia-sach-dep.jpg",
+      "AssetFile": "D:\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\mau-bia-sach-dep.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "71421"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jDj8IKYtHyupU90EOxY/Y+A68X5xaqE5tnc4vE/qjg0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 09:47:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jDj8IKYtHyupU90EOxY/Y+A68X5xaqE5tnc4vE/qjg0="
+        }
+      ]
+    },
+    {
+      "Route": "images/trang-tri-bia-sach-5.jpg",
+      "AssetFile": "D:\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\trang-tri-bia-sach-5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "56923"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3LwCx35pBNy9z/v5z4IObT0fHbkfKiAEV7vb2TmWRdk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 08:21:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3LwCx35pBNy9z/v5z4IObT0fHbkfKiAEV7vb2TmWRdk="
+        }
+      ]
+    },
+    {
+      "Route": "images/trang-tri-bia-sach-5.w5xd61zzxv.jpg",
+      "AssetFile": "D:\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\trang-tri-bia-sach-5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "56923"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3LwCx35pBNy9z/v5z4IObT0fHbkfKiAEV7vb2TmWRdk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 08:21:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w5xd61zzxv"
+        },
+        {
+          "Name": "label",
+          "Value": "images/trang-tri-bia-sach-5.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3LwCx35pBNy9z/v5z4IObT0fHbkfKiAEV7vb2TmWRdk="
         }
       ]
     }
