@@ -48,8 +48,8 @@ namespace LibraryManagement.Services
                 Quantity = book.Quantity,
                 Image = book.Image,
                 IsAvailable = book.IsAvailable,
-                CategoryName = book.Category.Name,
-                AuthorName = book.Author.Name
+                CategoryId = book.CategoryId,
+                AuthorId = book.AuthorId
             };
         }
 
@@ -71,7 +71,7 @@ namespace LibraryManagement.Services
             await _bookRepository.AddAsync(book);
         }
 
-        public async Task UpdateBookAsync(int id, BookVm bookVm)
+        public async Task UpdateBookAsync(int id, BookAddVm bookVm)
         {
             var book = await _bookRepository.GetByIdAsync(id);
 

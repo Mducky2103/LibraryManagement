@@ -167,6 +167,88 @@
       ]
     },
     {
+      "Route": "images/bia-sach2-9886.jpg",
+      "AssetFile": "images/bia-sach2-9886.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "273349"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ROAnVjQUjPo33srHTZXJbtiLhSPc+d3xmyKxrAsrPgc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 07:53:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ROAnVjQUjPo33srHTZXJbtiLhSPc+d3xmyKxrAsrPgc="
+        }
+      ]
+    },
+    {
+      "Route": "images/bia-sach2-9886.s6937ez8sc.jpg",
+      "AssetFile": "images/bia-sach2-9886.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "273349"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ROAnVjQUjPo33srHTZXJbtiLhSPc+d3xmyKxrAsrPgc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 07:53:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s6937ez8sc"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ROAnVjQUjPo33srHTZXJbtiLhSPc+d3xmyKxrAsrPgc="
+        },
+        {
+          "Name": "label",
+          "Value": "images/bia-sach2-9886.jpg"
+        }
+      ]
+    },
+    {
       "Route": "images/lich_su_sach_-_bia_1_ee2af9044fd549d89e0429aad039ddf0.gecu6gwsi4.jpg",
       "AssetFile": "images/lich_su_sach_-_bia_1_ee2af9044fd549d89e0429aad039ddf0.jpg",
       "Selectors": [],

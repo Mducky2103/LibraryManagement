@@ -39,6 +39,7 @@ namespace LibraryManagement.Controllers
             return Ok(author);
         }
 
+        [AllowAnonymous]
         [HttpPost("add-author")]
         public async Task<IActionResult> AddAuthor([FromBody] AuthorVm authorVm)
         {
@@ -62,6 +63,7 @@ namespace LibraryManagement.Controllers
             }
         }
 
+        [AllowAnonymous]
         [HttpDelete("delete-author/{id}")]
         public async Task<IActionResult> DeleteAuthor(int id)
         {

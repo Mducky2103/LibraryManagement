@@ -35,6 +35,7 @@ namespace LibraryManagement.Controllers
             return Ok(books);
         }
 
+        [AllowAnonymous]
         [HttpGet("get-book-by-id/{id}")]
         public async Task<IActionResult> GetBookById(int id)
         {
@@ -78,8 +79,9 @@ namespace LibraryManagement.Controllers
             return Ok();
         }
 
+        [AllowAnonymous]
         [HttpPut("update-book/{id}")]
-        public async Task<IActionResult> UpdateBook(int id, [FromBody] BookVm bookVm)
+        public async Task<IActionResult> UpdateBook(int id, [FromForm] BookAddVm bookVm, IFormFile picture)
         {
             try
             {

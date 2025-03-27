@@ -39,6 +39,7 @@ namespace LibraryManagement.Controllers
             return Ok(category);
         }
 
+        [AllowAnonymous]
         [HttpPost("add-category")]
         public async Task<IActionResult> AddCategory([FromBody] CategoryVm categoryVm)
         {
@@ -62,6 +63,7 @@ namespace LibraryManagement.Controllers
             }
         }
 
+        [AllowAnonymous]
         [HttpDelete("delete-category/{id}")]
         public async Task<IActionResult> DeleteCategory(int id)
         {

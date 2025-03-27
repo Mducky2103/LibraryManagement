@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HJv3tOjEutEYi7bXMGVVPWoGUlyYhb+oMu0RlLa8bLs=",
+  "Hash": "X9ySUKsHbFVdzUFrKrm+XQkDrIPAfkgahlMDYjSX2s8=",
   "Source": "LibraryManagement",
   "BasePath": "_content/LibraryManagement",
   "Mode": "Default",
@@ -57,6 +57,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\anh-dep-16.jpg"
+    },
+    {
+      "Identity": "D:\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\bia-sach2-9886.jpg",
+      "SourceId": "LibraryManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\",
+      "BasePath": "_content/LibraryManagement",
+      "RelativePath": "images/bia-sach2-9886#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s6937ez8sc",
+      "Integrity": "ROAnVjQUjPo33srHTZXJbtiLhSPc+d3xmyKxrAsrPgc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\bia-sach2-9886.jpg"
     },
     {
       "Identity": "D:\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\lich_su_sach_-_bia_1_ee2af9044fd549d89e0429aad039ddf0.jpg",
@@ -284,6 +305,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-isHXIfwSgik9CjY8ZJtRDRtFIsxMFzHNBUTLqLAf80Y="
+        }
+      ]
+    },
+    {
+      "Route": "images/bia-sach2-9886.jpg",
+      "AssetFile": "D:\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\bia-sach2-9886.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "273349"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ROAnVjQUjPo33srHTZXJbtiLhSPc+d3xmyKxrAsrPgc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 07:53:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ROAnVjQUjPo33srHTZXJbtiLhSPc+d3xmyKxrAsrPgc="
+        }
+      ]
+    },
+    {
+      "Route": "images/bia-sach2-9886.s6937ez8sc.jpg",
+      "AssetFile": "D:\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\bia-sach2-9886.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "273349"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ROAnVjQUjPo33srHTZXJbtiLhSPc+d3xmyKxrAsrPgc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 27 Mar 2025 07:53:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s6937ez8sc"
+        },
+        {
+          "Name": "label",
+          "Value": "images/bia-sach2-9886.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ROAnVjQUjPo33srHTZXJbtiLhSPc+d3xmyKxrAsrPgc="
         }
       ]
     },
