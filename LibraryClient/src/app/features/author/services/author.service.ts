@@ -14,4 +14,12 @@ export class AuthorService {
   getAllAuthors(): Observable<Author[]> {
     return this.http.get<Author[]>(`${API_URL}/Author/get-all-authors`);
   }
+
+  addAuthor(Authordata: any): Observable<any> {
+    return this.http.post(`${API_URL}/Author/add-author`, Authordata);
+  }
+
+  deleteAuthor(id: number): Observable<any> {
+    return this.http.delete(`${API_URL}/Author/delete-author/${id}`);
+  }
 }

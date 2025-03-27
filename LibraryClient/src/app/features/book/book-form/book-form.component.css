@@ -25,8 +25,7 @@
 }
 
 .book-form-container input,
-.book-form-container textarea,
-.book-form-container select {
+.book-form-container textarea {
     width: 100%;
     padding: 12px;
     margin-bottom: 20px;
@@ -36,8 +35,115 @@
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-.book-form-container input:focus,
-.book-form-container textarea:focus,
+/* Style cho custom dropdown */
+.book-form-container .custom-dropdown {
+    position: relative;
+    width: 490px;
+    /* Đồng bộ chiều rộng với select cũ */
+    font-size: 16px;
+}
+
+.book-form-container .dropdown-toggle {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 47px;
+    /* Đồng bộ chiều cao với nút */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.book-form-container .dropdown-toggle:hover,
+.book-form-container .dropdown-toggle:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+}
+
+.book-form-container .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 150px;
+    /* Giới hạn chiều cao */
+    overflow-y: auto;
+    /* Thanh cuộn khi danh sách dài */
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    z-index: 1000;
+    display: none;
+    /* Ẩn mặc định */
+}
+
+.book-form-container .dropdown-menu.show {
+    display: block;
+    /* Hiển thị khi mở */
+}
+
+.book-form-container .dropdown-menu li {
+    padding: 10px 12px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.book-form-container .dropdown-menu li:hover {
+    background-color: #f0f0f0;
+    /* Hover effect */
+}
+
+/* Đảm bảo input-group căn giữa */
+.book-form-container .input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.book-form-container .input-group-append {
+    display: flex;
+    margin-left: 10px;
+}
+
+.book-form-container .input-group-append .btn {
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+}
+
+/* Style cho input-group */
+.book-form-container .input-group {
+    display: flex;
+    align-items: center;
+    /* Căn giữa theo chiều dọc */
+    margin-bottom: 20px;
+}
+
+.book-form-container .input-group-append {
+    display: flex;
+    margin-left: 10px;
+    /* Khoảng cách giữa select và button */
+}
+
+.book-form-container .input-group-append .btn {
+    height: 47px;
+    /* Đồng bộ chiều cao với select khi không mở rộng */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+}
+
+.book-form-container input foci .book-form-container textarea:focus,
 .book-form-container select:focus {
     border-color: #4CAF50;
     box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
@@ -90,46 +196,46 @@
 .progress-container {
     width: 100%;
     max-width: 300px;
-    /* Giới hạn chiều rộng */
     margin-bottom: 20px;
 }
 
 .progress {
     width: 100%;
     height: 20px;
-    /* Chiều cao progress bar */
     background-color: #f0f0f0;
-    /* Màu nền xám nhạt */
     border-radius: 10px;
-    /* Bo góc */
     overflow: hidden;
-    /* Đảm bảo progress bar không tràn ra ngoài */
 }
 
 .progress-bar {
     height: 100%;
     background-color: #4CAF50;
-    /* Màu xanh cho tiến trình */
     color: white;
-    /* Màu chữ trắng để hiển thị % */
     text-align: center;
-    /* Căn giữa phần trăm */
     line-height: 20px;
-    /* Căn giữa chữ theo chiều dọc */
     font-size: 12px;
-    /* Kích thước chữ nhỏ */
     transition: width 0.3s ease;
-    /* Hiệu ứng mượt khi tiến trình thay đổi */
 }
 
 .book-form-container .imgpreview {
     width: 100%;
     max-width: 600px;
-    height: 600px;
+    height: 680px;
     border-radius: 8px;
     border: 1px solid #ddd;
     object-fit: cover;
     margin-top: 10px;
+}
+
+.book-form-container .btn-outline-info {
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #17a2b8;
+    color: #17a2b8;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .book-form-container .col-12 {
@@ -172,4 +278,123 @@
     background-color: #cccccc;
     cursor: not-allowed;
     transform: none;
+}
+
+.book-form-container .btn-outline-primary {
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 6px;
+    color: #007bff;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Modal fade (backdrop) */
+.modal.fade {
+    background: rgba(0, 0, 0, 0.6);
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Modal dialog */
+.modal-dialog {
+    max-width: 450px;
+    margin: 1.75rem auto;
+    animation: slideIn 0.3s ease-out;
+}
+
+/* Modal content */
+.modal-content {
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    border: none;
+    overflow: hidden;
+}
+
+/* Modal header */
+.modal-header {
+    background: linear-gradient(135deg, #28a745, #218838);
+    color: #ffffff;
+    border-bottom: none;
+    padding: 15px 20px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+/* Tiêu đề trong header */
+.modal-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+/* Modal body */
+.modal-body {
+    padding: 20px 25px;
+}
+
+/* Form group trong modal */
+.modal-body .form-group {
+    margin-bottom: 20px;
+}
+
+/* Label trong form */
+.modal-body .form-group label {
+    font-weight: 500;
+    color: #343a40;
+    margin-bottom: 8px;
+}
+
+/* Input trong form */
+.modal-body .form-control {
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.modal-body .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Nút Save */
+.modal-body .btn-primary {
+    background: linear-gradient(135deg, #28a745, #218838);
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background 0.3s ease, transform 0.2s ease;
+    width: 100%;
+}
+
+.modal-body .btn-primary:hover {
+    background: linear-gradient(135deg, #218838, #218838);
+    transform: translateY(-2px);
+}
+
+.modal-body .btn-primary:disabled {
+    background: #6c757d;
+    opacity: 0.7;
+    transform: none;
+}
+
+/* Hiệu ứng animation */
+@keyframes slideIn {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Đảm bảo modal hiển thị đúng với Bootstrap */
+.modal.fade.show {
+    opacity: 1;
 }

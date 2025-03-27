@@ -30,4 +30,12 @@ export class BooksService {
   deleteBook(id: number): Observable<any> {
     return this.http.delete(`${API_URL}/Book/delete-book/${id}`);
   }
+
+  getBookById(id: number): Observable<Book> {
+    return this.http.get<Book>(`${API_URL}/Book/get-book-by-id/${id}`);
+  }
+
+  updateBook(id: number, formData: FormData): Observable<any> {
+    return this.http.put<any>(`${API_URL}/Book/update-book/${id}`, formData);
+  }
 }

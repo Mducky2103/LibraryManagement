@@ -17,6 +17,8 @@ import { AuthorService } from '../../author/services/author.service';
 })
 export class BookFormComponent implements OnInit {
   bookForm: FormGroup;
+  categoryForm: FormGroup;
+  authorForm: FormGroup;
   isEdit: boolean = false;
   bookId: number | null = null;
   selectedImage: any;
@@ -24,6 +26,10 @@ export class BookFormComponent implements OnInit {
   authors: any[] = [];
   categories: any[] = [];
   uploadProgress: number = 0;
+  isDropdownOpen = false;
+  isDropdownAuthorOpen = false;
+  selectedCategory: any = null;
+  selectedAuthor: any = null;
 
   constructor(
     private fb: FormBuilder,
@@ -44,6 +50,83 @@ export class BookFormComponent implements OnInit {
       author: ['', Validators.required],
       category: ['', Validators.required]
     });
+
+    this.categoryForm = this.fb.group({
+      name: ['', Validators.required]
+    });
+
+    this.authorForm = this.fb.group({
+      name: ['', Validators.required],
+      address: ['', Validators.required]
+    });
+  }
+
+  saveAuthor() {
+    if (this.authorForm.valid) {
+      const newAuthor = this.authorForm.value;
+      this.authorService.addAuthor(newAuthor).subscribe(
+        (response: any) => {
+          this.authorForm.reset();
+          (window as any).$('#addAuthorModal').modal('hide');
+          alertifyjs.success('Author added successfully');
+          this.loadAuthors();
+        },
+        (error: any) => {
+          console.error('Error adding author:', error);
+          alertifyjs.error('Failed to add auhtor');
+        }
+      );
+    }
+  }
+
+  saveCategory(): void {
+    if (this.categoryForm.valid) {
+      const newCategory = this.categoryForm.value;
+      this.categoryService.addCategory(newCategory).subscribe(
+        (response: any) => {
+          this.categoryForm.reset();
+          (window as any).$('#addCategoryModal').modal('hide');
+          alertifyjs.success('Category added successfully');
+          this.loadCategories();
+        },
+        (error: any) => {
+          console.error('Error adding category:', error);
+          alertifyjs.error('Failed to add category');
+        }
+      );
+    }
+  }
+
+  deleteCategory(categoryId: number) {
+    if (confirm('Are you sure you want to delete this category?')) {
+      this.categoryService.deleteCategory(categoryId).subscribe(
+        () => {
+          (window as any).$('#listCategoryModal').modal('hide');
+          alertifyjs.success('Category delete successfully');
+          this.loadCategories();
+        },
+        (error) => {
+          console.error('Error deleting category:', error);
+          alertifyjs.error('Failed to deleting category');
+        }
+      );
+    }
+  }
+
+  deleteAuthor(authorId: number) {
+    if (confirm('Are you sure you want to delete this author?')) {
+      this.authorService.deleteAuthor(authorId).subscribe(
+        () => {
+          (window as any).$('#listAuthorModal').modal('hide');
+          alertifyjs.success('Author delete successfully');
+          this.loadAuthors();
+        },
+        (error) => {
+          console.error('Error deleting author:', error);
+          alertifyjs.error('Failed to deleting author');
+        }
+      );
+    }
   }
 
   onchange(event: any) {
@@ -67,7 +150,7 @@ export class BookFormComponent implements OnInit {
 
           setTimeout(() => {
             this.uploadProgress = 0;
-          }, 1000);
+          }, 500);
 
         }
       }, 200);
@@ -87,10 +170,9 @@ export class BookFormComponent implements OnInit {
       this.bookId = params['id'];
 
       if (this.bookId) {
-
         this.isEdit = true;
-        // Load book details for editing
-        // this.loadBookDetails(this.bookId);
+
+        this.loadBookDetails(this.bookId);
       }
     });
 
@@ -109,6 +191,72 @@ export class BookFormComponent implements OnInit {
     this.categoryService.getAllCategories().subscribe((data: any[]) => {
       this.categories = data;
     });
+  }
+
+  toggleDropdown() {
+    this.isDropdownOpen = !this.isDropdownOpen;
+  }
+
+  toggleDropdownAuthor() {
+    this.isDropdownAuthorOpen = !this.isDropdownAuthorOpen;
+  }
+
+  selectCategory(category: any) {
+    this.selectedCategory = category;
+
+    this.bookForm.get('category')?.setValue(category.id);
+
+    this.isDropdownOpen = false;
+  }
+
+  selectAuthor(author: any) {
+    this.selectedAuthor = author;
+
+    this.bookForm.get('author')?.setValue(author.id);
+
+    this.isDropdownAuthorOpen = false;
+  }
+
+  loadBookDetails(bookId: number): void {
+    this.bookService.getBookById(bookId).subscribe(
+      (book: any) => {
+        this.bookForm.patchValue({
+          name: book.name,
+          description: book.description,
+          yearPublished: book.yearPublished,
+          price: book.price,
+          quantity: book.quantity,
+          isAvailable: book.isAvailable,
+          author: book.authorId,
+          category: book.categoryId,
+          image: book.image
+        });
+
+        this.selectedCategory = this.categories.find(cat => cat.id === book.categoryId) || null;
+        this.selectedAuthor = this.authors.find(auth => auth.id === book.authorId) || null;
+
+        if (book.image) {
+          this.loadBookImage(book.image);
+        }
+      },
+      (error: any) => {
+        console.error('Error loading book details:', error);
+        alertifyjs.error('Failed to load book details');
+      }
+    );
+  }
+
+  loadBookImage(imagePath: string): void {
+    this.bookService.getBookImage(imagePath).subscribe(
+      (imageBlob) => {
+        const imageUrl = URL.createObjectURL(imageBlob);
+        this.selectedImage = imageUrl;
+      },
+      (error) => {
+        console.error('Error loading book image:', error);
+        this.selectedImage = null;
+      }
+    );
   }
 
   onSubmit(): void {
@@ -140,6 +288,8 @@ export class BookFormComponent implements OnInit {
       formData.append('picture', this.file, this.file.name);
 
       formData.append('image', this.file.name);
+    } else if (this.isEdit && this.bookForm.get('image')?.value) {
+      formData.append('image', this.bookForm.get('image')?.value);
     } else {
       formData.append('picture', '');
 
@@ -147,9 +297,26 @@ export class BookFormComponent implements OnInit {
     }
 
     if (this.isEdit && this.bookId !== null) {
-      // this.bookService.updateBook(this.bookId, formData).subscribe(() => {
-      //   this.router.navigate(['/book']);
-      // });
+      this.bookService.updateBook(this.bookId, formData).subscribe(
+        () => {
+          this.router.navigate(['/book']);
+          alertifyjs.success('Book updated successfully!');
+        },
+        (error) => {
+          console.error('Update Error:', error);
+          if (error.error.errors) {
+            let errorMessage = '';
+            for (const field in error.error.errors) {
+              if (error.error.errors[field]) {
+                errorMessage += `${field}: ${error.error.errors[field].join(', ')}\n`;
+              }
+            }
+            alertifyjs.error(errorMessage);
+          } else {
+            alertifyjs.error('An error occurred while updating the book.');
+          }
+        }
+      );
     } else {
       this.bookService.addBook(formData).subscribe(() => {
         this.router.navigate(['/book']);

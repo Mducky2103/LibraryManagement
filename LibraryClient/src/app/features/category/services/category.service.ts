@@ -14,4 +14,12 @@ export class CategoryService {
   getAllCategories(): Observable<Category[]> {
     return this.http.get<Category[]>(`${API_URL}/Category/get-all-categories`);
   }
+
+  addCategory(Categorydata: any): Observable<any> {
+    return this.http.post(`${API_URL}/Category/add-category`, Categorydata);
+  }
+
+  deleteCategory(id: number): Observable<any> {
+    return this.http.delete(`${API_URL}/Category/delete-category/${id}`);
+  }
 }

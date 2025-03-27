@@ -30,18 +30,59 @@
                 <input class="form-check-input" type="checkbox" id="isAvailable" formControlName="isAvailable" />
                 <label class="form-check-label" for="isAvailable">Is Available</label>
             </div>
+
             <div>
                 <label for="author">Author</label>
-                <select id="author" formControlName="author" class="form-control">
-                    <option *ngFor="let author of authors" [value]="author.id">{{ author.name }}</option>
-                </select>
+                <div class="input-group">
+                    <div class="custom-dropdown">
+                        <div class="dropdown-toggle" (click)="toggleDropdownAuthor()">
+                            {{ selectedAuthor ? selectedAuthor.name : 'Select Category' }}
+                        </div>
+                        <ul class="dropdown-menu" [class.show]="isDropdownAuthorOpen">
+                            <li *ngFor="let author of authors" (click)="selectAuthor(author)">
+                                {{ author.name }} - {{ author.address }}
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="input-group-append">
+                        <button type="button" class="btn btn-outline-primary" data-toggle="modal"
+                            data-target="#addAuthorModal">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <button type="button" class="btn btn-outline-info" data-toggle="modal"
+                            data-target="#listAuthorModal">
+                            <i class="fas fa-list"></i>
+                        </button>
+                    </div>
+                </div>
             </div>
+
             <div>
                 <label for="category">Category</label>
-                <select id="category" formControlName="category" class="form-control">
-                    <option *ngFor="let category of categories" [value]="category.id">{{ category.name }}</option>
-                </select>
+                <div class="input-group">
+                    <div class="custom-dropdown">
+                        <div class="dropdown-toggle" (click)="toggleDropdown()">
+                            {{ selectedCategory ? selectedCategory.name : 'Select Category' }}
+                        </div>
+                        <ul class="dropdown-menu" [class.show]="isDropdownOpen">
+                            <li *ngFor="let category of categories" (click)="selectCategory(category)">
+                                {{ category.name }}
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="input-group-append">
+                        <button type="button" class="btn btn-outline-primary" data-toggle="modal"
+                            data-target="#addCategoryModal">
+                            <i class="fas fa-plus"></i>
+                        </button>
+                        <button type="button" class="btn btn-outline-info" data-toggle="modal"
+                            data-target="#listCategoryModal">
+                            <i class="fas fa-list"></i>
+                        </button>
+                    </div>
+                </div>
             </div>
+
         </div>
 
 
@@ -66,6 +107,110 @@
             <button type="submit" class="btn btn-success" [disabled]="bookForm.invalid">Save</button>
         </div>
     </form>
+</div>
+
+<!-- Modal thêm Category -->
+<div class="modal fade" id="addCategoryModal" tabindex="-1" role="dialog" aria-labelledby="addCategoryModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addCategoryModalLabel">Add New Category</h5>
+            </div>
+            <div class="modal-body">
+                <form [formGroup]="categoryForm" (ngSubmit)="saveCategory()">
+                    <div class="form-group">
+                        <label for="categoryName">Category Name</label>
+                        <input id="categoryName" formControlName="name" type="text" class="form-control" />
+                    </div>
+                    <button type="submit" class="btn btn-primary" [disabled]="categoryForm.invalid">Save</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal hiển thị danh sách Category -->
+<div class="modal fade" id="listCategoryModal" tabindex="-1" role="dialog" aria-labelledby="listCategoryModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="listCategoryModalLabel">Category List</h5>
+            </div>
+            <div class="modal-body">
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        *ngFor="let category of categories">
+                        {{ category.name }}
+                        <button type="button" class="btn btn-danger btn-sm" (click)="deleteCategory(category.id)">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                    </li>
+                </ul>
+                <div *ngIf="categories.length === 0" class="text-center">
+                    <p>No categories available.</p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal thêm Author -->
+<div class="modal fade" id="addAuthorModal" tabindex="-1" role="dialog" aria-labelledby="addAuthorModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addAuthorModalLabel">Add New Author</h5>
+            </div>
+            <div class="modal-body">
+                <form [formGroup]="authorForm" (ngSubmit)="saveAuthor()">
+                    <div class="form-group">
+                        <label for="authorName">Author Name</label>
+                        <input id="authorName" formControlName="name" type="text" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="authorAddress">Address</label>
+                        <input id="authorAddress" formControlName="address" type="text" class="form-control" />
+                    </div>
+                    <button type="submit" class="btn btn-primary" [disabled]="authorForm.invalid">Save</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal hiển thị danh sách Author -->
+<div class="modal fade" id="listAuthorModal" tabindex="-1" role="dialog" aria-labelledby="listAuhtorModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="listAuthorModalLabel">Author List</h5>
+            </div>
+            <div class="modal-body">
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center"
+                        *ngFor="let author of authors">
+                        {{ author.name }} - {{ author.address }}
+                        <button type="button" class="btn btn-danger btn-sm" (click)="deleteAuthor(author.id)">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                    </li>
+                </ul>
+                <div *ngIf="authors.length === 0" class="text-center">
+                    <p>No Authors available.</p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
 </div>
 
 <app-footer-librarian></app-footer-librarian>
