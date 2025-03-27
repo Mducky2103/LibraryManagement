@@ -1,7 +1,7 @@
 /* Style cho Book List */
 .book-list {
     margin: 20px;
-    padding: 10px;
+    padding: 20px;
     background-color: #f9f9f9;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -14,6 +14,10 @@
     margin-bottom: 20px;
 }
 
+.book-list-header {
+    margin-bottom: 20px;
+}
+
 .add-book-btn {
     background-color: #28a745;
     color: white;
@@ -22,7 +26,8 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    display: block;
     transition: background-color 0.3s ease;
 }
 
@@ -30,14 +35,45 @@
     background-color: #218838;
 }
 
-/* Style cho bảng sách */
+.search-container {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+    float: right;
+}
+
+.search-container input[type="text"] {
+    width: 100%;
+    padding: 10px 10px 10px 35px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+}
+
+.search-container input[type="text"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+    font-size: 16px;
+}
+
 .book-table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
+    clear: both;
 }
 
-/* Style cho các ô bảng */
 .book-table th,
 .book-table td {
     text-align: left;
@@ -60,4 +96,83 @@
     height: 150px;
     object-fit: cover;
     border-radius: 4px;
+}
+
+/* Style chung cho các nút trong bảng */
+.btn {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 1px solid transparent;
+    /* Ban đầu trong suốt */
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    /* Trong suốt ban đầu */
+    transition: all 0.3s ease;
+    /* Hiệu ứng mượt mà */
+}
+
+/* Style cho nút Update */
+.btn-update {
+    color: #007bff;
+    /* Màu xanh của primary */
+}
+
+.btn-update:hover {
+    background-color: #007bff;
+    /* Màu xanh khi hover */
+    color: white;
+    border-color: #007bff;
+}
+
+/* Style cho nút Delete */
+.btn-delete {
+    color: #dc3545;
+    /* Màu đỏ của danger */
+}
+
+.btn-delete:hover {
+    background-color: #dc3545;
+    /* Màu đỏ khi hover */
+    color: white;
+    border-color: #dc3545;
+}
+
+/* Style cho biểu tượng trong nút */
+.btn i {
+    margin-right: 5px;
+    /* Khoảng cách giữa icon và chữ */
+}
+
+/* Style cho phân trang */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.pagination button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pagination button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.pagination button:hover:not(:disabled) {
+    background-color: #45a049;
+}
+
+.pagination span {
+    font-size: 16px;
+    color: #333;
 }

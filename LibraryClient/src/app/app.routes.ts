@@ -65,6 +65,10 @@ export const routes: Routes = [
     {
         path: 'add-book',
         component: BookFormComponent
+    },
+    {
+        path: 'edit-book/:id',
+        component: BookFormComponent
     }
 
 ];

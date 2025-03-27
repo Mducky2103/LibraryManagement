@@ -1,14 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 import { NavbarLibrarianComponent } from '../../../core/navbar-librarian/navbar-librarian.component';
 import { FooterLibrarianComponent } from '../../../core/footer-librarian/footer-librarian.component';
-import { FormBuilder, FormGroup, NgModel, ReactiveFormsModule, Validators } from '@angular/forms';
+import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { BooksService } from '../services/books.service';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { CommonModule } from '@angular/common';
+import * as alertifyjs from 'alertifyjs';
+import { CategoryService } from '../../category/services/category.service';
+import { AuthorService } from '../../author/services/author.service';
 
 @Component({
   selector: 'app-book-form',
-  imports: [NavbarLibrarianComponent, FooterLibrarianComponent, ReactiveFormsModule, CommonModule],
+  imports: [NavbarLibrarianComponent, FooterLibrarianComponent, ReactiveFormsModule, CommonModule, RouterLink],
   templateUrl: './book-form.component.html',
   styleUrl: './book-form.component.css'
 })
@@ -16,20 +19,20 @@ export class BookFormComponent implements OnInit {
   bookForm: FormGroup;
   isEdit: boolean = false;
   bookId: number | null = null;
-  authors: string[] = [];  // Danh sách tác giả (giả định)
-  categories: string[] = [];  // Danh sách thể loại (giả định)
-  selectedImage: File | null = null;
-  imagePreview: string | null = null;
+  selectedImage: any;
+  file!: File;
+  authors: any[] = [];
+  categories: any[] = [];
+  uploadProgress: number = 0;
 
   constructor(
     private fb: FormBuilder,
     private bookService: BooksService,
+    private categoryService: CategoryService,
+    private authorService: AuthorService,
     private router: Router,
     private route: ActivatedRoute
-    // private authorService: AuthorService,
-    // private categoryService: CategoryService
   ) {
-    // Khởi tạo form
     this.bookForm = this.fb.group({
       name: ['', Validators.required],
       description: ['', Validators.required],
@@ -43,97 +46,132 @@ export class BookFormComponent implements OnInit {
     });
   }
 
-  onFileChange(event: any): void {
-    if (event.target.files && event.target.files[0]) {
-      this.selectedImage = event.target.files[0];
+  onchange(event: any) {
+    const input = event.target as HTMLInputElement;
+    if (input.files && input.files[0]) {
+      this.file = input.files[0];
 
-      // Kiểm tra nếu tệp tồn tại và là một đối tượng Blob (tệp ảnh)
       const reader = new FileReader();
+
+      let progress = 0;
+
+      this.uploadProgress = progress;
+
+      const interval = setInterval(() => {
+        progress += 10;
+
+        this.uploadProgress = progress;
+
+        if (progress >= 100) {
+          clearInterval(interval);
+
+          setTimeout(() => {
+            this.uploadProgress = 0;
+          }, 1000);
+
+        }
+      }, 200);
+
       reader.onload = () => {
-        this.imagePreview = reader.result as string;
+        this.selectedImage = reader.result;
       };
 
-      // reader.readAsDataURL(this.selectedImage);
+      reader.readAsDataURL(this.file);
     }
+
   }
 
   ngOnInit(): void {
-    // Lấy các tham số từ URL (để kiểm tra xem đây là thêm hay sửa)
     this.route.params.subscribe(params => {
+
       this.bookId = params['id'];
+
       if (this.bookId) {
+
         this.isEdit = true;
+        // Load book details for editing
         // this.loadBookDetails(this.bookId);
       }
     });
 
-    // this.loadAuthors();
-    // this.loadCategories();
+    this.loadAuthors();
+
+    this.loadCategories();
   }
 
-  // Lấy dữ liệu sách nếu là sửa
-  // loadBookDetails(id: number) {
-  //   this.bookService.getBookById(id).subscribe(book => {
-  //     this.bookForm.patchValue({
-  //       name: book.name,
-  //       description: book.description,
-  //       yearPublished: book.yearPublished,
-  //       price: book.price,
-  //       quantity: book.quantity,
-  //       image: book.image,
-  //       isAvailable: book.isAvailable,
-  //       author: book.authorName,
-  //       category: book.categoryName
-  //     });
-  //   });
-  // }
+  loadAuthors(): void {
+    this.authorService.getAllAuthors().subscribe((data: any[]) => {
+      this.authors = data;
+    });
+  }
 
-  // loadAuthors() {
-  //   this.authorService.getAuthors().subscribe(authors => {
-  //     this.authors = authors;
-  //   });
-  // }
+  loadCategories(): void {
+    this.categoryService.getAllCategories().subscribe((data: any[]) => {
+      this.categories = data;
+    });
+  }
 
-  // loadCategories() {
-  //   this.categoryService.getCategories().subscribe(categories => {
-  //     this.categories = categories;
-  //   });
-  // }
-
-  onSubmit() {
+  onSubmit(): void {
     if (this.bookForm.invalid) {
       return;
     }
 
     const bookData = this.bookForm.value;
+
     const formData = new FormData();
 
     formData.append('name', bookData.name);
+
     formData.append('description', bookData.description);
+
     formData.append('yearPublished', bookData.yearPublished);
+
     formData.append('price', bookData.price);
+
     formData.append('quantity', bookData.quantity);
+
     formData.append('isAvailable', bookData.isAvailable);
-    formData.append('author', bookData.author);
-    formData.append('category', bookData.category);
+
+    formData.append('authorId', bookData.author);
+
+    formData.append('categoryId', bookData.category);
 
     if (this.selectedImage) {
-      formData.append('image', this.selectedImage, this.selectedImage.name);
+      formData.append('picture', this.file, this.file.name);
+
+      formData.append('image', this.file.name);
+    } else {
+      formData.append('picture', '');
+
+      formData.append('image', '');
     }
 
     if (this.isEdit && this.bookId !== null) {
-      // this.bookService.updateBook(this.bookId, bookData).subscribe(() => {
+      // this.bookService.updateBook(this.bookId, formData).subscribe(() => {
       //   this.router.navigate(['/book']);
       // });
     } else {
-
-      this.bookService.addBook(bookData).subscribe(() => {
+      this.bookService.addBook(formData).subscribe(() => {
         this.router.navigate(['/book']);
+
+        alertifyjs.success("Add book successful!");
+      }, (error) => {
+        console.error("API Error: ", error);
+
+        if (error.error.errors) {
+          let errorMessage = '';
+
+          for (const field in error.error.errors) {
+            if (error.error.errors[field]) {
+              errorMessage += `${field}: ${error.error.errors[field].join(', ')}\n`;
+            }
+          }
+          alertifyjs.error(errorMessage);
+        } else {
+          alertifyjs.error("An error occurred while adding the book.");
+        }
       });
     }
   }
 
-  onCancel() {
-    this.router.navigate(['/book']);
-  }
 }

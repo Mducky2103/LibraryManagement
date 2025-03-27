@@ -3,59 +3,67 @@
 <div class="book-form-container">
     <h2>{{ isEdit ? 'Edit Book' : 'Add New Book' }}</h2>
 
-    <form [formGroup]="bookForm" (ngSubmit)="onSubmit()">
-        <div class="left-column">
-            <!-- Các trường nhập liệu -->
+    <form [formGroup]="bookForm" (ngSubmit)="onSubmit()" class="row">
+        <!-- Cột bên trái: Các trường nhập liệu -->
+        <div class="col-md-6">
             <div>
                 <label for="name">Name</label>
-                <input id="name" formControlName="name" type="text" />
+                <input id="name" formControlName="name" type="text" class="form-control" />
             </div>
             <div>
                 <label for="description">Description</label>
-                <textarea id="description" formControlName="description"></textarea>
+                <textarea id="description" formControlName="description" class="form-control"></textarea>
             </div>
             <div>
                 <label for="yearPublished">Year Published</label>
-                <input id="yearPublished" formControlName="yearPublished" type="text" />
+                <input id="yearPublished" formControlName="yearPublished" type="text" class="form-control" />
             </div>
             <div>
                 <label for="price">Price</label>
-                <input id="price" formControlName="price" type="number" />
+                <input id="price" formControlName="price" type="number" class="form-control" />
             </div>
             <div>
                 <label for="quantity">Quantity</label>
-                <input id="quantity" formControlName="quantity" type="number" />
+                <input id="quantity" formControlName="quantity" type="number" class="form-control" />
             </div>
-            <div>
-                <label for="isAvailable">Is Available</label>
-                <input id="isAvailable" formControlName="isAvailable" type="checkbox" />
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="isAvailable" formControlName="isAvailable" />
+                <label class="form-check-label" for="isAvailable">Is Available</label>
             </div>
             <div>
                 <label for="author">Author</label>
-                <select id="author" formControlName="author">
-                    <option *ngFor="let author of authors" [value]="author">{{ author }}</option>
+                <select id="author" formControlName="author" class="form-control">
+                    <option *ngFor="let author of authors" [value]="author.id">{{ author.name }}</option>
                 </select>
             </div>
             <div>
                 <label for="category">Category</label>
-                <select id="category" formControlName="category">
-                    <option *ngFor="let category of categories" [value]="category">{{ category }}</option>
+                <select id="category" formControlName="category" class="form-control">
+                    <option *ngFor="let category of categories" [value]="category.id">{{ category.name }}</option>
                 </select>
             </div>
         </div>
 
-        <div class="right-column">
-            <!-- Phần chọn ảnh -->
-            <label for="image">Choose Image</label>
-            <input type="file" id="image" (change)="onFileChange($event)" />
 
-            <!-- Hiển thị ảnh đã chọn -->
-            <img *ngIf="selectedImage" [src]="imagePreview" alt="Selected Image" />
+        <div class="col-md-6">
+            <label for="image">Choose Image</label>
+            <input type="file" (change)="onchange($event)" class="form-control" />
+
+            <div class="progress-container" *ngIf="uploadProgress > 0">
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" [style.width]="uploadProgress + '%'"
+                        [attr.aria-valuenow]="uploadProgress" aria-valuemin="0" aria-valuemax="100">
+                        {{ uploadProgress }}%
+                    </div>
+                </div>
+            </div>
+
+            <img class="img-responsive img-thumbnail imgpreview" [src]="selectedImage">
         </div>
 
-        <div class="form-actions">
-            <button type="submit" [disabled]="bookForm.invalid">Save</button>
-            <button type="button" (click)="onCancel()">Cancel</button>
+        <div class="col-12">
+            <button type="button" [routerLink]="['/book']" class="btn btn-secondary">Cancel</button>
+            <button type="submit" class="btn btn-success" [disabled]="bookForm.invalid">Save</button>
         </div>
     </form>
 </div>

@@ -1,37 +1,62 @@
 <app-navbar-librarian></app-navbar-librarian>
 
-<div class="book-list">
-    <h2>List Books</h2>
-    <button class="add-book-btn" (click)="addNewBook()">Add New Book</button>
+<div class="container">
+    <div class="main-container">
+        <div class="book-list-container">
+            <div class="book-list">
+                <div class="book-list-header">
+                    <h2>List Books</h2>
+                </div>
 
-    <div *ngIf="books">
+                <button class="add-book-btn" [routerLink]="['/add-book']">+ Add New Book</button>
 
-        <table class="book-table">
-            <thead>
-                <tr>
-                    <th>Image</th>
-                    <th>Name</th>
-                    <th>Author</th>
-                    <th>Year Published</th>
-                    <th>Actions</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr *ngFor="let book of books">
-                    <td>
-                        <img *ngIf="book.image" [src]="apiUrl +book.image" alt="Book Image" class="book-image" />
-                    </td>
-                    <td>{{ book.name }}</td>
-                    <td>{{ book.authorName }}</td>
-                    <td>{{ book.yearPublished }}</td>
-                    <td>
-                        <button type="button" class="btn btn-primary">Update</button>
-                        <button type="button" class="btn btn-danger">Delete</button>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+                <div class="search-container">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" [(ngModel)]="searchQuery" placeholder="Search books by name"
+                        (input)="onSearch()" />
+                </div>
+
+                <div *ngIf="filteredBooks">
+                    <table class="book-table">
+                        <thead>
+                            <tr>
+                                <th>Image</th>
+                                <th>Name</th>
+                                <th>Author</th>
+                                <th>Year Published</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let book of filteredBooks">
+                                <td>
+                                    <img *ngIf="book.image" [src]="book.image" alt="Book Image" class="book-image" />
+                                </td>
+                                <td>{{ book.name }}</td>
+                                <td>{{ book.authorName }}</td>
+                                <td>{{ book.yearPublished }}</td>
+                                <td>
+                                    <button type="button" class="btn btn-update" [routerLink]="['/edit-book', book.id]">
+                                        <i class="fas fa-pencil-alt"></i> Update
+                                    </button>
+                                    <button type="button" class="btn btn-delete" (click)="deleteBook(book.id)">
+                                        <i class="fas fa-trash-alt"></i> Delete
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <div class="pagination">
+                        <button (click)="onPageChange(currentPage - 1)" [disabled]="currentPage === 1">Previous</button>
+                        <span>Page {{ currentPage }} of {{ totalPages }}</span>
+                        <button (click)="onPageChange(currentPage + 1)"
+                            [disabled]="currentPage === totalPages">Next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
 
-<app-footer-librarian></app-footer-librarian>
+    <app-footer-librarian></app-footer-librarian>
+</div>
