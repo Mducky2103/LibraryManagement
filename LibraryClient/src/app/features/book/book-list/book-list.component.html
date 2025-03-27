@@ -2,33 +2,37 @@
 
 <div class="container">
     <div class="main-container">
-        <div class="book-list-container">
-            <div class="book-list">
-                <div class="book-list-header">
-                    <h2>List Books</h2>
-                </div>
+        <div class="book-list">
+            <div class="book-list-header">
+                <h2>Book Management</h2>
+            </div>
 
-                <button class="add-book-btn" [routerLink]="['/add-book']">+ Add New Book</button>
+            <div class="controls-container">
+                <button class="add-book-btn" [routerLink]="['/add-book']">
+                    <i class="fas fa-plus"></i> Add New Book
+                </button>
 
                 <div class="search-container">
                     <i class="fas fa-search search-icon"></i>
-                    <input type="text" [(ngModel)]="searchQuery" placeholder="Search books by name"
+                    <input type="text" [(ngModel)]="searchQuery" placeholder="Search books by name or author"
                         (input)="onSearch()" />
                 </div>
+            </div>
 
-                <div *ngIf="filteredBooks">
-                    <table class="book-table">
-                        <thead>
-                            <tr>
-                                <th>Image</th>
-                                <th>Name</th>
-                                <th>Author</th>
-                                <th>Year Published</th>
-                                <th>Actions</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr *ngFor="let book of filteredBooks">
+            <div *ngIf="filteredBooks">
+                <table class="book-table">
+                    <thead>
+                        <tr>
+                            <th>Image</th>
+                            <th>Name</th>
+                            <th>Author</th>
+                            <th>Year</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <ng-container *ngFor="let book of filteredBooks">
+                            <tr (click)="toggleBookDetail(book)" [class.selected]="book.isSelected">
                                 <td>
                                     <img *ngIf="book.image" [src]="book.image" alt="Book Image" class="book-image" />
                                 </td>
@@ -36,23 +40,47 @@
                                 <td>{{ book.authorName }}</td>
                                 <td>{{ book.yearPublished }}</td>
                                 <td>
-                                    <button type="button" class="btn btn-update" [routerLink]="['/edit-book', book.id]">
+                                    <button class="btn btn-update" [routerLink]="['/edit-book', book.id]"
+                                        (click)="$event.stopPropagation()">
                                         <i class="fas fa-pencil-alt"></i> Update
                                     </button>
-                                    <button type="button" class="btn btn-delete" (click)="deleteBook(book.id)">
+                                    <button class="btn btn-delete"
+                                        (click)="deleteBook(book.id); $event.stopPropagation()">
                                         <i class="fas fa-trash-alt"></i> Delete
                                     </button>
                                 </td>
                             </tr>
-                        </tbody>
-                    </table>
+                            <!-- Book Detail Row -->
+                            <tr class="book-detail-row" *ngIf="book.isSelected">
+                                <td colspan="5">
+                                    <div class="book-detail-container">
+                                        <div class="book-detail-card">
+                                            <div class="book-detail-image">
+                                                <img [src]="book.image" alt="Book Image" *ngIf="book.image">
+                                            </div>
+                                            <div class="book-detail-info">
+                                                <h3>{{ book.name }}</h3>
+                                                <p><strong>Description:</strong>
+                                                    {{ book.description || 'No description available' }}
+                                                </p>
+                                                <p><strong>Category:</strong> {{ book.categoryName }}</p>
+                                                <p><strong>Quantity left:</strong> {{ book.quantity }} books</p>
+                                                <p><strong>Price:</strong> {{ book.price |
+                                                    currency:'VND':'symbol':'1.0-0' }}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </ng-container>
+                    </tbody>
+                </table>
 
-                    <div class="pagination">
-                        <button (click)="onPageChange(currentPage - 1)" [disabled]="currentPage === 1">Previous</button>
-                        <span>Page {{ currentPage }} of {{ totalPages }}</span>
-                        <button (click)="onPageChange(currentPage + 1)"
-                            [disabled]="currentPage === totalPages">Next</button>
-                    </div>
+                <div class="pagination">
+                    <button (click)="onPageChange(currentPage - 1)" [disabled]="currentPage === 1">Previous</button>
+                    <span>Page {{ currentPage }} of {{ totalPages }}</span>
+                    <button (click)="onPageChange(currentPage + 1)"
+                        [disabled]="currentPage === totalPages">Next</button>
                 </div>
             </div>
         </div>

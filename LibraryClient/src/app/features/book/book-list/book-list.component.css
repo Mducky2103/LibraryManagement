@@ -1,23 +1,32 @@
-/* Style cho Book List */
+/* Style cho Book List Container */
 .book-list {
     margin: 20px;
     padding: 20px;
     background-color: #f9f9f9;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
 }
 
-.book-list h2 {
+/* Header */
+.book-list-header h2 {
     font-size: 24px;
     font-weight: bold;
     color: #333;
     margin-bottom: 20px;
 }
 
-.book-list-header {
+/* Controls Container */
+.controls-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 20px;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
+/* Add Book Button */
 .add-book-btn {
     background-color: #28a745;
     color: white;
@@ -26,8 +35,6 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-bottom: 15px;
-    display: block;
     transition: background-color 0.3s ease;
 }
 
@@ -35,11 +42,11 @@
     background-color: #218838;
 }
 
+/* Search Container */
 .search-container {
     position: relative;
     width: 100%;
     max-width: 300px;
-    margin-bottom: 20px;
     float: right;
 }
 
@@ -67,84 +74,126 @@
     font-size: 16px;
 }
 
+/* Book Table */
 .book-table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    clear: both;
-}
-
-.book-table th,
-.book-table td {
-    text-align: left;
-    padding: 12px;
-    border-bottom: 1px solid #ddd;
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 .book-table th {
     background-color: #4CAF50;
     color: white;
     font-size: 16px;
+    padding: 12px;
+    text-align: left;
+}
+
+.book-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
 }
 
 .book-table tr:hover {
     background-color: #f1f1f1;
+    cursor: pointer;
 }
 
+.book-table tr.selected {
+    background-color: #e8f5e9;
+}
+
+/* Book Image */
 .book-image {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
     border-radius: 4px;
 }
 
-/* Style chung cho các nút trong bảng */
+/* Buttons */
 .btn {
-    padding: 8px 12px;
+    padding: 6px 10px;
     font-size: 14px;
     border: 1px solid transparent;
-    /* Ban đầu trong suốt */
     border-radius: 5px;
     cursor: pointer;
     background-color: transparent;
-    /* Trong suốt ban đầu */
     transition: all 0.3s ease;
-    /* Hiệu ứng mượt mà */
 }
 
-/* Style cho nút Update */
 .btn-update {
     color: #007bff;
-    /* Màu xanh của primary */
 }
 
 .btn-update:hover {
     background-color: #007bff;
-    /* Màu xanh khi hover */
     color: white;
     border-color: #007bff;
 }
 
-/* Style cho nút Delete */
 .btn-delete {
     color: #dc3545;
-    /* Màu đỏ của danger */
 }
 
 .btn-delete:hover {
     background-color: #dc3545;
-    /* Màu đỏ khi hover */
     color: white;
     border-color: #dc3545;
 }
 
-/* Style cho biểu tượng trong nút */
 .btn i {
     margin-right: 5px;
-    /* Khoảng cách giữa icon và chữ */
 }
 
-/* Style cho phân trang */
+/* Book Detail Section */
+.book-detail-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    animation: slideIn 0.3s ease-in;
+}
+
+.book-detail-card {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.book-detail-image img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.book-detail-info {
+    flex: 1;
+}
+
+.book-detail-info h3 {
+    font-size: 20px;
+    color: #333;
+    margin: 0 0 10px 0;
+}
+
+.book-detail-info p {
+    margin: 8px 0;
+    color: #666;
+    line-height: 1.5;
+}
+
+.book-detail-info p strong {
+    color: #333;
+}
+
+/* Pagination */
 .pagination {
     display: flex;
     justify-content: center;
@@ -175,4 +224,44 @@
 .pagination span {
     font-size: 16px;
     color: #333;
+}
+
+/* Animation */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .controls-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .search-container {
+        max-width: 100%;
+    }
+
+    .book-table th,
+    .book-table td {
+        padding: 8px;
+    }
+
+    .book-detail-card {
+        flex-direction: column;
+    }
+
+    .book-detail-image img {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+    }
 }

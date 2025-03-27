@@ -11,4 +11,5 @@ export interface Book {
     authorName: string;
     categoryId: number;
     categoryName: string;
+    isSelected?: boolean;
 }

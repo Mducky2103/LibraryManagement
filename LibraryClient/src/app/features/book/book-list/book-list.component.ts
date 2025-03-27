@@ -22,6 +22,7 @@ export class BookListComponent implements OnInit {
   totalBooks: number = 0;
   totalPages: number = 0;
   searchQuery: string = '';
+  selectedBook: Book | null = null;
 
   constructor(private bookService: BooksService,
     private router: Router
@@ -52,6 +53,18 @@ export class BookListComponent implements OnInit {
     });
   }
 
+  toggleBookDetail(book: Book) {
+    if (book.isSelected) {
+      book.isSelected = false;
+    } else {
+      this.filteredBooks.forEach(b => b.isSelected = false); // Bỏ chọn tất cả sách khác
+      book.isSelected = true; // Chọn sách hiện tại
+    }
+  }
+
+  selectBook(book: Book) {
+    this.selectedBook = this.selectedBook?.id === book.id ? null : book;
+  }
 
   loadBookImage(book: Book) {
     this.bookService.getBookImage(book.image).subscribe((imageBlob) => {
@@ -68,7 +81,8 @@ export class BookListComponent implements OnInit {
   onSearch(): void {
     if (this.searchQuery) {
       const filtered = this.books.filter(book =>
-        book.name.toLowerCase().includes(this.searchQuery.toLowerCase())
+        book.name.toLowerCase().includes(this.searchQuery.toLowerCase()) ||
+        book.authorName.toLowerCase().includes(this.searchQuery.toLowerCase())
       );
       this.totalBooks = filtered.length;
       this.totalPages = Math.ceil(this.totalBooks / this.pageSize);
