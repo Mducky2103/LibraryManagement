@@ -10,6 +10,7 @@
         public DateTime? BorrowedDate { get; set; }
         public DateTime? DueDate { get; set; }
         public DateTime? ReturnedDate { get; set; }
+        public BorrowStatus Status { get; set; } = BorrowStatus.Pending;
         public string? Notes { get; set; }
         public ICollection<ReturnedBooks> ReturnedBooks { get; set; }
     }
