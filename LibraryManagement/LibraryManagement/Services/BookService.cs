@@ -97,5 +97,65 @@ namespace LibraryManagement.Services
         {
             await _bookRepository.DeleteAsync(id);
         }
+        public async Task<IEnumerable<BookVm>> SearchBooksAsync(string searchTerm)
+        {
+            var books = await _bookRepository.SearchAsync(searchTerm);
+            return books.Select(b => new BookVm
+            {
+                Id = b.Id,
+                Name = b.Name,
+                Description = b.Description,
+                YearPublished = b.YearPublished,
+                Price = b.Price,
+                Quantity = b.Quantity,
+                Image = b.Image,
+                IsAvailable = b.IsAvailable,
+                CategoryId = b.CategoryId,
+                CategoryName = b.Category?.Name,
+                AuthorId = b.AuthorId,
+                AuthorName = b.Author?.Name
+            });
+        }
+
+        public async Task<IEnumerable<BookVm>> GetBooksByCategoryAsync(int categoryId)
+        {
+            var books = await _bookRepository.GetByCategoryAsync(categoryId);
+            return books.Select(b => new BookVm
+            {
+                Id = b.Id,
+                Name = b.Name,
+                Description = b.Description,
+                YearPublished = b.YearPublished,
+                Price = b.Price,
+                Quantity = b.Quantity,
+                Image = b.Image,
+                IsAvailable = b.IsAvailable,
+                CategoryId = b.CategoryId,
+                CategoryName = b.Category?.Name,
+                AuthorId = b.AuthorId,
+                AuthorName = b.Author?.Name
+            });
+        }
+
+        public async Task<IEnumerable<BookVm>> GetBooksByAuthorAsync(int authorId)
+        {
+            var books = await _bookRepository.GetByAuthorAsync(authorId);
+            return books.Select(b => new BookVm
+            {
+                Id = b.Id,
+                Name = b.Name,
+                Description = b.Description,
+                YearPublished = b.YearPublished,
+                Price = b.Price,
+                Quantity = b.Quantity,
+                Image = b.Image,
+                IsAvailable = b.IsAvailable,
+                CategoryId = b.CategoryId,
+                CategoryName = b.Category?.Name,
+                AuthorId = b.AuthorId,
+                AuthorName = b.Author?.Name
+            });
+        }
+
     }
 }

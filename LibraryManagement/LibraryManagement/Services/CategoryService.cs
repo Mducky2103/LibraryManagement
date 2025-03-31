@@ -23,6 +23,41 @@ namespace LibraryManagement.Services
                 Name = c.Name
             }).ToList();
         }
+        public async Task<List<CategoryVm>> GetAllCategoriesAsync1()
+        {
+            var categories = await _categoryRepository.GetAllAsync();
+            return categories.Select(c => new CategoryVm
+            {
+                Id = c.Id,
+                Name = c.Name,
+            }).ToList();
+        }
+        public async Task<CategoryWithBooksVm> GetCategoryWithBooksAsync(int id)
+        {
+            var category = await _categoryRepository.GetWithBooksAsync(id);
+            if (category == null) return null;
+
+            return new CategoryWithBooksVm
+            {
+                Id = category.Id,
+                Name = category.Name,
+                Books = category.Books?.Select(b => new BookVm
+                {
+                    Id = b.Id,
+                    Name = b.Name,
+                    Description = b.Description,
+                    YearPublished = b.YearPublished,
+                    Price = b.Price,
+                    Quantity = b.Quantity,
+                    Image = b.Image,
+                    IsAvailable = b.IsAvailable,
+                    CategoryId = b.CategoryId,
+                    CategoryName = category.Name,
+                    AuthorId = b.AuthorId,
+                    AuthorName = b.Author?.Name
+                }).ToList()
+            };
+        }
 
         public async Task<CategoryVm> GetCategoryByIdAsync(int id)
         {

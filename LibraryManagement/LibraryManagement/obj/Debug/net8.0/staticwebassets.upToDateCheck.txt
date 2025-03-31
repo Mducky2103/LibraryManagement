@@ -1,6 +1,9 @@
+wwwroot\images\4ce3eb96-9150-4f7b-8dab-d044fa9c7868.jpg
 wwwroot\images\album-anh-ve-ha-noi-01-0cbc70a3-b767-46e7-9904-d09ad5092662.webp
 wwwroot\images\anh-dep-16.jpg
 wwwroot\images\bia-sach2-9886.jpg
+wwwroot\images\book2.jpg
 wwwroot\images\lich_su_sach_-_bia_1_ee2af9044fd549d89e0429aad039ddf0.jpg
 wwwroot\images\mau-bia-sach-dep.jpg
+wwwroot\images\Screenshot 2024-07-27 145556.png
 wwwroot\images\trang-tri-bia-sach-5.jpg

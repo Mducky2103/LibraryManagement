@@ -40,6 +40,18 @@ namespace LibraryManagement.Controllers
         }
 
         [AllowAnonymous]
+        [HttpGet("get-category-with-books/{id}")]
+        public async Task<IActionResult> GetCategoryWithBooks(int id)
+        {
+            var categoryWithBooks = await _categoryService.GetCategoryWithBooksAsync(id);
+            if (categoryWithBooks == null)
+            {
+                return NotFound();
+            }
+            return Ok(categoryWithBooks);
+        }
+
+        [AllowAnonymous]
         [HttpPost("add-category")]
         public async Task<IActionResult> AddCategory([FromBody] CategoryVm categoryVm)
         {

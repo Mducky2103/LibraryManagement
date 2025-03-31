@@ -53,6 +53,13 @@ namespace LibraryManagement.Repositories
                 await _context.SaveChangesAsync();
             }
         }
+        public async Task<Category> GetWithBooksAsync(int id)
+        {
+            return await _context.Categories
+             .Include(c => c.Books)
+             .ThenInclude(b => b.Author)
+             .FirstOrDefaultAsync(c => c.Id ==  id);
+        }
 
     }
 }

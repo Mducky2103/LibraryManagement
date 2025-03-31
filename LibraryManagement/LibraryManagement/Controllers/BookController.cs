@@ -119,5 +119,29 @@ namespace LibraryManagement.Controllers
 
             return File(imageBytes, "image/jpeg");
         }
+
+        [AllowAnonymous]
+        [HttpGet("search")]
+        public async Task<ActionResult<IEnumerable<BookVm>>> SearchBooks(string searchTerm)
+        {
+            var books = await _bookService.SearchBooksAsync(searchTerm);
+            return Ok(books);
+        }
+
+        [AllowAnonymous]
+        [HttpGet("by-category/{categoryId}")]
+        public async Task<ActionResult<IEnumerable<BookVm>>> GetBooksByCategory(int categoryId)
+        {
+            var books = await _bookService.GetBooksByCategoryAsync(categoryId);
+            return Ok(books);
+        }
+
+        [AllowAnonymous]
+        [HttpGet("by-author/{authorId}")]
+        public async Task<ActionResult<IEnumerable<BookVm>>> GetBooksByAuthor(int authorId)
+        {
+            var books = await _bookService.GetBooksByAuthorAsync(authorId);
+            return Ok(books);
+        }
     }
 }

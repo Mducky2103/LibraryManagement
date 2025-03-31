@@ -51,6 +51,47 @@ namespace LibraryManagement.Repositories
                 await _context.SaveChangesAsync();
             }
         }
+        public async Task<IEnumerable<Book>> SearchAsync(string searchTerm)
+        {
+            if (string.IsNullOrEmpty(searchTerm))
+                return await GetAllAsync();
+
+            return await _context.Books
+                .Include(b => b.Category)
+                .Include(b => b.Author)
+                .Where(b => b.Name.Contains(searchTerm) ||
+                            b.Description.Contains(searchTerm) ||
+                            b.Author.Name.Contains(searchTerm) ||
+                            b.Category.Name.Contains(searchTerm))
+                .ToListAsync();
+        }
+        public async Task<IEnumerable<Book>> GetByCategoryAsync(int categoryId)
+        {
+            return await _context.Books
+                .Include(b => b.Category)
+                .Include(b => b.Author)
+                .Where(b => b.CategoryId == categoryId)
+                .ToListAsync();
+        }
+
+        public async Task<IEnumerable<Book>> GetByAuthorAsync(int authorId)
+        {
+            return await _context.Books
+                .Include(b => b.Category)
+                .Include(b => b.Author)
+                .Where(b => b.AuthorId == authorId)
+                .ToListAsync();
+        }
+
+        public async Task<Author> GetAuthorByIdAsync(int authorId)
+        {
+            return await _context.Authors.FirstOrDefaultAsync(a => a.Id == authorId);
+        }
+
+        public async Task<Category> GetCategoryByIdAsync(int categoryId)
+        {
+            return await _context.Categories.FirstOrDefaultAsync(c => c.Id == categoryId);
+        }
     }
 
 }

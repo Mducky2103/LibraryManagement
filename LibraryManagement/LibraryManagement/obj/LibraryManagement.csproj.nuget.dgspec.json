@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\LibraryManagement\\LibraryManagement\\LibraryManagement\\LibraryManagement.csproj": {}
+    "D:\\InternFA\\MockProject\\LibraryManagement\\LibraryManagement\\LibraryManagement\\LibraryManagement.csproj": {}
   },
   "projects": {
-    "D:\\LibraryManagement\\LibraryManagement\\LibraryManagement\\LibraryManagement.csproj": {
+    "D:\\InternFA\\MockProject\\LibraryManagement\\LibraryManagement\\LibraryManagement\\LibraryManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LibraryManagement\\LibraryManagement\\LibraryManagement\\LibraryManagement.csproj",
+        "projectUniqueName": "D:\\InternFA\\MockProject\\LibraryManagement\\LibraryManagement\\LibraryManagement\\LibraryManagement.csproj",
         "projectName": "LibraryManagement",
-        "projectPath": "D:\\LibraryManagement\\LibraryManagement\\LibraryManagement\\LibraryManagement.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\LibraryManagement\\LibraryManagement\\LibraryManagement\\obj\\",
+        "projectPath": "D:\\InternFA\\MockProject\\LibraryManagement\\LibraryManagement\\LibraryManagement\\LibraryManagement.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\InternFA\\MockProject\\LibraryManagement\\LibraryManagement\\LibraryManagement\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
