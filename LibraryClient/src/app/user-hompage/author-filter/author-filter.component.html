@@ -1,0 +1,6 @@
+<div class="mb-3">
+    <select class="form-select" [(ngModel)]="selectedAuthor" (change)="onAuthorChange()">
+        <option [ngValue]="null">Chọn tác giả</option>
+        <option *ngFor="let author of authors" [ngValue]="author.id">{{ author.name }}</option>
+    </select>
+</div>

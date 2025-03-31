@@ -1,0 +1,6 @@
+<div class="btn-group mb-3">
+    <button class="btn btn-outline-primary" (click)="selectCategory(0)">Tất cả</button>
+    <button *ngFor="let category of categories" class="btn btn-outline-primary" (click)="selectCategory(category.id)">
+        {{ category.name }}
+    </button>
+</div>

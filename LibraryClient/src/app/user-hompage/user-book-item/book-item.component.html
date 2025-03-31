@@ -1,0 +1,7 @@
+<div class="card">
+    <img *ngIf="book.image" [src]="book.image" alt="Book Image" class="book-image" />
+    <div class="card-body">
+        <h5 class="card-title">{{ book.name }}</h5>
+        <p class="card-text">{{ book.authorName }}</p>
+    </div>
+</div>

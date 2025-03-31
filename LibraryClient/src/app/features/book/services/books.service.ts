@@ -38,4 +38,16 @@ export class BooksService {
   updateBook(id: number, formData: FormData): Observable<any> {
     return this.http.put<any>(`${API_URL}/Book/update-book/${id}`, formData);
   }
+
+  searchBooks(searchTerm: string): Observable<Book[]> {
+    return this.http.get<Book[]>(`${API_URL}/Book/search?searchTerm=${searchTerm}`);
+  }
+
+  getBooksByCategory(categoryId: number): Observable<Book[]> {
+    return this.http.get<Book[]>(`${API_URL}/Book/by-category/${categoryId}`);
+  }
+
+  getBooksByAuthor(authorId: number): Observable<Book[]> {
+    return this.http.get<Book[]>(`${API_URL}/Book/by-author/${authorId}`);
+  }
 }

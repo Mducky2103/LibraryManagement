@@ -1,0 +1,10 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.btn.active {
+    background-color: #007bff;
+    color: white;
+}

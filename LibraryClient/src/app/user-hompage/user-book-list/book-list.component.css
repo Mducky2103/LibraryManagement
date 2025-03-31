@@ -1,0 +1,13 @@
+.container {
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}

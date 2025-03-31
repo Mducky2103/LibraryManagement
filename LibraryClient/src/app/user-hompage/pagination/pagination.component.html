@@ -1,0 +1,6 @@
+<div class="pagination">
+    <button *ngFor="let page of pages" class="btn btn-outline-primary" [class.active]="page === currentPage"
+        (click)="goToPage(page)">
+        {{ page }}
+    </button>
+</div>

@@ -15,6 +15,7 @@ import { ForgotPasswordComponent } from './user/forgot-password/forgot-password.
 import { ChangePasswordComponent } from './user/change-password/change-password.component';
 import { BookListComponent } from './features/book/book-list/book-list.component';
 import { BookFormComponent } from './features/book/book-form/book-form.component';
+import { UserBookListComponent } from './user-hompage/user-book-list/book-list.component';
 
 export const routes: Routes = [
     { path: '', redirectTo: 'signin', pathMatch: 'full' },
@@ -69,6 +70,10 @@ export const routes: Routes = [
     {
         path: 'edit-book/:id',
         component: BookFormComponent
+    },
+    {
+        path: 'homepage',
+        component: UserBookListComponent
     }
 
 ];

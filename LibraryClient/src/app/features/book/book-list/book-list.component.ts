@@ -50,6 +50,7 @@ export class BookListComponent implements OnInit {
           this.loadBookImage(book);
         }
       });
+
     });
   }
 
