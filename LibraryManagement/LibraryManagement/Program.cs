@@ -4,7 +4,9 @@ using LibraryManagement.Data;
 using LibraryManagement.Extensions;
 using LibraryManagement.Models;
 using LibraryManagement.Repositories;
+using LibraryManagement.Repositories.Interface;
 using LibraryManagement.Services;
+using LibraryManagement.Services.Interface;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -38,6 +40,8 @@ namespace LibraryManagement
             builder.Services.AddScoped<IAuthorService, AuthorService>();
             builder.Services.AddScoped<IBookRepository, BookRepository>();
             builder.Services.AddScoped<IBookService, BookService>();
+            builder.Services.AddScoped<IBorrowRepository, BorrowRepository>();
+            builder.Services.AddScoped<IBorrowService, BorrowService>();
 
             var app = builder.Build();
 

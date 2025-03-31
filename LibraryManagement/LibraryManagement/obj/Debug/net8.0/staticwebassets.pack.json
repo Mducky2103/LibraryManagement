@@ -1,44 +1,40 @@
 {
   "Files": [
     {
-      "Id": "D:\\InternFA\\MockProject\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\4ce3eb96-9150-4f7b-8dab-d044fa9c7868.jpg",
+      "Id": "C:\\Users\\Admin\\Documents\\Zalo Received Files\\File Download\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\4ce3eb96-9150-4f7b-8dab-d044fa9c7868.jpg",
       "PackagePath": "staticwebassets\\images\\4ce3eb96-9150-4f7b-8dab-d044fa9c7868.jpg"
     },
     {
-      "Id": "D:\\InternFA\\MockProject\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\Screenshot 2024-07-27 145556.png",
+      "Id": "C:\\Users\\Admin\\Documents\\Zalo Received Files\\File Download\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\Screenshot 2024-07-27 145556.png",
       "PackagePath": "staticwebassets\\images\\Screenshot 2024-07-27 145556.png"
     },
     {
-      "Id": "D:\\InternFA\\MockProject\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\album-anh-ve-ha-noi-01-0cbc70a3-b767-46e7-9904-d09ad5092662.webp",
+      "Id": "C:\\Users\\Admin\\Documents\\Zalo Received Files\\File Download\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\album-anh-ve-ha-noi-01-0cbc70a3-b767-46e7-9904-d09ad5092662.webp",
       "PackagePath": "staticwebassets\\images\\album-anh-ve-ha-noi-01-0cbc70a3-b767-46e7-9904-d09ad5092662.webp"
     },
     {
-      "Id": "D:\\InternFA\\MockProject\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\anh-dep-16.jpg",
+      "Id": "C:\\Users\\Admin\\Documents\\Zalo Received Files\\File Download\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\anh-dep-16.jpg",
       "PackagePath": "staticwebassets\\images\\anh-dep-16.jpg"
     },
     {
-      "Id": "D:\\InternFA\\MockProject\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\bia-sach2-9886.jpg",
+      "Id": "C:\\Users\\Admin\\Documents\\Zalo Received Files\\File Download\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\bia-sach2-9886.jpg",
       "PackagePath": "staticwebassets\\images\\bia-sach2-9886.jpg"
     },
     {
-      "Id": "D:\\InternFA\\MockProject\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\book2.jpg",
+      "Id": "C:\\Users\\Admin\\Documents\\Zalo Received Files\\File Download\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\book2.jpg",
       "PackagePath": "staticwebassets\\images\\book2.jpg"
     },
     {
-      "Id": "D:\\InternFA\\MockProject\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\lich_su_sach_-_bia_1_ee2af9044fd549d89e0429aad039ddf0.jpg",
+      "Id": "C:\\Users\\Admin\\Documents\\Zalo Received Files\\File Download\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\lich_su_sach_-_bia_1_ee2af9044fd549d89e0429aad039ddf0.jpg",
       "PackagePath": "staticwebassets\\images\\lich_su_sach_-_bia_1_ee2af9044fd549d89e0429aad039ddf0.jpg"
     },
     {
-      "Id": "D:\\InternFA\\MockProject\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\mau-bia-sach-dep.jpg",
+      "Id": "C:\\Users\\Admin\\Documents\\Zalo Received Files\\File Download\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\mau-bia-sach-dep.jpg",
       "PackagePath": "staticwebassets\\images\\mau-bia-sach-dep.jpg"
     },
     {
-      "Id": "D:\\InternFA\\MockProject\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\trang-tri-bia-sach-5.jpg",
+      "Id": "C:\\Users\\Admin\\Documents\\Zalo Received Files\\File Download\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\trang-tri-bia-sach-5.jpg",
       "PackagePath": "staticwebassets\\images\\trang-tri-bia-sach-5.jpg"
-    },
-    {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LibraryManagement.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
-      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LibraryManagement.Microsoft.AspNetCore.StaticWebAssets.props",
