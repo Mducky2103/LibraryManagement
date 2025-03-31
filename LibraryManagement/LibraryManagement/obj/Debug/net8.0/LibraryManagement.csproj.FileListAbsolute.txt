@@ -1,796 +1,160 @@
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\appsettings.json
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.staticwebassets.endpoints.json
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.exe
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.deps.json
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.runtimeconfig.json
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.pdb
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Azure.Core.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Azure.Identity.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Humanizer.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.OpenApi.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Mono.TextTemplating.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.ClientModel.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.CodeDom.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Composition.AttributedModel.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Composition.Convention.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Composition.Hosting.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Composition.Runtime.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Composition.TypedParts.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Drawing.Common.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Formats.Asn1.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Memory.Data.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Runtime.Caching.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Security.Permissions.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Windows.Extensions.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.csproj.AssemblyReference.cache
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.AssemblyInfoInputs.cache
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.AssemblyInfo.cs
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.csproj.CoreCompileInputs.cache
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\obj\Debug\net8.0\scopedcss\bundle\LibraryManagement.styles.css
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets\msbuild.LibraryManagement.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets\msbuild.LibraryManagement.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets\msbuild.build.LibraryManagement.props
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.LibraryManagement.props
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.LibraryManagement.props
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryM.685EF3B5.Up2Date
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\obj\Debug\net8.0\refint\LibraryManagement.dll
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.pdb
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.genruntimeconfig.cache
-C:\Users\ADMIN\Desktop\Ki 6\LibraryManagement\LibraryManagement\obj\Debug\net8.0\ref\LibraryManagement.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.csproj.AssemblyReference.cache
-D:\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.GeneratedMSBuildEditorConfig.editorconfig
-D:\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.AssemblyInfoInputs.cache
-D:\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.AssemblyInfo.cs
-D:\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.csproj.CoreCompileInputs.cache
-D:\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.MvcApplicationPartsAssemblyInfo.cs
-D:\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.MvcApplicationPartsAssemblyInfo.cache
-D:\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.sourcelink.json
-D:\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\refint\LibraryManagement.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.pdb
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\appsettings.Development.json
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\appsettings.json
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.staticwebassets.endpoints.json
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.exe
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.deps.json
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.runtimeconfig.json
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.pdb
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Azure.Core.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Azure.Identity.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Humanizer.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.OpenApi.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Mono.TextTemplating.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.ClientModel.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.CodeDom.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Composition.AttributedModel.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Composition.Convention.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Composition.Hosting.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Composition.Runtime.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Composition.TypedParts.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Drawing.Common.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Memory.Data.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Runtime.Caching.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Security.Permissions.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Windows.Extensions.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\scopedcss\bundle\LibraryManagement.styles.css
-D:\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets.build.json
-D:\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets.development.json
-D:\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets\msbuild.LibraryManagement.Microsoft.AspNetCore.StaticWebAssets.props
-D:\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets\msbuild.LibraryManagement.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-D:\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets\msbuild.build.LibraryManagement.props
-D:\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.LibraryManagement.props
-D:\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.LibraryManagement.props
-D:\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets.pack.json
-D:\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryM.685EF3B5.Up2Date
-D:\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.genruntimeconfig.cache
-D:\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\ref\LibraryManagement.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\userdetails.json
-D:\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\MailKit.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\MimeKit.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.staticwebassets.runtime.json
-D:\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Formats.Asn1.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.csproj.AssemblyReference.cache
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.GeneratedMSBuildEditorConfig.editorconfig
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.AssemblyInfoInputs.cache
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.AssemblyInfo.cs
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.csproj.CoreCompileInputs.cache
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.MvcApplicationPartsAssemblyInfo.cs
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.MvcApplicationPartsAssemblyInfo.cache
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.sourcelink.json
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\refint\LibraryManagement.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.pdb
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\appsettings.Development.json
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\appsettings.json
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\userdetails.json
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.staticwebassets.runtime.json
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.staticwebassets.endpoints.json
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.exe
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.deps.json
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.runtimeconfig.json
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.pdb
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Azure.Core.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Azure.Identity.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Humanizer.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\MailKit.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.OpenApi.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\MimeKit.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Mono.TextTemplating.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.ClientModel.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.CodeDom.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Composition.AttributedModel.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Composition.Convention.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Composition.Hosting.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Composition.Runtime.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Composition.TypedParts.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Drawing.Common.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Memory.Data.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Runtime.Caching.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Security.Permissions.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Windows.Extensions.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\scopedcss\bundle\LibraryManagement.styles.css
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets.build.json
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets.development.json
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets\msbuild.LibraryManagement.Microsoft.AspNetCore.StaticWebAssets.props
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets\msbuild.LibraryManagement.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets\msbuild.build.LibraryManagement.props
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.LibraryManagement.props
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.LibraryManagement.props
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets.pack.json
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryM.685EF3B5.Up2Date
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.genruntimeconfig.cache
-D:\Campuslink.NET\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\ref\LibraryManagement.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\appsettings.Development.json
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\appsettings.json
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\userdetails.json
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.staticwebassets.runtime.json
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.staticwebassets.endpoints.json
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.exe
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.deps.json
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.runtimeconfig.json
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.pdb
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Azure.Core.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Azure.Identity.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Humanizer.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\MailKit.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.OpenApi.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\MimeKit.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Mono.TextTemplating.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.ClientModel.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.CodeDom.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Composition.AttributedModel.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Composition.Convention.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Composition.Hosting.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Composition.Runtime.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Composition.TypedParts.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Drawing.Common.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Formats.Asn1.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Memory.Data.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Runtime.Caching.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Security.Permissions.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Windows.Extensions.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.csproj.AssemblyReference.cache
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.GeneratedMSBuildEditorConfig.editorconfig
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.AssemblyInfoInputs.cache
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.AssemblyInfo.cs
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.csproj.CoreCompileInputs.cache
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.MvcApplicationPartsAssemblyInfo.cs
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.MvcApplicationPartsAssemblyInfo.cache
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.sourcelink.json
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\scopedcss\bundle\LibraryManagement.styles.css
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets.build.json
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets.development.json
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets\msbuild.LibraryManagement.Microsoft.AspNetCore.StaticWebAssets.props
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets\msbuild.LibraryManagement.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets\msbuild.build.LibraryManagement.props
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.LibraryManagement.props
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.LibraryManagement.props
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets.pack.json
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryM.685EF3B5.Up2Date
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\refint\LibraryManagement.dll
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.pdb
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.genruntimeconfig.cache
-D:\InternFA\MockProject\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\ref\LibraryManagement.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\appsettings.json
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\userdetails.json
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.staticwebassets.runtime.json
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.exe
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.deps.json
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.runtimeconfig.json
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.pdb
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Azure.Core.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Azure.Identity.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Humanizer.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\MailKit.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Identity.Client.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.OpenApi.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\MimeKit.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Mono.TextTemplating.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.ClientModel.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.CodeDom.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Composition.AttributedModel.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Composition.Convention.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Composition.Hosting.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Composition.Runtime.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Composition.TypedParts.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Drawing.Common.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Formats.Asn1.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Memory.Data.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Runtime.Caching.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Security.Permissions.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Windows.Extensions.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.csproj.AssemblyReference.cache
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.AssemblyInfoInputs.cache
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.AssemblyInfo.cs
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.csproj.CoreCompileInputs.cache
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.sourcelink.json
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets\msbuild.LibraryManagement.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets\msbuild.build.LibraryManagement.props
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.LibraryManagement.props
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.LibraryManagement.props
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\scopedcss\bundle\LibraryManagement.styles.css
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.csproj.CopyComplete
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\refint\LibraryManagement.dll
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.pdb
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.genruntimeconfig.cache
-C:\Users\Admin\Documents\Zalo Received Files\File Download\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\ref\LibraryManagement.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\appsettings.Development.json
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\appsettings.json
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\userdetails.json
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.staticwebassets.runtime.json
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.staticwebassets.endpoints.json
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.exe
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.deps.json
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.runtimeconfig.json
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\LibraryManagement.pdb
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Azure.Core.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Azure.Identity.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Humanizer.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\MailKit.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\MimeKit.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.ClientModel.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.CodeDom.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Memory.Data.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.csproj.AssemblyReference.cache
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.AssemblyInfoInputs.cache
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.AssemblyInfo.cs
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.csproj.CoreCompileInputs.cache
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.MvcApplicationPartsAssemblyInfo.cs
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.MvcApplicationPartsAssemblyInfo.cache
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.sourcelink.json
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\scopedcss\bundle\LibraryManagement.styles.css
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets.build.json
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets.development.json
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets\msbuild.LibraryManagement.Microsoft.AspNetCore.StaticWebAssets.props
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets\msbuild.LibraryManagement.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets\msbuild.build.LibraryManagement.props
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.LibraryManagement.props
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.LibraryManagement.props
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets.pack.json
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryM.685EF3B5.Up2Date
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\refint\LibraryManagement.dll
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.pdb
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.genruntimeconfig.cache
+D:\FPT\Thuc_Tap\C#\code\LibraryPushCode\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\ref\LibraryManagement.dll

@@ -64,6 +64,28 @@ namespace LibraryManagement.Controllers
             return Ok(new { message = result });
         }
 
+        // Thủ thư phê duyệt yêu cầu mượn sách
+        [HttpPut("approve-borrow-book/{detailId}")]
+        public async Task<IActionResult> ApproveBorrowRequest(int detailId)
+        {
+            bool isApproved = await _borrowService.ApproveBorrowRequestAsync(detailId);
+            if (!isApproved)
+                return NotFound("Không tìm thấy yêu cầu mượn sách.");
+
+            return Ok(new { message = "Yêu cầu mượn sách đã được phê duyệt." });
+        }
+
+        // Thủ thư từ chối yêu cầu mượn sách (Chuyển trạng thái thành Canceled)
+        [HttpPut("cancel/{detailId}")]
+        public async Task<IActionResult> CancelBorrowRequest(int detailId, string notes)
+        {
+            bool isCanceled = await _borrowService.CancelBorrowRequestAsync(detailId, notes);
+            if (!isCanceled)
+                return NotFound("Không tìm thấy yêu cầu hoặc yêu cầu không thể hủy.");
+
+            return Ok(new { message = "Yêu cầu mượn sách đã bị từ chối." });
+        }
+
         // Thành viên trả sách
         [HttpPut("return-book/{detailId}")]
         public async Task<IActionResult> ReturnBook(int detailId)
@@ -81,6 +103,16 @@ namespace LibraryManagement.Controllers
         {
             var result = await _borrowService.RequestExtendDueDateAsync(detailId, notes);
             return Ok(new { message = result });
+        }
+
+        // Thủ thư phê duyệt yêu cầu gia hạn thời gian trả sách
+        [HttpPut("approve-extend-due-date/{detailId}")]
+        public async Task<IActionResult> ApproveExtendDueDateRequest(int detailId, bool isApproved, string notes)
+        {
+            bool result = await _borrowService.ProcessExtendDueDateRequestAsync(detailId, isApproved, notes);
+            if (!result)
+                return NotFound("Không tìm thấy yêu cầu gia hạn thời gian trả sách.");
+            return Ok(new { message = "Yêu cầu gia hạn thời gian trả sách đã được phê duyệt." });
         }
     }
 }

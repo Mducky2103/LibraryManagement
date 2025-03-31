@@ -68,6 +68,46 @@ namespace LibraryManagement.Services
             return "Yêu cầu mượn sách đã được gửi.";
         }
 
+        // Thủ thư phê duyệt yêu cầu mượn sách
+        public async Task<bool> ApproveBorrowRequestAsync(int receiptDetailId)
+        {
+            var receiptDetails = await _borrowRepository.GetReceiptDetailsByReceiptIdAsync(receiptDetailId);
+            var receiptDetail = receiptDetails.FirstOrDefault(rd => rd.Id == receiptDetailId);
+            if (receiptDetail == null)
+            {
+                Console.WriteLine($"Không tìm thấy chi tiết phiếu mượn với ID: {receiptDetailId}");
+                return false;
+            }
+
+            if (receiptDetail.Status != BorrowStatus.Pending)
+            {
+                Console.WriteLine($"Trạng thái phiếu mượn không hợp lệ: {receiptDetail.Status}");
+                return false;
+            }
+
+            receiptDetail.BorrowedDate = DateTime.Now;
+            receiptDetail.DueDate = DateTime.Now.AddDays(30);
+            await _borrowRepository.UpdateBorrowStatusAsync(receiptDetailId, BorrowStatus.Approved);
+
+            return true;
+        }
+
+        // Thủ thư từ chối yêu cầu mượn sách
+        public async Task<bool> CancelBorrowRequestAsync(int receiptDetailId, string notes)
+        {
+            var receiptDetails = await _borrowRepository.GetReceiptDetailsByReceiptIdAsync(receiptDetailId);
+            var receiptDetail = receiptDetails.FirstOrDefault(rd => rd.Id == receiptDetailId);
+            if (receiptDetail == null || receiptDetail.Status != BorrowStatus.Pending)
+                return false;
+
+            // Chuyển trạng thái sang Canceled
+            receiptDetail.Status = BorrowStatus.Canceled;
+            receiptDetail.Notes = notes;
+            await _borrowRepository.UpdateBorrowStatusAsync(receiptDetailId, BorrowStatus.Canceled);
+
+            return true;
+        }
+
         //Lịch sử mượn sách của một user
         public async Task<IEnumerable<BorrowReceiptDetail>> GetBorrowHistoryAsync(string userId)
         {
@@ -121,6 +161,33 @@ namespace LibraryManagement.Services
             await _borrowRepository.UpdateBorrowStatusAsync(receiptDetailId, BorrowStatus.Pending);
 
             return "Yêu cầu gia hạn thời gian trả sách đã được gửi.";
+        }
+
+        // Thủ thư xử lý yêu cầu gia hạn thời gian trả sách
+        public async Task<bool> ProcessExtendDueDateRequestAsync(int receiptDetailId, bool isApproved, string notes)
+        {
+            var receiptDetails = await _borrowRepository.GetReceiptDetailsByReceiptIdAsync(receiptDetailId);
+            var receiptDetail = receiptDetails.FirstOrDefault(rd => rd.Id == receiptDetailId);
+            if (receiptDetail == null || receiptDetail.Status != BorrowStatus.Pending)
+                return false;
+
+            if (isApproved)
+            {
+                if (receiptDetail.DueDate.HasValue)
+                {
+                    receiptDetail.DueDate = receiptDetail.DueDate.Value.AddDays(30);
+                }
+                receiptDetail.Status = BorrowStatus.Approved;
+            }
+            else
+            {
+                receiptDetail.Status = BorrowStatus.Approved;
+            }
+
+            receiptDetail.Notes = notes;
+            await _borrowRepository.UpdateBorrowStatusAsync(receiptDetailId, receiptDetail.Status);
+
+            return true;
         }
     }
 }

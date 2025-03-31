@@ -388,6 +388,170 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "LibraryManagement.Controllers.BorrowController",
+    "Method": "ApproveBorrowRequest",
+    "RelativePath": "api/Borrow/approve-borrow-book/{detailId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "detailId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagement.Controllers.BorrowController",
+    "Method": "ApproveExtendDueDateRequest",
+    "RelativePath": "api/Borrow/approve-extend-due-date/{detailId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "detailId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "isApproved",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "notes",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagement.Controllers.BorrowController",
+    "Method": "GetBorrowHistory",
+    "RelativePath": "api/Borrow/borrow-history/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagement.Controllers.BorrowController",
+    "Method": "GetBorrowedBooks",
+    "RelativePath": "api/Borrow/borrowed-books/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagement.Controllers.BorrowController",
+    "Method": "CancelBorrowRequest",
+    "RelativePath": "api/Borrow/cancel/{detailId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "detailId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "notes",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagement.Controllers.BorrowController",
+    "Method": "GetReceiptById",
+    "RelativePath": "api/Borrow/Get-detail-borrow-by-id{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagement.Controllers.BorrowController",
+    "Method": "RequestBorrow",
+    "RelativePath": "api/Borrow/request-borrow-book",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "LibraryManagement.ViewModels.BorrowRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagement.Controllers.BorrowController",
+    "Method": "RequestExtendDueDate",
+    "RelativePath": "api/Borrow/request-extend-due-date/{detailId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "detailId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "notes",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagement.Controllers.BorrowController",
+    "Method": "ReturnBook",
+    "RelativePath": "api/Borrow/return-book/{detailId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "detailId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "LibraryManagement.Controllers.CategoryController",
     "Method": "AddCategory",
     "RelativePath": "api/Category/add-category",
