@@ -28,13 +28,17 @@ export class AuthService {
     return this.getToken() != null ? true : false;
   }
 
-  forgotPassword1(data: any): Observable<any> {
-    return this.http.post(environment.apiBaseUrl + '/forgot-password', data);
-  }
+  // forgotPassword1(data: any): Observable<any> {
+  //   return this.http.post(environment.apiBaseUrl + '/forgot-password', data);
+  // }
 
   forgotPassword(email: string) {
     const headers = { 'Content-Type': 'application/json' };
     return this.http.post(environment.apiBaseUrl + '/forgot-password', { email }, { headers });
+  }
+
+  resetPassword(payload: { email: string; token: string; newPassword: string }): Observable<any> {
+    return this.http.post(environment.apiBaseUrl + '/reset-password', payload);
   }
 
   saveToken(token: string) {

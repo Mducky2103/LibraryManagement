@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KkEn1mI9McjMDARpHTkgEwVSTxeu5//rclCn6b5B5eE=",
+  "Hash": "fWItm3l/w7nGP7P1Bd+wg9h1Bl7F8fSezVCeDYiNwb4=",
   "Source": "LibraryManagement",
   "BasePath": "_content/LibraryManagement",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "LibraryManagement\\wwwroot",
       "Source": "LibraryManagement",
-      "ContentRoot": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\",
+      "ContentRoot": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\",
       "BasePath": "_content/LibraryManagement",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\4ce3eb96-9150-4f7b-8dab-d044fa9c7868.jpg",
+      "Identity": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\4ce3eb96-9150-4f7b-8dab-d044fa9c7868.jpg",
       "SourceId": "LibraryManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\",
+      "ContentRoot": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\",
       "BasePath": "_content/LibraryManagement",
       "RelativePath": "images/4ce3eb96-9150-4f7b-8dab-d044fa9c7868#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -38,10 +38,10 @@
       "OriginalItemSpec": "wwwroot\\images\\4ce3eb96-9150-4f7b-8dab-d044fa9c7868.jpg"
     },
     {
-      "Identity": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\album-anh-ve-ha-noi-01-0cbc70a3-b767-46e7-9904-d09ad5092662.webp",
+      "Identity": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\album-anh-ve-ha-noi-01-0cbc70a3-b767-46e7-9904-d09ad5092662.webp",
       "SourceId": "LibraryManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\",
+      "ContentRoot": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\",
       "BasePath": "_content/LibraryManagement",
       "RelativePath": "images/album-anh-ve-ha-noi-01-0cbc70a3-b767-46e7-9904-d09ad5092662#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -59,10 +59,10 @@
       "OriginalItemSpec": "wwwroot\\images\\album-anh-ve-ha-noi-01-0cbc70a3-b767-46e7-9904-d09ad5092662.webp"
     },
     {
-      "Identity": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\anh-dep-16.jpg",
+      "Identity": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\anh-dep-16.jpg",
       "SourceId": "LibraryManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\",
+      "ContentRoot": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\",
       "BasePath": "_content/LibraryManagement",
       "RelativePath": "images/anh-dep-16#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\images\\anh-dep-16.jpg"
     },
     {
-      "Identity": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\bia-sach2-9886.jpg",
+      "Identity": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\bia-sach2-9886.jpg",
       "SourceId": "LibraryManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\",
+      "ContentRoot": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\",
       "BasePath": "_content/LibraryManagement",
       "RelativePath": "images/bia-sach2-9886#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\images\\bia-sach2-9886.jpg"
     },
     {
-      "Identity": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\book2.jpg",
+      "Identity": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\book2.jpg",
       "SourceId": "LibraryManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\",
+      "ContentRoot": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\",
       "BasePath": "_content/LibraryManagement",
       "RelativePath": "images/book2#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\images\\book2.jpg"
     },
     {
-      "Identity": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\lich_su_sach_-_bia_1_ee2af9044fd549d89e0429aad039ddf0.jpg",
+      "Identity": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\lich_su_sach_-_bia_1_ee2af9044fd549d89e0429aad039ddf0.jpg",
       "SourceId": "LibraryManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\",
+      "ContentRoot": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\",
       "BasePath": "_content/LibraryManagement",
       "RelativePath": "images/lich_su_sach_-_bia_1_ee2af9044fd549d89e0429aad039ddf0#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\images\\lich_su_sach_-_bia_1_ee2af9044fd549d89e0429aad039ddf0.jpg"
     },
     {
-      "Identity": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\mau-bia-sach-dep.jpg",
+      "Identity": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\mau-bia-sach-dep.jpg",
       "SourceId": "LibraryManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\",
+      "ContentRoot": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\",
       "BasePath": "_content/LibraryManagement",
       "RelativePath": "images/mau-bia-sach-dep#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\images\\mau-bia-sach-dep.jpg"
     },
     {
-      "Identity": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\Screenshot 2024-07-27 145556.png",
+      "Identity": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\Screenshot 2024-07-27 145556.png",
       "SourceId": "LibraryManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\",
+      "ContentRoot": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\",
       "BasePath": "_content/LibraryManagement",
       "RelativePath": "images/Screenshot 2024-07-27 145556#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -185,52 +185,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Screenshot 2024-07-27 145556.png"
     },
     {
-      "Identity": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\Screenshot 2024-10-31 192702.png",
+      "Identity": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\trang-tri-bia-sach-5.jpg",
       "SourceId": "LibraryManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\",
-      "BasePath": "_content/LibraryManagement",
-      "RelativePath": "images/Screenshot 2024-10-31 192702#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "byz5njqlzd",
-      "Integrity": "vTdaSfB4Icj0GerURDXa3i9lkojLI8nCwtJjK9uRGxg=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Screenshot 2024-10-31 192702.png"
-    },
-    {
-      "Identity": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\Screenshot 2024-11-01 143649.png",
-      "SourceId": "LibraryManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\",
-      "BasePath": "_content/LibraryManagement",
-      "RelativePath": "images/Screenshot 2024-11-01 143649#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "cyge1qw9ja",
-      "Integrity": "rCka7QEieILLfZlqSzkjnqWB5NT3KivtB7QVCLb3uG8=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Screenshot 2024-11-01 143649.png"
-    },
-    {
-      "Identity": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\trang-tri-bia-sach-5.jpg",
-      "SourceId": "LibraryManagement",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\",
+      "ContentRoot": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\",
       "BasePath": "_content/LibraryManagement",
       "RelativePath": "images/trang-tri-bia-sach-5#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -251,7 +209,7 @@
   "Endpoints": [
     {
       "Route": "images/4ce3eb96-9150-4f7b-8dab-d044fa9c7868.fdwz3ppstn.jpg",
-      "AssetFile": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\4ce3eb96-9150-4f7b-8dab-d044fa9c7868.jpg",
+      "AssetFile": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\4ce3eb96-9150-4f7b-8dab-d044fa9c7868.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -272,7 +230,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 15:11:44 GMT"
+          "Value": "Mon, 31 Mar 2025 15:51:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -296,7 +254,7 @@
     },
     {
       "Route": "images/4ce3eb96-9150-4f7b-8dab-d044fa9c7868.jpg",
-      "AssetFile": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\4ce3eb96-9150-4f7b-8dab-d044fa9c7868.jpg",
+      "AssetFile": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\4ce3eb96-9150-4f7b-8dab-d044fa9c7868.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -317,7 +275,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 15:11:44 GMT"
+          "Value": "Mon, 31 Mar 2025 15:51:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -333,7 +291,7 @@
     },
     {
       "Route": "images/album-anh-ve-ha-noi-01-0cbc70a3-b767-46e7-9904-d09ad5092662.sohplxz0uv.webp",
-      "AssetFile": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\album-anh-ve-ha-noi-01-0cbc70a3-b767-46e7-9904-d09ad5092662.webp",
+      "AssetFile": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\album-anh-ve-ha-noi-01-0cbc70a3-b767-46e7-9904-d09ad5092662.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -354,7 +312,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 15:11:44 GMT"
+          "Value": "Mon, 31 Mar 2025 15:51:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -378,7 +336,7 @@
     },
     {
       "Route": "images/album-anh-ve-ha-noi-01-0cbc70a3-b767-46e7-9904-d09ad5092662.webp",
-      "AssetFile": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\album-anh-ve-ha-noi-01-0cbc70a3-b767-46e7-9904-d09ad5092662.webp",
+      "AssetFile": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\album-anh-ve-ha-noi-01-0cbc70a3-b767-46e7-9904-d09ad5092662.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -399,7 +357,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 15:11:44 GMT"
+          "Value": "Mon, 31 Mar 2025 15:51:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -415,7 +373,7 @@
     },
     {
       "Route": "images/anh-dep-16.akfvth0l2u.jpg",
-      "AssetFile": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\anh-dep-16.jpg",
+      "AssetFile": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\anh-dep-16.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -436,7 +394,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 15:11:44 GMT"
+          "Value": "Mon, 31 Mar 2025 15:51:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -460,7 +418,7 @@
     },
     {
       "Route": "images/anh-dep-16.jpg",
-      "AssetFile": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\anh-dep-16.jpg",
+      "AssetFile": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\anh-dep-16.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -481,7 +439,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 15:11:44 GMT"
+          "Value": "Mon, 31 Mar 2025 15:51:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -497,7 +455,7 @@
     },
     {
       "Route": "images/bia-sach2-9886.jpg",
-      "AssetFile": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\bia-sach2-9886.jpg",
+      "AssetFile": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\bia-sach2-9886.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -518,7 +476,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 15:11:44 GMT"
+          "Value": "Mon, 31 Mar 2025 15:51:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -534,7 +492,7 @@
     },
     {
       "Route": "images/bia-sach2-9886.s6937ez8sc.jpg",
-      "AssetFile": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\bia-sach2-9886.jpg",
+      "AssetFile": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\bia-sach2-9886.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -555,7 +513,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 15:11:44 GMT"
+          "Value": "Mon, 31 Mar 2025 15:51:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -579,7 +537,7 @@
     },
     {
       "Route": "images/book2.ekjb09bwc5.jpg",
-      "AssetFile": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\book2.jpg",
+      "AssetFile": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\book2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -600,7 +558,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 15:11:44 GMT"
+          "Value": "Mon, 31 Mar 2025 15:51:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -624,7 +582,7 @@
     },
     {
       "Route": "images/book2.jpg",
-      "AssetFile": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\book2.jpg",
+      "AssetFile": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\book2.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -645,7 +603,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 15:11:44 GMT"
+          "Value": "Mon, 31 Mar 2025 15:51:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -661,7 +619,7 @@
     },
     {
       "Route": "images/lich_su_sach_-_bia_1_ee2af9044fd549d89e0429aad039ddf0.gecu6gwsi4.jpg",
-      "AssetFile": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\lich_su_sach_-_bia_1_ee2af9044fd549d89e0429aad039ddf0.jpg",
+      "AssetFile": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\lich_su_sach_-_bia_1_ee2af9044fd549d89e0429aad039ddf0.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -682,7 +640,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 15:11:44 GMT"
+          "Value": "Mon, 31 Mar 2025 15:51:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -706,7 +664,7 @@
     },
     {
       "Route": "images/lich_su_sach_-_bia_1_ee2af9044fd549d89e0429aad039ddf0.jpg",
-      "AssetFile": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\lich_su_sach_-_bia_1_ee2af9044fd549d89e0429aad039ddf0.jpg",
+      "AssetFile": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\lich_su_sach_-_bia_1_ee2af9044fd549d89e0429aad039ddf0.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -727,7 +685,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 15:11:44 GMT"
+          "Value": "Mon, 31 Mar 2025 15:51:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -743,7 +701,7 @@
     },
     {
       "Route": "images/mau-bia-sach-dep.cqc8h5rh81.jpg",
-      "AssetFile": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\mau-bia-sach-dep.jpg",
+      "AssetFile": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\mau-bia-sach-dep.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -764,7 +722,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 15:11:44 GMT"
+          "Value": "Mon, 31 Mar 2025 15:51:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -788,7 +746,7 @@
     },
     {
       "Route": "images/mau-bia-sach-dep.jpg",
-      "AssetFile": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\mau-bia-sach-dep.jpg",
+      "AssetFile": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\mau-bia-sach-dep.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -809,7 +767,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 15:11:44 GMT"
+          "Value": "Mon, 31 Mar 2025 15:51:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -825,7 +783,7 @@
     },
     {
       "Route": "images/Screenshot 2024-07-27 145556.fc27xenpbs.png",
-      "AssetFile": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\Screenshot 2024-07-27 145556.png",
+      "AssetFile": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\Screenshot 2024-07-27 145556.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -846,7 +804,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 15:11:44 GMT"
+          "Value": "Mon, 31 Mar 2025 15:51:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -870,7 +828,7 @@
     },
     {
       "Route": "images/Screenshot 2024-07-27 145556.png",
-      "AssetFile": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\Screenshot 2024-07-27 145556.png",
+      "AssetFile": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\Screenshot 2024-07-27 145556.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -891,7 +849,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 15:11:44 GMT"
+          "Value": "Mon, 31 Mar 2025 15:51:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -906,172 +864,8 @@
       ]
     },
     {
-      "Route": "images/Screenshot 2024-10-31 192702.byz5njqlzd.png",
-      "AssetFile": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\Screenshot 2024-10-31 192702.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "319360"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vTdaSfB4Icj0GerURDXa3i9lkojLI8nCwtJjK9uRGxg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 15:33:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "byz5njqlzd"
-        },
-        {
-          "Name": "label",
-          "Value": "images/Screenshot 2024-10-31 192702.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-vTdaSfB4Icj0GerURDXa3i9lkojLI8nCwtJjK9uRGxg="
-        }
-      ]
-    },
-    {
-      "Route": "images/Screenshot 2024-10-31 192702.png",
-      "AssetFile": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\Screenshot 2024-10-31 192702.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "319360"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"vTdaSfB4Icj0GerURDXa3i9lkojLI8nCwtJjK9uRGxg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 15:33:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-vTdaSfB4Icj0GerURDXa3i9lkojLI8nCwtJjK9uRGxg="
-        }
-      ]
-    },
-    {
-      "Route": "images/Screenshot 2024-11-01 143649.cyge1qw9ja.png",
-      "AssetFile": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\Screenshot 2024-11-01 143649.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "51798"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"rCka7QEieILLfZlqSzkjnqWB5NT3KivtB7QVCLb3uG8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 15:30:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "cyge1qw9ja"
-        },
-        {
-          "Name": "label",
-          "Value": "images/Screenshot 2024-11-01 143649.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-rCka7QEieILLfZlqSzkjnqWB5NT3KivtB7QVCLb3uG8="
-        }
-      ]
-    },
-    {
-      "Route": "images/Screenshot 2024-11-01 143649.png",
-      "AssetFile": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\Screenshot 2024-11-01 143649.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "51798"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"rCka7QEieILLfZlqSzkjnqWB5NT3KivtB7QVCLb3uG8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 15:30:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-rCka7QEieILLfZlqSzkjnqWB5NT3KivtB7QVCLb3uG8="
-        }
-      ]
-    },
-    {
       "Route": "images/trang-tri-bia-sach-5.jpg",
-      "AssetFile": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\trang-tri-bia-sach-5.jpg",
+      "AssetFile": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\trang-tri-bia-sach-5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1092,7 +886,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 15:11:44 GMT"
+          "Value": "Mon, 31 Mar 2025 15:51:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1108,7 +902,7 @@
     },
     {
       "Route": "images/trang-tri-bia-sach-5.w5xd61zzxv.jpg",
-      "AssetFile": "D:\\FPT\\Thuc_Tap\\C#\\code\\LibraryPushCode\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\trang-tri-bia-sach-5.jpg",
+      "AssetFile": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\trang-tri-bia-sach-5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1129,7 +923,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 15:11:44 GMT"
+          "Value": "Mon, 31 Mar 2025 15:51:42 GMT"
         },
         {
           "Name": "Cache-Control",

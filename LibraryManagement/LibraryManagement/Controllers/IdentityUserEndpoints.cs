@@ -107,8 +107,7 @@ namespace LibraryManagement.Controllers
             }
 
             var resetToken = await userManager.GeneratePasswordResetTokenAsync(user);
-            var resetLink = $"https://your-app-url/reset-password?token={resetToken}&email={forgotPasswordVm.Email}";
-
+            var resetLink = $"http://localhost:4200/reset-password?token={Uri.EscapeDataString(resetToken)}&email={Uri.EscapeDataString(forgotPasswordVm.Email)}";
             var message = $"<p>Please reset your password by clicking <a href='{resetLink}'>here</a>.</p>";
             await emailService.SendEmailAsync(forgotPasswordVm.Email, "Password Reset", message);
 
