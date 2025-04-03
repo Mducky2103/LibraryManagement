@@ -15,23 +15,44 @@ namespace LibraryManagement.Repositories
         }
 
         // Lấy danh sách tất cả phiếu mượn
-        public async Task<IEnumerable<BorrowReceipt>> GetAllReceiptsAsync()
+        public async Task<IEnumerable<object>> GetAllReceiptsAsync()
         {
             return await _context.BorrowReceipts
-                .Include(br => br.User)
-                .Include(br => br.Details)
-                .ThenInclude(d => d.Books)
-                .ToListAsync();
+                    .Include(br => br.User)
+                    .Include(br => br.Details)
+                    .ThenInclude(d => d.Books)
+                    .Select(br => new
+                    {
+                        br.Id,
+                        UserEmail = br.User.Email,
+                        br.TotalBooks,
+                        Details = br.Details.Select(d => new
+                        {
+                            d.Id,
+                            BookName = d.Books.Name,
+                            d.BorrowedDate,
+                            d.DueDate,
+                            d.ReturnedDate,
+                            d.Status,
+                            d.Notes
+                        })
+                    })
+                    .ToListAsync();
         }
 
         // Lấy thông tin phiếu mượn theo ID
-        public async Task<BorrowReceipt> GetReceiptByIdAsync(int id)
+        public async Task<object> GetReceiptByIdAsync(int id)
         {
             return await _context.BorrowReceipts
                 .Include(br => br.User)
-                .Include(br => br.Details)
-                .ThenInclude(d => d.Books)
-                .FirstOrDefaultAsync(br => br.Id == id);
+                .Where(br => br.Id == id)
+                .Select(br => new
+                {
+                    br.Id,
+                    UserName = br.User.UserName,
+                    br.TotalBooks
+                })
+                .FirstOrDefaultAsync();
         }
 
         // Lấy danh sách chi tiết mượn sách theo BorrowReceiptId
@@ -40,6 +61,16 @@ namespace LibraryManagement.Repositories
             return await _context.BorrowReceiptDetails
                 .Where(d => d.Id == receiptId)
                 .Include(d => d.Books)
+                .ToListAsync();
+        }
+
+        // Lấy danh sách chi tiết mượn sách theo BorrowReceiptId (Over Due)
+        public async Task<IEnumerable<BorrowReceiptDetail>> GetReceiptDetailsByReceiptId2Async(int receiptId)
+        {
+            return await _context.BorrowReceiptDetails
+                .Include(brd => brd.Books)
+                .Include(brd => brd.BorrowReceipt)
+                .Where(brd => brd.Id == receiptId)
                 .ToListAsync();
         }
 
@@ -114,6 +145,40 @@ namespace LibraryManagement.Repositories
         {
             return await _context.BorrowReceiptDetails
                 .Where(r => r.BorrowReceipt.UserId == userId)
+                .ToListAsync();
+        }
+
+        //Tự động update những quyển sách đang mượn quá thời hạn trả sách
+        public async Task UpdateOverdueBooksAsync()
+        {
+            var overdueBooks = await _context.BorrowReceiptDetails
+                            .Where(d => d.Status == BorrowStatus.Approved && d.DueDate < DateTime.Now)
+                            .ToListAsync();
+
+            foreach (var detail in overdueBooks)
+            {
+                detail.Status = BorrowStatus.Overdue;
+            }
+
+            if (overdueBooks.Any())
+            {
+                await _context.SaveChangesAsync();
+            }
+        }
+
+        // Lấy danh sách sách mượn quá hạn
+        public async Task<IEnumerable<BorrowReceiptDetail>> GetOverdueBooksAsync()
+        {
+            return await _context.BorrowReceiptDetails
+                .Where(d => d.Status == BorrowStatus.Overdue)
+                .ToListAsync();
+        }
+
+        // Lấy danh sách sách mượn quá hạn của một user
+        public async Task<IEnumerable<BorrowReceiptDetail>> GetOverdueBooksByUserAsync(string userId)
+        {
+            return await _context.BorrowReceiptDetails
+                .Where(d => d.BorrowReceipt.UserId == userId && d.Status == BorrowStatus.Overdue)
                 .ToListAsync();
         }
     }

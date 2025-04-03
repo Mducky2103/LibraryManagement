@@ -17,6 +17,53 @@ namespace LibraryManagement.Controllers
         {
             _borrowService = borrowService;
         }
+        //Xem tất cả phiếu mượn
+        [HttpGet("view-all-receipts")]
+        public async Task<IActionResult> GetAllReceipts()
+        {
+            var receipts = await _borrowService.GetAllReceiptsAsync();
+            if (!receipts.Any())
+            {
+                return NotFound("Không tìm thấy thông tin");
+            }
+            return Ok(receipts);
+        }
+
+        //xem thông tin một phiếu mượn theo ID
+        [HttpGet("view-all-receipt-by-id/{id}")]
+        public async Task<IActionResult> ViewReceiptById(int id)
+        {
+            var receipt = await _borrowService.GetReceiptByIdAsync(id);
+            if (receipt == null)
+            {
+                return NotFound("Không tìm thấy thông tin");
+            }
+            return Ok(receipt);
+        }
+
+        //Xem danh sách sách quá hạn
+        [HttpGet("overdue-books")]
+        public async Task<IActionResult> GetOverdueBooks()
+        {
+            var overdueBooks = await _borrowService.GetOverdueBooksAsync();
+            if (!overdueBooks.Any())
+            {
+                return NotFound("Không tìm thấy sách quá hạn");
+            }
+            return Ok(overdueBooks);
+        }
+
+        //Xem danh sách sách quá hạn của một thành viên
+        [HttpGet("overdue-books/{userId}")]
+        public async Task<IActionResult> GetOverdueBooksByUser(string userId)
+        {
+            var overdueBooks = await _borrowService.GetOverdueBooksByUserAsync(userId);
+            if (!overdueBooks.Any())
+            {
+                return NotFound("Không tìm thấy sách quá hạn");
+            }
+            return Ok(overdueBooks);
+        }
 
         // Xem danh sách phiếu mượn 
         [HttpGet("borrowed-books/{userId}")]
@@ -25,7 +72,7 @@ namespace LibraryManagement.Controllers
             var borrowedBooks = await _borrowService.GetBorrowHistoryAsync(userId);
             if (!borrowedBooks.Any())
             {
-                return NotFound("No borrowed books found.");
+                return NotFound("Không tìm thấy danh sách phiếu mượn");
             }
             return Ok(borrowedBooks);
         }
@@ -37,7 +84,7 @@ namespace LibraryManagement.Controllers
             var borrowHistory = await _borrowService.GetAllBorrowBookHistoryAsync(userId);
             if (!borrowHistory.Any())
             {
-                return NotFound("No borrow history found.");
+                return NotFound("Không tìm thấy lịch sử mượn sách.");
             }
             return Ok(borrowHistory);
         }
@@ -95,6 +142,16 @@ namespace LibraryManagement.Controllers
                 return NotFound("Không tìm thấy thông tin sách đã mượn.");
 
             return Ok(new { message = "Sách đã được trả thành công." });
+        }
+
+        // Thành viên trả sách và áp dụng phạt
+        [HttpPut("return-book-and-apply-penalty/{detailId}")]
+        public async Task<IActionResult> ReturnBookAndApplyPenalty(int detailId)
+        {
+            bool isReturned = await _borrowService.ReturnBookAndApplyPenaltyAsync(detailId);
+            if (!isReturned)
+                return NotFound("Không tìm thấy thông tin sách đã mượn.");
+            return Ok(new { message = "Sách đã được trả thành công và áp dụng phạt." });
         }
 
         //Gia hạn thời gian trả sách

@@ -35,3 +35,23 @@ body {
     background-color: #007fff17;
     border-radius: 0.5rem;
 }
+
+.custom-dropdown-menu {
+    min-width: 70px;
+    /* Giảm chiều rộng */
+    padding: 0.3rem 0;
+    /* Giảm khoảng cách trên dưới */
+    font-size: 14px;
+    /* Giảm kích thước chữ */
+    text-align: center;
+}
+
+.custom-dropdown-menu .dropdown-item {
+    padding: 0.25rem 0.75rem;
+    /* Giảm padding trong từng item */
+}
+
+.custom-dropdown-menu hr {
+    margin: 0.3rem 0;
+    /* Giảm khoảng cách của đường kẻ */
+}

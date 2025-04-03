@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B861D85-2554-482E-BFC6-CA2D19577257}|LibraryManagement\\LibraryManagement.csproj|d:\\campuslink .net\\librarymanagement\\librarymanagement\\librarymanagement\\controllers\\identityuserendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B861D85-2554-482E-BFC6-CA2D19577257}|LibraryManagement\\LibraryManagement.csproj|solutionrelative:librarymanagement\\controllers\\identityuserendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B861D85-2554-482E-BFC6-CA2D19577257}|LibraryManagement\\LibraryManagement.csproj|d:\\campuslink .net\\librarymanagement\\librarymanagement\\librarymanagement\\services\\borrowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B861D85-2554-482E-BFC6-CA2D19577257}|LibraryManagement\\LibraryManagement.csproj|solutionrelative:librarymanagement\\services\\borrowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B861D85-2554-482E-BFC6-CA2D19577257}|LibraryManagement\\LibraryManagement.csproj|d:\\campuslink .net\\librarymanagement\\librarymanagement\\librarymanagement\\viewmodels\\resetpasswordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B861D85-2554-482E-BFC6-CA2D19577257}|LibraryManagement\\LibraryManagement.csproj|solutionrelative:librarymanagement\\viewmodels\\resetpasswordvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B861D85-2554-482E-BFC6-CA2D19577257}|LibraryManagement\\LibraryManagement.csproj|d:\\campuslink .net\\librarymanagement\\librarymanagement\\librarymanagement\\repositories\\penaltyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B861D85-2554-482E-BFC6-CA2D19577257}|LibraryManagement\\LibraryManagement.csproj|solutionrelative:librarymanagement\\repositories\\penaltyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B861D85-2554-482E-BFC6-CA2D19577257}|LibraryManagement\\LibraryManagement.csproj|d:\\campuslink .net\\librarymanagement\\librarymanagement\\librarymanagement\\controllers\\authorizationdemoendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B861D85-2554-482E-BFC6-CA2D19577257}|LibraryManagement\\LibraryManagement.csproj|solutionrelative:librarymanagement\\controllers\\authorizationdemoendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B861D85-2554-482E-BFC6-CA2D19577257}|LibraryManagement\\LibraryManagement.csproj|d:\\campuslink .net\\librarymanagement\\librarymanagement\\librarymanagement\\repositories\\borrowrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B861D85-2554-482E-BFC6-CA2D19577257}|LibraryManagement\\LibraryManagement.csproj|solutionrelative:librarymanagement\\repositories\\borrowrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B861D85-2554-482E-BFC6-CA2D19577257}|LibraryManagement\\LibraryManagement.csproj|d:\\campuslink .net\\librarymanagement\\librarymanagement\\librarymanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7B861D85-2554-482E-BFC6-CA2D19577257}|LibraryManagement\\LibraryManagement.csproj|solutionrelative:librarymanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{7B861D85-2554-482E-BFC6-CA2D19577257}|LibraryManagement\\LibraryManagement.csproj|d:\\campuslink .net\\librarymanagement\\librarymanagement\\librarymanagement\\services\\interface\\iborrowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B861D85-2554-482E-BFC6-CA2D19577257}|LibraryManagement\\LibraryManagement.csproj|solutionrelative:librarymanagement\\services\\interface\\iborrowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B861D85-2554-482E-BFC6-CA2D19577257}|LibraryManagement\\LibraryManagement.csproj|d:\\campuslink .net\\librarymanagement\\librarymanagement\\librarymanagement\\repositories\\interface\\iborrowrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B861D85-2554-482E-BFC6-CA2D19577257}|LibraryManagement\\LibraryManagement.csproj|solutionrelative:librarymanagement\\repositories\\interface\\iborrowrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B861D85-2554-482E-BFC6-CA2D19577257}|LibraryManagement\\LibraryManagement.csproj|d:\\campuslink .net\\librarymanagement\\librarymanagement\\librarymanagement\\controllers\\borrowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B861D85-2554-482E-BFC6-CA2D19577257}|LibraryManagement\\LibraryManagement.csproj|solutionrelative:librarymanagement\\controllers\\borrowcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B861D85-2554-482E-BFC6-CA2D19577257}|LibraryManagement\\LibraryManagement.csproj|d:\\campuslink .net\\librarymanagement\\librarymanagement\\librarymanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B861D85-2554-482E-BFC6-CA2D19577257}|LibraryManagement\\LibraryManagement.csproj|solutionrelative:librarymanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B861D85-2554-482E-BFC6-CA2D19577257}|LibraryManagement\\LibraryManagement.csproj|d:\\campuslink .net\\librarymanagement\\librarymanagement\\librarymanagement\\services\\overduebookchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B861D85-2554-482E-BFC6-CA2D19577257}|LibraryManagement\\LibraryManagement.csproj|solutionrelative:librarymanagement\\services\\overduebookchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B861D85-2554-482E-BFC6-CA2D19577257}|LibraryManagement\\LibraryManagement.csproj|d:\\campuslink .net\\librarymanagement\\librarymanagement\\librarymanagement\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B861D85-2554-482E-BFC6-CA2D19577257}|LibraryManagement\\LibraryManagement.csproj|solutionrelative:librarymanagement\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B861D85-2554-482E-BFC6-CA2D19577257}|LibraryManagement\\LibraryManagement.csproj|d:\\campuslink .net\\librarymanagement\\librarymanagement\\librarymanagement\\controllers\\accountendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B861D85-2554-482E-BFC6-CA2D19577257}|LibraryManagement\\LibraryManagement.csproj|solutionrelative:librarymanagement\\controllers\\accountendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -55,90 +59,105 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ResetPasswordVm.cs",
-              "DocumentMoniker": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\ViewModels\\ResetPasswordVm.cs",
-              "RelativeDocumentMoniker": "LibraryManagement\\ViewModels\\ResetPasswordVm.cs",
-              "ToolTip": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\ViewModels\\ResetPasswordVm.cs",
-              "RelativeToolTip": "LibraryManagement\\ViewModels\\ResetPasswordVm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "PenaltyRepository.cs",
+              "DocumentMoniker": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\Repositories\\PenaltyRepository.cs",
+              "RelativeDocumentMoniker": "LibraryManagement\\Repositories\\PenaltyRepository.cs",
+              "ToolTip": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\Repositories\\PenaltyRepository.cs",
+              "RelativeToolTip": "LibraryManagement\\Repositories\\PenaltyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T03:27:05.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "IdentityUserEndpoints.cs",
-              "DocumentMoniker": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\Controllers\\IdentityUserEndpoints.cs",
-              "RelativeDocumentMoniker": "LibraryManagement\\Controllers\\IdentityUserEndpoints.cs",
-              "ToolTip": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\Controllers\\IdentityUserEndpoints.cs",
-              "RelativeToolTip": "LibraryManagement\\Controllers\\IdentityUserEndpoints.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAAAG0AAAB4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T02:37:22.694Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthorizationDemoEndpoints.cs",
-              "DocumentMoniker": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\Controllers\\AuthorizationDemoEndpoints.cs",
-              "RelativeDocumentMoniker": "LibraryManagement\\Controllers\\AuthorizationDemoEndpoints.cs",
-              "ToolTip": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\Controllers\\AuthorizationDemoEndpoints.cs",
-              "RelativeToolTip": "LibraryManagement\\Controllers\\AuthorizationDemoEndpoints.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T02:37:19.321Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BorrowController.cs",
-              "DocumentMoniker": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\Controllers\\BorrowController.cs",
-              "RelativeDocumentMoniker": "LibraryManagement\\Controllers\\BorrowController.cs",
-              "ToolTip": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\Controllers\\BorrowController.cs",
-              "RelativeToolTip": "LibraryManagement\\Controllers\\BorrowController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T15:52:26.401Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\appsettings.json",
-              "RelativeDocumentMoniker": "LibraryManagement\\appsettings.json",
-              "ToolTip": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\appsettings.json",
-              "RelativeToolTip": "LibraryManagement\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-31T15:52:14.975Z",
+              "WhenOpened": "2025-04-03T02:49:52.752Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "BookController.cs",
-              "DocumentMoniker": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\Controllers\\BookController.cs",
-              "RelativeDocumentMoniker": "LibraryManagement\\Controllers\\BookController.cs",
-              "ToolTip": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\Controllers\\BookController.cs",
-              "RelativeToolTip": "LibraryManagement\\Controllers\\BookController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
+              "Title": "OverdueBookChecker.cs",
+              "DocumentMoniker": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\Services\\OverdueBookChecker.cs",
+              "RelativeDocumentMoniker": "LibraryManagement\\Services\\OverdueBookChecker.cs",
+              "ToolTip": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\Services\\OverdueBookChecker.cs",
+              "RelativeToolTip": "LibraryManagement\\Services\\OverdueBookChecker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T04:21:20.495Z"
+              "WhenOpened": "2025-04-02T16:25:49.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AccountEndpoints.cs",
+              "DocumentMoniker": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\Controllers\\AccountEndpoints.cs",
+              "RelativeDocumentMoniker": "LibraryManagement\\Controllers\\AccountEndpoints.cs",
+              "ToolTip": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\Controllers\\AccountEndpoints.cs",
+              "RelativeToolTip": "LibraryManagement\\Controllers\\AccountEndpoints.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T15:04:05.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BorrowService.cs",
+              "DocumentMoniker": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\Services\\BorrowService.cs",
+              "RelativeDocumentMoniker": "LibraryManagement\\Services\\BorrowService.cs",
+              "ToolTip": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\Services\\BorrowService.cs",
+              "RelativeToolTip": "LibraryManagement\\Services\\BorrowService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T13:52:38.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BorrowRepository.cs",
+              "DocumentMoniker": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\Repositories\\BorrowRepository.cs",
+              "RelativeDocumentMoniker": "LibraryManagement\\Repositories\\BorrowRepository.cs",
+              "ToolTip": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\Repositories\\BorrowRepository.cs",
+              "RelativeToolTip": "LibraryManagement\\Repositories\\BorrowRepository.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAUwEgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T15:11:09.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IBorrowService.cs",
+              "DocumentMoniker": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\Services\\Interface\\IBorrowService.cs",
+              "RelativeDocumentMoniker": "LibraryManagement\\Services\\Interface\\IBorrowService.cs",
+              "ToolTip": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\Services\\Interface\\IBorrowService.cs",
+              "RelativeToolTip": "LibraryManagement\\Services\\Interface\\IBorrowService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAlwBEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T13:52:35.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IBorrowRepository.cs",
+              "DocumentMoniker": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\Repositories\\Interface\\IBorrowRepository.cs",
+              "RelativeDocumentMoniker": "LibraryManagement\\Repositories\\Interface\\IBorrowRepository.cs",
+              "ToolTip": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\Repositories\\Interface\\IBorrowRepository.cs",
+              "RelativeToolTip": "LibraryManagement\\Repositories\\Interface\\IBorrowRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T13:52:04.899Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\Program.cs",
-              "RelativeDocumentMoniker": "LibraryManagement\\Program.cs",
-              "ToolTip": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\Program.cs",
-              "RelativeToolTip": "LibraryManagement\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Title": "BorrowController.cs",
+              "DocumentMoniker": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\Controllers\\BorrowController.cs",
+              "RelativeDocumentMoniker": "LibraryManagement\\Controllers\\BorrowController.cs",
+              "ToolTip": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\Controllers\\BorrowController.cs",
+              "RelativeToolTip": "LibraryManagement\\Controllers\\BorrowController.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAArwJYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T04:20:29.785Z"
+              "WhenOpened": "2025-03-31T15:52:26.401Z",
+              "EditorCaption": ""
             }
           ]
         }

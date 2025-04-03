@@ -8,21 +8,21 @@ namespace LibraryManagement.Services
     public class BorrowService : IBorrowService
     {
         private readonly IBorrowRepository _borrowRepository;
-        private readonly IBookRepository _bookRepository;
+        private readonly IPenaltyRepository _penaltyRepository;
 
-        public BorrowService(IBorrowRepository borrowRepository, IBookRepository bookRepository)
+        public BorrowService(IBorrowRepository borrowRepository, IPenaltyRepository penaltyRepository)
         {
             _borrowRepository = borrowRepository;
-            _bookRepository = bookRepository;
+            _penaltyRepository = penaltyRepository;
         }
         // Lấy tất cả phiếu mượn
-        public async Task<IEnumerable<BorrowReceipt>> GetAllReceiptsAsync()
+        public async Task<IEnumerable<object>> GetAllReceiptsAsync()
         {
             return await _borrowRepository.GetAllReceiptsAsync();
         }
 
         // Lấy thông tin một phiếu mượn theo ID
-        public async Task<BorrowReceipt> GetReceiptByIdAsync(int id)
+        public async Task<object> GetReceiptByIdAsync(int id)
         {
             return await _borrowRepository.GetReceiptByIdAsync(id);
         }
@@ -128,13 +128,51 @@ namespace LibraryManagement.Services
             var receiptDetail = receiptDetails.FirstOrDefault(rd => rd.Id == receiptDetailId);
             if (receiptDetail == null || receiptDetail.Status != BorrowStatus.Approved)
                 return false;
+            return true;
+        }
+
+        // Thành viên trả sách và áp dụng phạt
+        public async Task<bool> ReturnBookAndApplyPenaltyAsync(int receiptDetailId)
+        {
+            var receiptDetails = await _borrowRepository.GetReceiptDetailsByReceiptId2Async(receiptDetailId);
+
+            var receiptDetail = receiptDetails?.FirstOrDefault(rd => rd.Id == receiptDetailId);
+
+            if (receiptDetail == null || receiptDetail.Status != BorrowStatus.Overdue)
+                return false;
 
             receiptDetail.ReturnedDate = DateTime.Now;
+
+            // Add dữ liệu vào bảng penalty
+            var daysLate = (receiptDetail.ReturnedDate.Value - receiptDetail.DueDate.Value).Days;
+
+            
+
+            var penalty = new Penalty
+            {
+                UserId = receiptDetail.BorrowReceipt.UserId,
+                BorrowReceiptDetailId = receiptDetail.Id,
+                Amount = CalculatePenaltyAmount(receiptDetail),
+                Reason = $"Overdue return - {daysLate} days late",
+                IssuedDate = DateTime.Now,
+                Status = PenaltyStatus.Unpaid
+            };
+
+            receiptDetail.Notes = $"Overdue return - {daysLate} days late";
+
+            await _penaltyRepository.AddPenaltyAsync(penalty);
+
             await _borrowRepository.UpdateBorrowStatusAsync(receiptDetailId, BorrowStatus.Returned);
 
             return true;
         }
 
+        private decimal CalculatePenaltyAmount(BorrowReceiptDetail detail)
+        {
+            var overdueDays = (detail.ReturnedDate - detail.DueDate)?.Days ?? 0;
+            decimal ratePerDay = 10000m; //tiền phạt
+            return overdueDays * ratePerDay;
+        }
         // Lấy danh sách tất cả sách yêu cầu mượn, đang mượn, đã trả, quá hạn
         // của user từ BorrowReceiptDetail
         public async Task<IEnumerable<BorrowReceiptDetail>> GetAllBorrowBookHistoryAsync(string userId)
@@ -188,6 +226,18 @@ namespace LibraryManagement.Services
             await _borrowRepository.UpdateBorrowStatusAsync(receiptDetailId, receiptDetail.Status);
 
             return true;
+        }
+
+        //Lấy danh sách sách quá hạn
+        public async Task<IEnumerable<BorrowReceiptDetail>> GetOverdueBooksAsync()
+        {
+            return await _borrowRepository.GetOverdueBooksAsync();
+        }
+
+        //Lấy danh sách sách quá hạn theo user id
+        public async Task<IEnumerable<BorrowReceiptDetail>> GetOverdueBooksByUserAsync(string userId)
+        {
+            return await _borrowRepository.GetOverdueBooksByUserAsync(userId);
         }
     }
 }

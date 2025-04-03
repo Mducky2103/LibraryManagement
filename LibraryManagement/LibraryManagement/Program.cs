@@ -42,6 +42,8 @@ namespace LibraryManagement
             builder.Services.AddScoped<IBookService, BookService>();
             builder.Services.AddScoped<IBorrowRepository, BorrowRepository>();
             builder.Services.AddScoped<IBorrowService, BorrowService>();
+            builder.Services.AddScoped<IPenaltyRepository, PenaltyRepository>();
+            builder.Services.AddHostedService<OverdueBookChecker>();
 
             var app = builder.Build();
 

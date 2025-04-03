@@ -23,13 +23,15 @@ namespace LibraryManagement.Controllers
         {
             string userID = user.Claims.First(x => x.Type == "userID").Value;
             var userDetails = await userManager.FindByIdAsync(userID);
+            var role = await userManager.GetRolesAsync(userDetails);
             return Results.Ok(
                 new
                 {
                     Email = userDetails?.Email,
                     FullName = userDetails?.FullName,
                     Gender = userDetails?.Gender,
-                    DateOfBirth = userDetails?.DOB
+                    DateOfBirth = userDetails?.DOB,
+                    Roles = role
                 });
         }
 
