@@ -22,6 +22,19 @@ namespace LibraryManagement.Data
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
+            builder.Entity<Book>()
+                .HasOne(b => b.Author)
+                .WithMany(a => a.Books)
+                .HasForeignKey(b => b.AuthorId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+
+            builder.Entity<Book>()
+                .HasOne(b => b.Category)
+                .WithMany(c => c.Books)
+                .HasForeignKey(b => b.CategoryId)
+                .OnDelete(DeleteBehavior.Restrict);
+
             builder.Entity<BorrowReceipt>()
                 .HasOne(b => b.User)
                 .WithMany()

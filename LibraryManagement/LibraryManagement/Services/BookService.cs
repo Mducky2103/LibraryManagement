@@ -49,7 +49,10 @@ namespace LibraryManagement.Services
                 Image = book.Image,
                 IsAvailable = book.IsAvailable,
                 CategoryId = book.CategoryId,
-                AuthorId = book.AuthorId
+                AuthorId = book.AuthorId,
+                CategoryName = book.Category?.Name ?? "Không xác định", 
+                AuthorName = book.Author?.Name ?? "Không xác định" 
+
             };
         }
 
