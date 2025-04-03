@@ -1,0 +1,89 @@
+.book-detail {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+
+.book-image img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.book-info {
+    flex: 1;
+}
+
+.book-info h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.book-info p {
+    margin-bottom: 10px;
+}
+
+.book-info p strong {
+    display: inline-block;
+    width: 120px;
+}
+
+/* Phần mượn sách */
+.borrow-section {
+    margin-top: 20px;
+}
+
+.quantity-control {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.quantity-control button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.quantity-control button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.quantity-control input {
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.borrow-btn {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.borrow-btn:hover {
+    background-color: #218838;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}

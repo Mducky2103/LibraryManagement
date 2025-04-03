@@ -15,9 +15,8 @@ import { ForgotPasswordComponent } from './user/forgot-password/forgot-password.
 import { ChangePasswordComponent } from './user/change-password/change-password.component';
 import { BookListComponent } from './features/book/book-list/book-list.component';
 import { BookFormComponent } from './features/book/book-form/book-form.component';
-import { UserBookListComponent } from './user-hompage/user-book-list/book-list.component';
-import { ResetPasswordComponent } from './user/reset-password/reset-password.component';
-import { ProfileComponent } from './user/profile/profile.component';
+import { BookDetailComponent } from './user-hompage/book-detail/book-detail.component';
+import { UserBookListComponent } from './user-hompage/user-book-list/user-book-list.component';
 
 export const routes: Routes = [
     { path: '', redirectTo: 'signin', pathMatch: 'full' },
@@ -28,7 +27,6 @@ export const routes: Routes = [
             { path: 'signin', component: LoginComponent },
             { path: 'forgot-password', component: ForgotPasswordComponent },
             { path: 'change-password', component: ChangePasswordComponent },
-            { path: 'reset-password', component: ResetPasswordComponent },
         ]
     },
     {
@@ -36,10 +34,6 @@ export const routes: Routes = [
         children: [
             {
                 path: 'dashboard', component: DashboardComponent,
-                canActivate: [authGuard]
-            },
-            {
-                path: 'profile', component: ProfileComponent,
                 canActivate: [authGuard]
             },
             {
@@ -63,7 +57,16 @@ export const routes: Routes = [
             {
                 path: 'forbidden', component: ForbiddenComponent,
                 canActivate: [authGuard]
-            }
+            },
+            // {
+            //     path: 'homepage',
+            //     component: UserBookListComponent
+            // },
+            // {
+            //     path: 'book-detail/:id',
+            //     component: BookDetailComponent
+            // }
+
         ]
     },
     {
@@ -81,6 +84,10 @@ export const routes: Routes = [
     {
         path: 'homepage',
         component: UserBookListComponent
+    },
+    {
+        path: 'book-detail/:id',
+        component: BookDetailComponent
     }
 
 ];

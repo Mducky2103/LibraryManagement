@@ -1,0 +1,28 @@
+<div class="book-detail" *ngIf="book">
+    <div class="book-image">
+        <img *ngIf="imageUrl" [src]="imageUrl" alt="{{ book.name }}" />
+    </div>
+    <div class="book-info">
+        <h1>{{ book.name }}</h1>
+        <p><strong>Tác giả:</strong> {{ book.authorName }}</p>
+        <p><strong>Thể loại:</strong> {{ book.categoryName }}</p>
+        <p><strong>Năm xuất bản:</strong> {{ book.yearPublished }}</p>
+        <p><strong>Giá:</strong> {{ book.price | currency:'USD' }}</p>
+        <p><strong>Số lượng:</strong> {{ book.quantity }}</p>
+        <p><strong>Trạng thái:</strong> {{ book.isAvailable ? 'Còn hàng' : 'Hết hàng' }}</p>
+        <p><strong>Mô tả:</strong> {{ book.description }}</p>
+
+        <!-- Phần mượn sách -->
+        <div class="borrow-section" *ngIf="book.isAvailable">
+            <label>Số lượng mượn:</label>
+            <div class="quantity-control">
+                <!-- <button (click)="decreaseQuantity()" [disabled]="borrowQuantity <= 1">-</button>
+                <input type="number" [(ngModel)]="borrowQuantity" min="1" [max]="book.quantity" readonly>
+                <button (click)="increaseQuantity()" [disabled]="borrowQuantity >= book.quantity">+</button> -->
+            </div>
+            <button class="borrow-btn">Mượn sách</button>
+        </div>
+
+        <a [routerLink]="['/homepage']" class="back-link">Quay lại</a>
+    </div>
+</div>

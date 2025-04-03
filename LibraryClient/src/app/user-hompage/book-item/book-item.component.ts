@@ -20,7 +20,7 @@ import { BooksService } from '../../features/book/services/books.service';
   templateUrl: './book-item.component.html',
   styleUrl: './book-item.component.css'
 })
-export class UserBookItemComponent implements OnInit {
+export class BookItemComponent implements OnInit {
   @Input() book!: Book;
 
   constructor(private bookService: BooksService) { }

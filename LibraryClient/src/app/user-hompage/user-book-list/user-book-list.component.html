@@ -1,0 +1,36 @@
+<div class="user-book-list">
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <h1>Thư Viện Sách</h1>
+        </div>
+        <div class="search-bar">
+            <input type="text" [(ngModel)]="searchTerm" (keyup.enter)="onSearch()" placeholder="Tìm kiếm...">
+            <button (click)="onSearch()">Tìm kiếm</button>
+        </div>
+    </header>
+
+    <!-- Tab thể loại -->
+    <nav class="category-tabs">
+        <a [class.active]="selectedCategoryId === 0" (click)="onCategorySelect(0)">
+            Tất cả
+        </a>
+        <a *ngFor="let category of categories" [class.active]="selectedCategoryId === category.id"
+            (click)="onCategorySelect(category.id)">
+            {{ category.name }}
+        </a>
+    </nav>
+
+    <!-- Danh sách sách -->
+    <div class="book-grid">
+        <div *ngIf="isLoading" class="loading">Đang tải...</div>
+        <a *ngFor="let book of displayedBooks" [routerLink]="['/book-detail', book.id]">
+            <app-book-item [book]="book"></app-book-item>
+        </a>
+    </div>
+
+    <!-- Nút Xem Thêm -->
+    <div class="load-more" *ngIf="canLoadMore">
+        <a (click)="loadMore()">Xem Thêm</a>
+    </div>
+</div>
