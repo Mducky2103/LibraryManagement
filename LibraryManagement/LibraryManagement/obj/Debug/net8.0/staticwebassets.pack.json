@@ -1,39 +1,63 @@
 {
   "Files": [
     {
-      "Id": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\4ce3eb96-9150-4f7b-8dab-d044fa9c7868.jpg",
+      "Id": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\46685a8d8f209a63cf099c7a40fb68ac.jpg.webp",
+      "PackagePath": "staticwebassets\\images\\46685a8d8f209a63cf099c7a40fb68ac.jpg.webp"
+    },
+    {
+      "Id": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\4ce3eb96-9150-4f7b-8dab-d044fa9c7868.jpg",
       "PackagePath": "staticwebassets\\images\\4ce3eb96-9150-4f7b-8dab-d044fa9c7868.jpg"
     },
     {
-      "Id": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\Screenshot 2024-07-27 145556.png",
+      "Id": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\76a1d29326661fdadcd7fc8046abbbdc.jpg.webp",
+      "PackagePath": "staticwebassets\\images\\76a1d29326661fdadcd7fc8046abbbdc.jpg.webp"
+    },
+    {
+      "Id": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\7fa530e5e0ffd8bb57b3a044d8c6994b.jpg.webp",
+      "PackagePath": "staticwebassets\\images\\7fa530e5e0ffd8bb57b3a044d8c6994b.jpg.webp"
+    },
+    {
+      "Id": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\Screenshot 2024-07-27 145556.png",
       "PackagePath": "staticwebassets\\images\\Screenshot 2024-07-27 145556.png"
     },
     {
-      "Id": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\album-anh-ve-ha-noi-01-0cbc70a3-b767-46e7-9904-d09ad5092662.webp",
+      "Id": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\acf56335822259ee1aec4b789913f6c2.jpg.webp",
+      "PackagePath": "staticwebassets\\images\\acf56335822259ee1aec4b789913f6c2.jpg.webp"
+    },
+    {
+      "Id": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\album-anh-ve-ha-noi-01-0cbc70a3-b767-46e7-9904-d09ad5092662.webp",
       "PackagePath": "staticwebassets\\images\\album-anh-ve-ha-noi-01-0cbc70a3-b767-46e7-9904-d09ad5092662.webp"
     },
     {
-      "Id": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\anh-dep-16.jpg",
+      "Id": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\anh-dep-16.jpg",
       "PackagePath": "staticwebassets\\images\\anh-dep-16.jpg"
     },
     {
-      "Id": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\bia-sach2-9886.jpg",
+      "Id": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\bia-sach2-9886.jpg",
       "PackagePath": "staticwebassets\\images\\bia-sach2-9886.jpg"
     },
     {
-      "Id": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\book2.jpg",
+      "Id": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\book2.jpg",
       "PackagePath": "staticwebassets\\images\\book2.jpg"
     },
     {
-      "Id": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\lich_su_sach_-_bia_1_ee2af9044fd549d89e0429aad039ddf0.jpg",
+      "Id": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\f027aa0f8b619769ca1b78dbc579bb77.jpg.webp",
+      "PackagePath": "staticwebassets\\images\\f027aa0f8b619769ca1b78dbc579bb77.jpg.webp"
+    },
+    {
+      "Id": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\lich_su_sach_-_bia_1_ee2af9044fd549d89e0429aad039ddf0.jpg",
       "PackagePath": "staticwebassets\\images\\lich_su_sach_-_bia_1_ee2af9044fd549d89e0429aad039ddf0.jpg"
     },
     {
-      "Id": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\mau-bia-sach-dep.jpg",
+      "Id": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\mau-bia-sach-dep.jpg",
       "PackagePath": "staticwebassets\\images\\mau-bia-sach-dep.jpg"
     },
     {
-      "Id": "D:\\Campuslink .NET\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\trang-tri-bia-sach-5.jpg",
+      "Id": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\nxbtre_full_09462021_024609.jpg",
+      "PackagePath": "staticwebassets\\images\\nxbtre_full_09462021_024609.jpg"
+    },
+    {
+      "Id": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\trang-tri-bia-sach-5.jpg",
       "PackagePath": "staticwebassets\\images\\trang-tri-bia-sach-5.jpg"
     },
     {

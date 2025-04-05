@@ -14,15 +14,37 @@
 
         <!-- Phần mượn sách -->
         <div class="borrow-section" *ngIf="book.isAvailable">
-            <label>Số lượng mượn:</label>
-            <div class="quantity-control">
-                <!-- <button (click)="decreaseQuantity()" [disabled]="borrowQuantity <= 1">-</button>
+            <!-- <label>Số lượng mượn:</label> -->
+            <!-- <div class="quantity-control"> -->
+            <!-- <button (click)="decreaseQuantity()" [disabled]="borrowQuantity <= 1">-</button>
                 <input type="number" [(ngModel)]="borrowQuantity" min="1" [max]="book.quantity" readonly>
                 <button (click)="increaseQuantity()" [disabled]="borrowQuantity >= book.quantity">+</button> -->
-            </div>
-            <button class="borrow-btn">Mượn sách</button>
+            <!-- </div> -->
+            <button class="borrow-btn" (click)="onBorrow()">Borrow</button>
         </div>
 
+        <!-- Modal xác nhận -->
+        <div class="modal" *ngIf="showConfirmModal">
+            <div class="modal-content">
+                <h2>Xác nhận mượn sách</h2>
+                <p>Bạn có chắc chắn muốn mượn sách "{{ book.name }}" không?</p>
+                <div class="modal-actions">
+                    <button class="confirm-btn" (click)="confirmBorrow()">Xác nhận</button>
+                    <button class="cancel-btn" (click)="cancelBorrow()">Hủy</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal thành công -->
+        <div class="modal" *ngIf="showSuccessModal">
+            <div class="modal-content">
+                <h2>Thành công</h2>
+                <p>Yêu cầu mượn sách "{{ book.name }}" đã được gửi thành công!</p>
+                <div class="modal-actions">
+                    <button class="close-btn" (click)="closeSuccessModal()">Đóng</button>
+                </div>
+            </div>
+        </div>
         <a [routerLink]="['/homepage']" class="back-link">Quay lại</a>
     </div>
 </div>

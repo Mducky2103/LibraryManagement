@@ -1,0 +1,29 @@
+<div class="container mt-5">
+  <div class="row">
+    <!-- Lặp qua từng sách để hiển thị card -->
+    @for (item of books | paginate: { itemsPerPage: 6, currentPage: p }; track $index) {
+      <div class="col-md-3 mb-3">
+        <div class="card" style="border: 1px solid #ddd; border-radius: 10px;">
+          <img class="card-img-top" src="https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?
+          w=360" alt="Book Image" style="height: 200px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title">{{ item.name }}</h5>
+            <p class="card-text"><strong>Price:</strong> {{ item.price }}</p>
+            <p class="card-text"><strong>Quantity:</strong> {{ item.quantity }}</p>
+
+            @if (item.isAvailable) {
+              <p class="status status-available">Available</p>
+            } @else {
+              <p class="status status-not-available">Not Available</p>
+            }
+
+            <button class="btn btn-primary" (click)="onRoutingPage(item.id)">Borrow</button>
+          </div>
+        </div>
+      </div>
+    }
+  </div>
+
+  <!-- Phân trang -->
+  <pagination-controls (pageChange)="p = $event"></pagination-controls>
+</div>

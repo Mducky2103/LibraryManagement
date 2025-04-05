@@ -109,7 +109,7 @@ namespace LibraryManagement.Services
         }
 
         //Lịch sử mượn sách của một user
-        public async Task<IEnumerable<BorrowReceiptDetail>> GetBorrowHistoryAsync(string userId)
+        public async Task<IEnumerable<object>> GetBorrowHistoryAsync(string userId)
         {
             // Lấy danh sách tất cả sách đã mượn của user từ BorrowReceiptDetail
             var borrowedBooks = await _borrowRepository.GetBorrowedBooksByUserAsync(userId);
@@ -121,6 +121,7 @@ namespace LibraryManagement.Services
             }
             return borrowedBooks;
         }
+
         // Thành viên trả sách
         public async Task<bool> ReturnBookAsync(int receiptDetailId)
         {
@@ -128,6 +129,9 @@ namespace LibraryManagement.Services
             var receiptDetail = receiptDetails.FirstOrDefault(rd => rd.Id == receiptDetailId);
             if (receiptDetail == null || receiptDetail.Status != BorrowStatus.Approved)
                 return false;
+            receiptDetail.ReturnedDate = DateTime.Now;
+            receiptDetail.Notes = "Book has been returned!";
+            await _borrowRepository.UpdateBorrowStatusAsync(receiptDetailId, BorrowStatus.Returned);
             return true;
         }
 
@@ -175,7 +179,7 @@ namespace LibraryManagement.Services
         }
         // Lấy danh sách tất cả sách yêu cầu mượn, đang mượn, đã trả, quá hạn
         // của user từ BorrowReceiptDetail
-        public async Task<IEnumerable<BorrowReceiptDetail>> GetAllBorrowBookHistoryAsync(string userId)
+        public async Task<IEnumerable<object>> GetAllBorrowBookHistoryAsync(string userId)
         {
             var borrowedBooks = await _borrowRepository.GetLoanHistoryAsync(userId);
 
@@ -223,7 +227,7 @@ namespace LibraryManagement.Services
             }
 
             receiptDetail.Notes = notes;
-            await _borrowRepository.UpdateBorrowStatusAsync(receiptDetailId, receiptDetail.Status);
+            await _borrowRepository.UpdateBorrowStatusAsync2(receiptDetailId, receiptDetail.Status);
 
             return true;
         }

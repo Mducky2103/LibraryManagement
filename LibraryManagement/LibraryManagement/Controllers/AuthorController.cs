@@ -17,7 +17,7 @@ namespace LibraryManagement.Controllers
             _authorService = authorService;
         }
 
-        [AllowAnonymous]
+        [Authorize]
         [HttpGet("get-all-authors")]
         public async Task<IActionResult> GetAllAuthor()
         {
@@ -26,6 +26,7 @@ namespace LibraryManagement.Controllers
             return Ok(authors);
         }
 
+        [Authorize]
         [HttpGet("get-author-by-id/{id}")]
         public async Task<IActionResult> GetAuhtorById(int id)
         {
@@ -39,7 +40,7 @@ namespace LibraryManagement.Controllers
             return Ok(author);
         }
 
-        [AllowAnonymous]
+        [Authorize(Roles = "Admin, Librarian")]
         [HttpPost("add-author")]
         public async Task<IActionResult> AddAuthor([FromBody] AuthorVm authorVm)
         {
@@ -48,6 +49,7 @@ namespace LibraryManagement.Controllers
             return Ok();
         }
 
+        [Authorize(Roles = "Admin, Librarian")]
         [HttpPut("update-author/{id}")]
         public async Task<IActionResult> UpdateAuthor(int id, [FromBody] AuthorVm authorVm)
         {
@@ -63,7 +65,7 @@ namespace LibraryManagement.Controllers
             }
         }
 
-        [AllowAnonymous]
+        [Authorize(Roles = "Admin, Librarian")]
         [HttpDelete("delete-author/{id}")]
         public async Task<IActionResult> DeleteAuthor(int id)
         {

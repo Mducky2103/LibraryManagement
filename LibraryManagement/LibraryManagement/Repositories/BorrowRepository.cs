@@ -110,6 +110,19 @@ namespace LibraryManagement.Repositories
                 await _context.SaveChangesAsync();
             }
         }
+        //Cập nhật trạng thái mượn sách (Pending ->
+        public async Task UpdateBorrowStatusAsync2(int detailId, BorrowStatus status)
+        {
+            var borrowDetail = await _context.BorrowReceiptDetails.FindAsync(detailId);
+            var book = await _context.Books.FindAsync(borrowDetail.BookId);
+            if (borrowDetail != null)
+            {
+                borrowDetail.Status = status;
+                // Ko thay đổi số lượng sách trong kho do gia hạn sách
+
+                await _context.SaveChangesAsync();
+            }
+        }
 
         // Kiểm tra xem sách có đủ số lượng để mượn không
         public async Task<bool> IsBookAvailableAsync(int bookId, int requestedQuantity)
@@ -133,18 +146,40 @@ namespace LibraryManagement.Repositories
         }
 
         // Lấy danh sách sách mà một user đang mượn
-        public async Task<IEnumerable<BorrowReceiptDetail>> GetBorrowedBooksByUserAsync(string userId)
+        public async Task<IEnumerable<object>> GetBorrowedBooksByUserAsync(string userId)
         {
             return await _context.BorrowReceiptDetails
+                .Include(r => r.Books)
                 .Where(r => r.BorrowReceipt.UserId == userId && r.Status == BorrowStatus.Approved)
+                .Select(r => new
+                {
+                    r.Id,
+                    BookName = r.Books.Name,
+                    r.BorrowedDate,
+                    r.DueDate,
+                    r.ReturnedDate,
+                    r.Status,
+                    r.Notes
+                })
                 .ToListAsync();
         }
 
         // Lấy lịch sử mượn sách của một user
-        public async Task<IEnumerable<BorrowReceiptDetail>> GetLoanHistoryAsync(string userId)
+        public async Task<IEnumerable<object>> GetLoanHistoryAsync(string userId)
         {
             return await _context.BorrowReceiptDetails
+                .Include(r => r.Books)
                 .Where(r => r.BorrowReceipt.UserId == userId)
+                .Select(r => new
+                {
+                    r.Id,
+                    BookName = r.Books.Name, 
+                    r.BorrowedDate,
+                    r.DueDate,
+                    r.ReturnedDate,
+                    r.Status,
+                    r.Notes
+                })
                 .ToListAsync();
         }
 

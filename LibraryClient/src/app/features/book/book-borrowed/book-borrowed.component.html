@@ -1,0 +1,69 @@
+<!-- 🔍 Ô tìm kiếm -->
+<div class="search-bar mb-3">
+  <input type="text" [(ngModel)]="searchKeyword" (ngModelChange)="onSearchChange()"
+    placeholder="Search by book name/id..." class="form-control" />
+</div>
+
+@if (filteredBooks && filteredBooks.length > 0) {
+<div class="card">
+  <div class="card-header">
+    <h3 style="color : green">List book borrowed history</h3>
+  </div>
+  <div class="card-body">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Book name</th>
+          <th>Borrowed Date</th>
+          <th>Due Date</th>
+          <th>Return Date</th>
+          <th>Status</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        @for (book of filteredBooks; track $index) {
+        <tr>
+          <td>{{ book.id }}</td>
+          <td>{{ book.bookName }}</td>
+          <td>{{ book.borrowedDate | date: 'dd/MM/yyyy' }}</td>
+          <td>{{ book.dueDate | date: 'dd/MM/yyyy' }}</td>
+          <td>{{ book.returnedDate ? (book.returnedDate | date: 'dd/MM/yyyy') : '' }}</td>
+          <td [ngClass]="{
+              'status-pending': book.status === 0,
+              'status-approved': book.status === 1,
+              'status-returned': book.status === 2,
+              'status-overdue': book.status === 3,
+              'status-canceled': book.status === 4,
+              'status-unknown': book.status !== 0 && book.status !== 1 && book.status !== 2 && book.status !== 3 && book.status !== 4
+            }">
+            {{
+            book.status === 0 ? 'Pending' :
+            book.status === 1 ? 'Approved' :
+            book.status === 2 ? 'Returned' :
+            book.status === 3 ? 'Overdue' :
+            book.status === 4 ? 'Canceled' : 'Unknown'
+            }}
+          </td>
+          <td>{{ book.notes || 'Empty' }}</td>
+        </tr>
+        }
+      </tbody>
+    </table>
+  </div>
+</div>
+<div class="pagination">
+  <button (click)="onPageChange(currentPage - 1)" [disabled]="currentPage === 1"
+    style="background-color: none;border:none">Previous</button>
+  <span> ({{filteredBooks.length}} item) Page {{ currentPage }} of {{ totalPages }}</span>
+  <button (click)="onPageChange(currentPage + 1)" [disabled]="currentPage === totalPages"
+    style="background-color: none;border:none">Next</button>
+</div>
+}
+
+@if (filteredBooks.length === 0) {
+<div class="no-books-message">
+  <p>No data to display.</p>
+</div>
+}

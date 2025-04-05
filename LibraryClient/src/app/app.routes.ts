@@ -17,7 +17,9 @@ import { BookListComponent } from './features/book/book-list/book-list.component
 import { BookFormComponent } from './features/book/book-form/book-form.component';
 import { BookDetailComponent } from './user-hompage/book-detail/book-detail.component';
 import { UserBookListComponent } from './user-hompage/user-book-list/user-book-list.component';
-
+import { ProfileComponent } from './user/profile/profile.component';
+import { BookBorrowedComponent } from './features/book/book-borrowed/book-borrowed.component';
+import { BookBrowingComponent } from './features/book/book-browing/book-browing.component';
 export const routes: Routes = [
     { path: '', redirectTo: 'signin', pathMatch: 'full' },
     {
@@ -34,6 +36,10 @@ export const routes: Routes = [
         children: [
             {
                 path: 'dashboard', component: DashboardComponent,
+                canActivate: [authGuard]
+            },
+            {
+                path: 'profile', component: ProfileComponent,
                 canActivate: [authGuard]
             },
             {
@@ -58,36 +64,46 @@ export const routes: Routes = [
                 path: 'forbidden', component: ForbiddenComponent,
                 canActivate: [authGuard]
             },
-            // {
-            //     path: 'homepage',
-            //     component: UserBookListComponent
-            // },
-            // {
-            //     path: 'book-detail/:id',
-            //     component: BookDetailComponent
-            // }
-
+            {
+                path: 'book',
+                component: BookListComponent,
+                data: { claimReq: claimReq.adminOrLibrarian },
+                canActivate: [authGuard]
+            },
+            {
+                path: 'add-book',
+                component: BookFormComponent,
+                data: { claimReq: claimReq.adminOrLibrarian },
+                canActivate: [authGuard]
+            },
+            {
+                path: 'edit-book/:id',
+                component: BookFormComponent,
+                data: { claimReq: claimReq.adminOrLibrarian },
+                canActivate: [authGuard]
+            },
+            {
+                path: 'homepage',
+                component: UserBookListComponent,
+                data: { claimReq: claimReq.memberaccess },
+                canActivate: [authGuard]
+            },
+            {
+                path: 'book-detail/:id',
+                component: BookDetailComponent,
+                data: { claimReq: claimReq.memberaccess },
+                canActivate: [authGuard]
+            },
+            {
+                path: 'borrow-history', //Xem lịch sử mượn sách (tất cả sách đã mượn, đã trả, đang chờ yêu cầu mượn, quá hạn)
+                component: BookBorrowedComponent,
+                canActivate: [authGuard]
+            },
+            {
+                path: 'borrowing-books', //lịch sử mượn sách (sách đang mượn)
+                component: BookBrowingComponent,
+                canActivate: [authGuard]
+            }
         ]
     },
-    {
-        path: 'book',
-        component: BookListComponent
-    },
-    {
-        path: 'add-book',
-        component: BookFormComponent
-    },
-    {
-        path: 'edit-book/:id',
-        component: BookFormComponent
-    },
-    {
-        path: 'homepage',
-        component: UserBookListComponent
-    },
-    {
-        path: 'book-detail/:id',
-        component: BookDetailComponent
-    }
-
 ];

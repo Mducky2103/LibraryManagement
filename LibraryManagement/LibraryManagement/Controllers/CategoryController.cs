@@ -17,7 +17,7 @@ namespace LibraryManagement.Controllers
             _categoryService = categoryService;
         }
 
-        [AllowAnonymous]
+        [Authorize]
         [HttpGet("get-all-categories")]
         public async Task<IActionResult> GetAllCategory()
         {
@@ -26,6 +26,7 @@ namespace LibraryManagement.Controllers
             return Ok(categories);
         }
 
+        [Authorize]
         [HttpGet("get-category-by-id/{id}")]
         public async Task<IActionResult> GetCategoryById(int id)
         {
@@ -39,7 +40,7 @@ namespace LibraryManagement.Controllers
             return Ok(category);
         }
 
-        [AllowAnonymous]
+        [Authorize]
         [HttpGet("get-category-with-books/{id}")]
         public async Task<IActionResult> GetCategoryWithBooks(int id)
         {
@@ -51,7 +52,7 @@ namespace LibraryManagement.Controllers
             return Ok(categoryWithBooks);
         }
 
-        [AllowAnonymous]
+        [Authorize(Roles = "Admin, Librarian")]
         [HttpPost("add-category")]
         public async Task<IActionResult> AddCategory([FromBody] CategoryVm categoryVm)
         {
@@ -60,6 +61,7 @@ namespace LibraryManagement.Controllers
             return Ok();
         }
 
+        [Authorize(Roles = "Admin, Librarian")]
         [HttpPut("update-category/{id}")]
         public async Task<IActionResult> UpdateCategory(int id, [FromBody] CategoryVm categoryVm)
         {
@@ -75,7 +77,7 @@ namespace LibraryManagement.Controllers
             }
         }
 
-        [AllowAnonymous]
+        [Authorize(Roles = "Admin, Librarian")]
         [HttpDelete("delete-category/{id}")]
         public async Task<IActionResult> DeleteCategory(int id)
         {

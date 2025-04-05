@@ -8,11 +8,12 @@ namespace LibraryManagement.Repositories.Interface
         Task<object> GetReceiptByIdAsync(int id);
         Task<IEnumerable<BorrowReceiptDetail>> GetReceiptDetailsByReceiptIdAsync(int receiptId);
         Task<IEnumerable<BorrowReceiptDetail>> GetReceiptDetailsByReceiptId2Async(int receiptId);
-        Task<IEnumerable<BorrowReceiptDetail>> GetBorrowedBooksByUserAsync(string userId);
+        Task<IEnumerable<object>> GetBorrowedBooksByUserAsync(string userId);
         Task AddBorrowRequestAsync(BorrowReceipt borrowReceipt);
         Task UpdateBorrowStatusAsync(int detailId, BorrowStatus status);
+        Task UpdateBorrowStatusAsync2(int detailId, BorrowStatus status);
         Task<bool> IsBookAvailableAsync(int bookId, int requestedQuantity);
-        Task<IEnumerable<BorrowReceiptDetail>> GetLoanHistoryAsync(string userId);
+        Task<IEnumerable<object>> GetLoanHistoryAsync(string userId);
         Task<int> GetTotalBooksBorrowedByUserAsync(string userId);
         Task UpdateOverdueBooksAsync();
         Task<IEnumerable<BorrowReceiptDetail>> GetOverdueBooksAsync();

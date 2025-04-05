@@ -18,7 +18,7 @@ namespace LibraryManagement.Controllers
             _bookService = bookService;
         }
 
-        [AllowAnonymous]
+        [Authorize]
         [HttpGet("get-all-books")]
         public async Task<IActionResult> GetAllBook()
         {
@@ -35,7 +35,7 @@ namespace LibraryManagement.Controllers
             return Ok(books);
         }
 
-        [AllowAnonymous]
+        [Authorize]
         [HttpGet("get-book-by-id/{id}")]
         public async Task<IActionResult> GetBookById(int id)
         {
@@ -54,7 +54,7 @@ namespace LibraryManagement.Controllers
             return Ok(book);
         }
 
-        [AllowAnonymous]
+        [Authorize(Roles = "Admin, Librarian")]
         [HttpPost("add-book")]
         public async Task<IActionResult> AddBook([FromForm] BookAddVm bookVm, IFormFile picture)
         {
@@ -79,7 +79,7 @@ namespace LibraryManagement.Controllers
             return Ok();
         }
 
-        [AllowAnonymous]
+        [Authorize(Roles = "Admin, Librarian")]
         [HttpPut("update-book/{id}")]
         public async Task<IActionResult> UpdateBook(int id, [FromForm] BookAddVm bookVm, IFormFile picture)
         {
@@ -95,7 +95,7 @@ namespace LibraryManagement.Controllers
             }
         }
 
-        [AllowAnonymous]
+        [Authorize(Roles = "Admin, Librarian")]
         [HttpDelete("delete-book/{id}")]
         public async Task<IActionResult> DeleteBook(int id)
         {
@@ -120,7 +120,7 @@ namespace LibraryManagement.Controllers
             return File(imageBytes, "image/jpeg");
         }
 
-        [AllowAnonymous]
+        [Authorize]
         [HttpGet("search")]
         public async Task<ActionResult<IEnumerable<BookVm>>> SearchBooks(string searchTerm)
         {
@@ -128,7 +128,7 @@ namespace LibraryManagement.Controllers
             return Ok(books);
         }
 
-        [AllowAnonymous]
+        [Authorize]
         [HttpGet("by-category/{categoryId}")]
         public async Task<ActionResult<IEnumerable<BookVm>>> GetBooksByCategory(int categoryId)
         {
@@ -136,7 +136,7 @@ namespace LibraryManagement.Controllers
             return Ok(books);
         }
 
-        [AllowAnonymous]
+        [Authorize]
         [HttpGet("by-author/{authorId}")]
         public async Task<ActionResult<IEnumerable<BookVm>>> GetBooksByAuthor(int authorId)
         {

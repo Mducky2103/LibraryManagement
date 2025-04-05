@@ -1,0 +1,54 @@
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.label-custom {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.form-control[readonly] {
+  background-color: #f2f2f2;
+  cursor: not-allowed;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.col-md-4 {
+  flex: 1 1 30%;
+  min-width: 250px;
+}
+.button-container {
+  display: flex;
+  justify-content: flex-end; /* Căn các nút về phía bên phải */
+  gap: 10px; /* Khoảng cách giữa các nút */
+  margin-top: 10px; /* Khoảng cách phía trên */
+}
+
+.btn-sm {
+  font-size: 15px; /* Làm cho chữ nhỏ hơn */
+  padding: 5px 10px; /* Giảm kích thước padding */
+}

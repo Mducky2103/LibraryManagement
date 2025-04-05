@@ -1,0 +1,51 @@
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.status-available {
+  color: green;
+  font-weight: bold;
+}
+
+.status-not-available {
+  color: red;
+  font-weight: bold;
+}
+
+.btn {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  padding: 8px 12px;
+}
+
+.mb-4 {
+  margin-bottom: 16px;
+}
+.card-img-top {
+  height: 200px;  /* Đặt chiều cao cố định cho ảnh */
+  object-fit: cover;  /* Đảm bảo ảnh luôn đầy thẻ mà không bị méo */
+  border-top-left-radius: 10px; /* Bo góc trên cùng của ảnh */
+  border-top-right-radius: 10px; /* Bo góc trên cùng của ảnh */
+}

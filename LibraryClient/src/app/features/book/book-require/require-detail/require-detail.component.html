@@ -1,0 +1,38 @@
+<h2 style="color:red">Book information</h2>
+<div class="card">
+  <div class="card-body">
+    <div class="row">
+      <div class="col-md-4">
+        <label class="label-custom">Name</label>
+        <input class="form-control" [value]="book.name" readonly />
+      </div>
+      <div class="col-md-2">
+        <label class="label-custom">Price</label>
+        <input class="form-control" [value]="book.price" readonly />
+      </div>
+      <div class="col-md-2">
+        <label class="label-custom">Quantity</label>
+        <input class="form-control" [value]="book.quantity" readonly />
+      </div>
+
+      <div class="col-md-4">
+        <label class="label-custom">Year Published</label>
+        <input class="form-control" [value]="book.yearPublished" readonly />
+      </div>
+      <div class="col-md-5">
+        <label class="label-custom">Description</label>
+        <textarea id="description" readonly [value]="book.description" class="form-control"></textarea>
+      </div>
+      <div class="col-md-6">
+        <label class="label-custom">Image</label>
+        <img src="https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg?w=360" class="img-fluid" alt="Book Image" />
+
+      </div>
+    </div>
+  </div>
+  <!-- Thêm class "button-container" để căn chỉnh các nút -->
+  <div class="button-container">
+    <button class="btn btn-primary btn-sm" (click)="onBorrow()">Borrow</button>
+    <button class="btn btn-danger btn-sm">Cancel</button>
+  </div>
+</div>

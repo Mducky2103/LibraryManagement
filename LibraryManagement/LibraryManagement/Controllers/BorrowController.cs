@@ -19,6 +19,7 @@ namespace LibraryManagement.Controllers
         }
         //Xem tất cả phiếu mượn
         [HttpGet("view-all-receipts")]
+        [Authorize]
         public async Task<IActionResult> GetAllReceipts()
         {
             var receipts = await _borrowService.GetAllReceiptsAsync();
@@ -31,6 +32,7 @@ namespace LibraryManagement.Controllers
 
         //xem thông tin một phiếu mượn theo ID
         [HttpGet("view-all-receipt-by-id/{id}")]
+        [Authorize(Roles = "Admin, Librarian")]
         public async Task<IActionResult> ViewReceiptById(int id)
         {
             var receipt = await _borrowService.GetReceiptByIdAsync(id);
@@ -43,6 +45,7 @@ namespace LibraryManagement.Controllers
 
         //Xem danh sách sách quá hạn
         [HttpGet("overdue-books")]
+        [Authorize]
         public async Task<IActionResult> GetOverdueBooks()
         {
             var overdueBooks = await _borrowService.GetOverdueBooksAsync();
@@ -55,6 +58,7 @@ namespace LibraryManagement.Controllers
 
         //Xem danh sách sách quá hạn của một thành viên
         [HttpGet("overdue-books/{userId}")]
+        [Authorize]
         public async Task<IActionResult> GetOverdueBooksByUser(string userId)
         {
             var overdueBooks = await _borrowService.GetOverdueBooksByUserAsync(userId);
@@ -67,6 +71,7 @@ namespace LibraryManagement.Controllers
 
         // Xem danh sách phiếu mượn 
         [HttpGet("borrowed-books/{userId}")]
+        [Authorize]
         public async Task<IActionResult> GetBorrowedBooks(string userId)
         {
             var borrowedBooks = await _borrowService.GetBorrowHistoryAsync(userId);
@@ -79,6 +84,7 @@ namespace LibraryManagement.Controllers
 
         //Xem lịch sử mượn sách (tất cả sách đã mượn, đã trả, đang chờ yêu cầu mượn, quá hạn)
         [HttpGet("borrow-history/{userId}")]
+        [Authorize]
         public async Task<IActionResult> GetBorrowHistory(string userId)
         {
             var borrowHistory = await _borrowService.GetAllBorrowBookHistoryAsync(userId);
@@ -91,6 +97,7 @@ namespace LibraryManagement.Controllers
 
         // Lấy thông tin chi tiết của một phiếu mượn theo ID
         [HttpGet("Get-detail-borrow-by-id{id}")]
+        [Authorize]
         public async Task<IActionResult> GetReceiptById(int id)
         {
             var receipt = await _borrowService.GetReceiptDetailsByReceiptIdAsync(id);
@@ -102,6 +109,7 @@ namespace LibraryManagement.Controllers
 
         // Thành viên gửi yêu cầu mượn sách
         [HttpPost("request-borrow-book")]
+        [Authorize]
         public async Task<IActionResult> RequestBorrow([FromBody] BorrowRequestModel request)
         {
             if (request == null || !request.BookIds.Any())
@@ -113,6 +121,7 @@ namespace LibraryManagement.Controllers
 
         // Thủ thư phê duyệt yêu cầu mượn sách
         [HttpPut("approve-borrow-book/{detailId}")]
+        [Authorize(Roles = "Admin, Librarian")]
         public async Task<IActionResult> ApproveBorrowRequest(int detailId)
         {
             bool isApproved = await _borrowService.ApproveBorrowRequestAsync(detailId);
@@ -124,6 +133,7 @@ namespace LibraryManagement.Controllers
 
         // Thủ thư từ chối yêu cầu mượn sách (Chuyển trạng thái thành Canceled)
         [HttpPut("cancel/{detailId}")]
+        [Authorize(Roles = "Admin, Librarian")]
         public async Task<IActionResult> CancelBorrowRequest(int detailId, string notes)
         {
             bool isCanceled = await _borrowService.CancelBorrowRequestAsync(detailId, notes);
@@ -135,6 +145,7 @@ namespace LibraryManagement.Controllers
 
         // Thành viên trả sách
         [HttpPut("return-book/{detailId}")]
+        [Authorize(Roles = "Member")]
         public async Task<IActionResult> ReturnBook(int detailId)
         {
             bool isReturned = await _borrowService.ReturnBookAsync(detailId);
@@ -146,6 +157,7 @@ namespace LibraryManagement.Controllers
 
         // Thành viên trả sách và áp dụng phạt
         [HttpPut("return-book-and-apply-penalty/{detailId}")]
+        [Authorize(Roles = "Member")]
         public async Task<IActionResult> ReturnBookAndApplyPenalty(int detailId)
         {
             bool isReturned = await _borrowService.ReturnBookAndApplyPenaltyAsync(detailId);
@@ -156,6 +168,7 @@ namespace LibraryManagement.Controllers
 
         //Gia hạn thời gian trả sách
         [HttpPost("request-extend-due-date/{detailId}")]
+        [Authorize(Roles = "Member")]
         public async Task<IActionResult> RequestExtendDueDate(int detailId, string notes)
         {
             var result = await _borrowService.RequestExtendDueDateAsync(detailId, notes);
@@ -164,6 +177,7 @@ namespace LibraryManagement.Controllers
 
         // Thủ thư phê duyệt yêu cầu gia hạn thời gian trả sách
         [HttpPut("approve-extend-due-date/{detailId}")]
+        [Authorize(Roles = "Admin, Librarian")]
         public async Task<IActionResult> ApproveExtendDueDateRequest(int detailId, bool isApproved, string notes)
         {
             bool result = await _borrowService.ProcessExtendDueDateRequestAsync(detailId, isApproved, notes);

@@ -10,7 +10,7 @@ import * as alertifyjs from 'alertifyjs';
 
 @Component({
   selector: 'app-book-list',
-  imports: [CommonModule, NavbarLibrarianComponent, FooterLibrarianComponent, RouterLink, FormsModule],
+  imports: [CommonModule, FooterLibrarianComponent, RouterLink, FormsModule],
   templateUrl: './book-list.component.html',
   styleUrl: './book-list.component.css'
 })

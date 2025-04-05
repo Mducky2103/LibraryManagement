@@ -11,7 +11,7 @@ import { AuthorService } from '../../author/services/author.service';
 
 @Component({
   selector: 'app-book-form',
-  imports: [NavbarLibrarianComponent, FooterLibrarianComponent, ReactiveFormsModule, CommonModule, RouterLink],
+  imports: [FooterLibrarianComponent, ReactiveFormsModule, CommonModule, RouterLink],
   templateUrl: './book-form.component.html',
   styleUrl: './book-form.component.css'
 })

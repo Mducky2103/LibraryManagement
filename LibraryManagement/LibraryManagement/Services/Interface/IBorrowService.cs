@@ -12,8 +12,8 @@ namespace LibraryManagement.Services.Interface
         Task<bool> CancelBorrowRequestAsync(int receiptDetailId, string notes);
         Task<string> RequestExtendDueDateAsync(int receiptDetailId, string notes);
         Task<bool> ProcessExtendDueDateRequestAsync(int receiptDetailId, bool isApproved, string notes);
-        Task<IEnumerable<BorrowReceiptDetail>> GetBorrowHistoryAsync(string userId);
-        Task<IEnumerable<BorrowReceiptDetail>> GetAllBorrowBookHistoryAsync(string userId);
+        Task<IEnumerable<object>> GetBorrowHistoryAsync(string userId);
+        Task<IEnumerable<object>> GetAllBorrowBookHistoryAsync(string userId);
         Task<bool> ReturnBookAsync(int receiptDetailId);
         Task<bool> ReturnBookAndApplyPenaltyAsync(int receiptDetailId);
         Task<IEnumerable<BorrowReceiptDetail>> GetOverdueBooksAsync();
