@@ -1,4 +1,4 @@
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { API_URL } from '../../../app.config';
@@ -26,4 +26,34 @@ export class BorrowService {
   dueDateborrow(id: any, note: any): Observable<any> {
     return this.http.post(`${API_URL}/Borrow/request-extend-due-date/${id}?notes=${note}`, id);
   }
+  getBorrowRequestList(): Observable<any> {
+    return this.http.get(`${API_URL}/Borrow/pending-borrow-requests`);
+  }
+  approveRequest(id: number): Observable<any> {
+    return this.http.put(`${API_URL}/Borrow/approve-borrow-book/${id}`, {});
+  }
+  rejectBorrowRequest(detailId: number, notes: string): Observable<any> {
+    const params = new HttpParams().set('notes', notes);
+    return this.http.put<any>(`${API_URL}/borrow/cancel/${detailId}`, null, { params });
+  }
+  getExtendRequestList(): Observable<any> {
+    return this.http.get(`${API_URL}/Borrow/extend-requests`);
+  }
+  approveExtendDueDate(detailId: number, isApproved: boolean, notes: string): Observable<any> {
+    const params = new HttpParams()
+      .set('isApproved', isApproved)
+      .set('notes', notes);
+
+    return this.http.put(`${API_URL}/borrow/approve-extend-due-date/${detailId}`, null, { params });
+  }
+  getOverdueList(): Observable<any> {
+    return this.http.get(`${API_URL}/Borrow/overdue-books-list`);
+  }
+  getOverdueBooksByUser(userId: string): Observable<any> {
+    return this.http.get(`${API_URL}/borrow/overdue-books/${userId}`);
+  }
+  returnOverdueBookWithPenalty(detailId: number): Observable<any> {
+    return this.http.put(`${API_URL}/borrow/return-book-and-apply-penalty/${detailId}`, {});
+  }
+
 }

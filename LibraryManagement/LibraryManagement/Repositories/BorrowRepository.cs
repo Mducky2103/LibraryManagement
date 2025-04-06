@@ -74,6 +74,85 @@ namespace LibraryManagement.Repositories
                 .ToListAsync();
         }
 
+        //Lấy danh sách sách quá hạn của user
+        public async Task<object> GetReceiptDetailsWithOverdueStatus(int receiptId)
+        {
+            return await _context.BorrowReceiptDetails
+                .Include(brd => brd.Books) 
+                .Include(brd => brd.BorrowReceipt)
+                .Where(brd => brd.Id == receiptId)
+                .Select(brd => new
+                {
+                    brd.Id,
+                    BookName = brd.Books.Name, 
+                    brd.BorrowedDate,
+                    brd.DueDate,
+                    brd.Notes
+                })
+                .ToListAsync();
+        }
+        // Lấy danh sách chi tiết mượn sách theo BorrowReceiptId (Có email của user) và trạng thái Pending
+        public async Task<object> GetAllPendingRequest()
+        {
+            return await _context.BorrowReceiptDetails
+                .Include(brd => brd.Books)
+                .Include(brd => brd.BorrowReceipt)
+                .ThenInclude(br => br.User)
+                .Where(brd => brd.Status == BorrowStatus.Pending && brd.BorrowedDate == null)
+                .Select(brd => new
+                {
+                    brd.Id,
+                    BookName = brd.Books.Name,
+                    UserEmail = brd.BorrowReceipt.User.Email,
+                    brd.BorrowedDate,
+                    brd.Status,
+                    brd.Notes
+                })
+                .ToListAsync();
+        }
+
+        //Lấy danh sách chờ duyệt gia hạn
+        public async Task<object> GetAllPendingRequest2()
+        {
+            return await _context.BorrowReceiptDetails
+                .Include(brd => brd.Books)
+                .Include(brd => brd.BorrowReceipt)
+                .ThenInclude(br => br.User)
+                .Where(brd => brd.Status == BorrowStatus.Pending && brd.BorrowedDate != null)
+                .Select(brd => new
+                {
+                    brd.Id,
+                    BookName = brd.Books.Name,
+                    UserEmail = brd.BorrowReceipt.User.Email,
+                    brd.BorrowedDate,
+                    brd.DueDate,
+                    brd.Status,
+                    brd.Notes
+                })
+                .ToListAsync();
+        }
+
+        //Lấy danh sách sách đã quá hạn trả
+        public async Task<object> GetAllOverdueBook()
+        {
+            return await _context.BorrowReceiptDetails
+                .Include(brd => brd.Books)
+                .Include(brd => brd.BorrowReceipt)
+                .ThenInclude(br => br.User)
+                .Where(brd => brd.Status == BorrowStatus.Overdue)
+                .Select(brd => new
+                {
+                    brd.Id,
+                    BookName = brd.Books.Name,
+                    UserEmail = brd.BorrowReceipt.User.Email,
+                    brd.BorrowedDate,
+                    brd.DueDate,
+                    brd.Status,
+                    brd.Notes
+                })
+                .ToListAsync();
+        }
+
         // Thêm một yêu cầu mượn sách mới
         public async Task AddBorrowRequestAsync(BorrowReceipt borrowReceipt)
         {
@@ -110,7 +189,7 @@ namespace LibraryManagement.Repositories
                 await _context.SaveChangesAsync();
             }
         }
-        //Cập nhật trạng thái mượn sách (Pending ->
+        //Cập nhật trạng thái mượn sách trong trạng thái quá hạn
         public async Task UpdateBorrowStatusAsync2(int detailId, BorrowStatus status)
         {
             var borrowDetail = await _context.BorrowReceiptDetails.FindAsync(detailId);
@@ -193,6 +272,7 @@ namespace LibraryManagement.Repositories
             foreach (var detail in overdueBooks)
             {
                 detail.Status = BorrowStatus.Overdue;
+                detail.Notes = "The book is due, go see the librarian immediately to return it.";
             }
 
             if (overdueBooks.Any())
@@ -201,19 +281,21 @@ namespace LibraryManagement.Repositories
             }
         }
 
-        // Lấy danh sách sách mượn quá hạn
-        public async Task<IEnumerable<BorrowReceiptDetail>> GetOverdueBooksAsync()
-        {
-            return await _context.BorrowReceiptDetails
-                .Where(d => d.Status == BorrowStatus.Overdue)
-                .ToListAsync();
-        }
-
         // Lấy danh sách sách mượn quá hạn của một user
-        public async Task<IEnumerable<BorrowReceiptDetail>> GetOverdueBooksByUserAsync(string userId)
+        public async Task<IEnumerable<object>> GetOverdueBooksByUserAsync(string userId)
         {
             return await _context.BorrowReceiptDetails
+                .Include(d => d.Books)
+                .Include(d => d.BorrowReceipt)
                 .Where(d => d.BorrowReceipt.UserId == userId && d.Status == BorrowStatus.Overdue)
+                .Select(brd => new
+                {
+                    brd.Id,
+                    BookName = brd.Books.Name,
+                    brd.BorrowedDate,
+                    brd.DueDate,
+                    brd.Notes
+                })
                 .ToListAsync();
         }
     }

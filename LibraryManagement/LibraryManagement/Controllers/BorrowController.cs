@@ -8,7 +8,6 @@ namespace LibraryManagement.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [AllowAnonymous]
     public class BorrowController : ControllerBase
     {
         private readonly IBorrowService _borrowService;
@@ -43,19 +42,44 @@ namespace LibraryManagement.Controllers
             return Ok(receipt);
         }
 
-        //Xem danh sách sách quá hạn
-        [HttpGet("overdue-books")]
-        [Authorize]
-        public async Task<IActionResult> GetOverdueBooks()
+        //Lấy danh sách yêu cầu mượn sách đang chờ phê duyệt
+        [HttpGet("pending-borrow-requests")]
+        [Authorize(Roles = "Admin, Librarian")]
+        public async Task<IActionResult> GetPendingBorrowRequests()
         {
-            var overdueBooks = await _borrowService.GetOverdueBooksAsync();
-            if (!overdueBooks.Any())
+            var pendingRequests = await _borrowService.GetPendingBorrowRequestsAsync();
+            if(pendingRequests == null)
+            {
+                return NotFound("Không tìm thấy yêu cầu mượn sách nào đang chờ phê duyệt.");
+            }
+            return Ok(pendingRequests);
+        }
+
+        //Lấy danh sách yêu cầu gia hạn thời gian trả sách đang chờ phê duyệt
+        [HttpGet("extend-requests")]
+        [Authorize(Roles = "Admin, Librarian")]
+        public async Task<IActionResult> GetExtendRequests()
+        {
+            var extendRequests = await _borrowService.GetExtendRequestsAsync();
+            if (extendRequests == null)
+            {
+                return NotFound("Không tìm thấy yêu cầu gia hạn nào đang chờ phê duyệt.");
+            }
+            return Ok(extendRequests);
+        }
+
+        //Lấy danh sách sách quá hạn
+        [HttpGet("overdue-books-list")]
+        [Authorize(Roles = "Admin, Librarian")]
+        public async Task<IActionResult> GetOverdueBooksList()
+        {
+            var overdueBooks = await _borrowService.GetOverdueBooksListAsync();
+            if (overdueBooks == null)
             {
                 return NotFound("Không tìm thấy sách quá hạn");
             }
             return Ok(overdueBooks);
         }
-
         //Xem danh sách sách quá hạn của một thành viên
         [HttpGet("overdue-books/{userId}")]
         [Authorize]

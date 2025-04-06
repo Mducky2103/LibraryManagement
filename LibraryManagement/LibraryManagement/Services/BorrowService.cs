@@ -67,7 +67,23 @@ namespace LibraryManagement.Services
             await _borrowRepository.AddBorrowRequestAsync(borrowReceipt);
             return "Yêu cầu mượn sách đã được gửi.";
         }
+        //Lấy danh sách những quyển sách đang trong trạng thái Pending (Chờ được mượn sách)
+        public async Task<object> GetPendingBorrowRequestsAsync()
+        {
+            return await _borrowRepository.GetAllPendingRequest();
+        }
 
+        //Lấy danh sách những quyển sách đang trong trạng thái Pending (Gia hạn sách) 
+        public async Task<object> GetExtendRequestsAsync()
+        {
+            return await _borrowRepository.GetAllPendingRequest2();
+        }
+
+        // Lấy danh sách những quyển sách đang trong trạng thái Overdue (Quá hạn)
+        public async Task<object> GetOverdueBooksListAsync()
+        {
+            return await _borrowRepository.GetAllOverdueBook();
+        }
         // Thủ thư phê duyệt yêu cầu mượn sách
         public async Task<bool> ApproveBorrowRequestAsync(int receiptDetailId)
         {
@@ -148,9 +164,7 @@ namespace LibraryManagement.Services
             receiptDetail.ReturnedDate = DateTime.Now;
 
             // Add dữ liệu vào bảng penalty
-            var daysLate = (receiptDetail.ReturnedDate.Value - receiptDetail.DueDate.Value).Days;
-
-            
+            var daysLate = (receiptDetail.ReturnedDate.Value - receiptDetail.DueDate.Value).Days;     
 
             var penalty = new Penalty
             {
@@ -174,7 +188,7 @@ namespace LibraryManagement.Services
         private decimal CalculatePenaltyAmount(BorrowReceiptDetail detail)
         {
             var overdueDays = (detail.ReturnedDate - detail.DueDate)?.Days ?? 0;
-            decimal ratePerDay = 10000m; //tiền phạt
+            decimal ratePerDay = 10m; //tiền phạt
             return overdueDays * ratePerDay;
         }
         // Lấy danh sách tất cả sách yêu cầu mượn, đang mượn, đã trả, quá hạn
@@ -232,14 +246,8 @@ namespace LibraryManagement.Services
             return true;
         }
 
-        //Lấy danh sách sách quá hạn
-        public async Task<IEnumerable<BorrowReceiptDetail>> GetOverdueBooksAsync()
-        {
-            return await _borrowRepository.GetOverdueBooksAsync();
-        }
-
         //Lấy danh sách sách quá hạn theo user id
-        public async Task<IEnumerable<BorrowReceiptDetail>> GetOverdueBooksByUserAsync(string userId)
+        public async Task<IEnumerable<object>> GetOverdueBooksByUserAsync(string userId)
         {
             return await _borrowRepository.GetOverdueBooksByUserAsync(userId);
         }

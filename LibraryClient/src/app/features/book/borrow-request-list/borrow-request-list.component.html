@@ -1,0 +1,53 @@
+<div class="container mt-4">
+    <h2>Borrow Request List (Waiting for approval)</h2>
+
+    <table class="table table-bordered mt-3">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Book Name</th>
+                <th>User Email</th>
+                <th>Notes</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let request of borrowRequests">
+                <td>{{ request.id }}</td>
+                <td>{{ request.bookName }}</td>
+                <td>{{ request.userEmail }}</td>
+                <td>{{ request.notes ? request.notes : 'Empty' }}</td>
+                <td>
+                    <button class="btn btn-success" (click)="approveRequest(request.id)">Approve</button>
+                    <button class="btn btn-danger" (click)="openRejectModal(request.id)">Reject</button>
+
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="pagination">
+    <button (click)="onPageChange(currentPage - 1)" [disabled]="currentPage === 1"
+        style="background-color: none;border:none">Previous</button>
+    <span> ({{borrowRequests.length}} item) Page {{ currentPage }} of {{ totalPages }}</span>
+    <button (click)="onPageChange(currentPage + 1)" [disabled]="currentPage === totalPages"
+        style="background-color: none;border:none">Next</button>
+</div>
+
+@if (borrowRequests.length === 0) {
+<div class="no-books-message">
+    <p>No data to display.</p>
+</div>
+}
+<div class="modal-backdrop" *ngIf="showRejectModal">
+    <div class="modal-content p-4 bg-white border rounded shadow">
+        <h5>Reject Borrow Request</h5>
+        <p>Provide a reason for rejection:</p>
+        <textarea [(ngModel)]="rejectionNotes" class="form-control mb-3" rows="3"
+            placeholder="Enter reason..."></textarea>
+        <div class="text-end">
+            <button class="btn btn-secondary me-2" (click)="closeRejectModal()">Cancel</button>
+            <button class="btn btn-danger" (click)="submitRejection()">Reject</button>
+        </div>
+    </div>
+</div>

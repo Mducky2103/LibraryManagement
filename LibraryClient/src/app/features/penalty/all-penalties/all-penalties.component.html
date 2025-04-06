@@ -1,0 +1,42 @@
+<div class="container mt-3">
+    <h3>Penalty List</h3>
+
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Username</th>
+                <th>Book Name</th>
+                <th>Brd ID</th>
+                <th>Amount</th>
+                <th>Reason</th>
+                <th>Issued Date</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let p of penalties">
+                <td>{{ p.id }}</td>
+                <td>{{ p.username }}</td>
+                <td>{{ p.bookName }}</td>
+                <td>{{ p.borrowReceiptDetailId }}</td>
+                <td>{{ p.amount | currency }}</td>
+                <td>{{ p.reason }}</td>
+                <td>{{ p.issuedDate | date: 'dd/MM/yyyy' }}</td>
+                <td>{{ p.status }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="pagination">
+    <button (click)="onPageChange(currentPage - 1)" [disabled]="currentPage === 1"
+        style="background-color: none;border:none">Previous</button>
+    <span> ({{penalties.length}} item) Page {{ currentPage }} of {{ totalPages }}</span>
+    <button (click)="onPageChange(currentPage + 1)" [disabled]="currentPage === totalPages"
+        style="background-color: none;border:none">Next</button>
+</div>
+@if (penalties.length === 0) {
+<div class="no-books-message">
+    <p>No data to display.</p>
+</div>
+}

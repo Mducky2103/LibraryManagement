@@ -6,17 +6,35 @@
         </a>
     </div>
     <ul class="nav flex-column w-100 px-3">
-        <li class="nav-item" [appHideIfClaimsNotMet]="claimReq.memberaccess">
+        <li class="nav-item" [appHideIfClaimsNotMet]="claimReq.memberaccess2">
             <a class="nav-link" routerLink="/homepage">HomePage</a>
         </li>
         <li class="nav-item" [appHideIfClaimsNotMet]="claimReq.adminOrLibrarian">
             <a class="nav-link" routerLink="/book">Book Management</a>
         </li>
-        <li class="nav-item" [appHideIfClaimsNotMet]="claimReq.memberaccess">
+        <li class="nav-item" [appHideIfClaimsNotMet]="claimReq.memberaccess2">
             <a class="nav-link" routerLink="/borrow-history">Borrowed History</a>
         </li>
-        <li class="nav-item" [appHideIfClaimsNotMet]="claimReq.memberaccess">
+        <li class="nav-item" [appHideIfClaimsNotMet]="claimReq.memberaccess2">
             <a class="nav-link" routerLink="/borrowing-books">List borrowing Book</a>
+        </li>
+        <li class="nav-item" [appHideIfClaimsNotMet]="claimReq.memberaccess2">
+            <a class="nav-link" routerLink="/overdue-user-list">User Overdue List</a>
+        </li>
+        <li class="nav-item" [appHideIfClaimsNotMet]="claimReq.adminOrLibrarian">
+            <a class="nav-link" routerLink="/borrow-request-list">Borrow Request</a>
+        </li>
+        <li class="nav-item" [appHideIfClaimsNotMet]="claimReq.adminOrLibrarian">
+            <a class="nav-link" routerLink="/extend-request-list">Extend Borrow Request</a>
+        </li>
+        <li class="nav-item" [appHideIfClaimsNotMet]="claimReq.adminOrLibrarian">
+            <a class="nav-link" routerLink="/overdue-list">Overdue List</a>
+        </li>
+        <li class="nav-item" [appHideIfClaimsNotMet]="claimReq.adminOrLibrarian">
+            <a class="nav-link" routerLink="/all-penalties">All Penalty List</a>
+        </li>
+        <li class="nav-item" [appHideIfClaimsNotMet]="claimReq.memberaccess2">
+            <a class="nav-link" routerLink="/user-penalties/:id">Your Penalty</a>
         </li>
     </ul>
 </nav>

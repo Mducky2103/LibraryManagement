@@ -64,8 +64,6 @@ export class MainLayoutComponent implements OnInit {
         }
         return false;
       });
-
-      console.log('Books due in 3 days or less:', this.borrowedBooks);
     });
   }
 }

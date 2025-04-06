@@ -14,10 +14,12 @@ namespace LibraryManagement.Services.Interface
         Task<bool> ProcessExtendDueDateRequestAsync(int receiptDetailId, bool isApproved, string notes);
         Task<IEnumerable<object>> GetBorrowHistoryAsync(string userId);
         Task<IEnumerable<object>> GetAllBorrowBookHistoryAsync(string userId);
+        Task<object> GetPendingBorrowRequestsAsync();
+        Task<object> GetExtendRequestsAsync();
+        Task<object> GetOverdueBooksListAsync();
         Task<bool> ReturnBookAsync(int receiptDetailId);
         Task<bool> ReturnBookAndApplyPenaltyAsync(int receiptDetailId);
-        Task<IEnumerable<BorrowReceiptDetail>> GetOverdueBooksAsync();
-        Task<IEnumerable<BorrowReceiptDetail>> GetOverdueBooksByUserAsync(string userId);
+        Task<IEnumerable<object>> GetOverdueBooksByUserAsync(string userId);
 
     }
 }

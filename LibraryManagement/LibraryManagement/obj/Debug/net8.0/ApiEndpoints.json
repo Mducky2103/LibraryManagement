@@ -484,6 +484,16 @@
   },
   {
     "ContainingType": "LibraryManagement.Controllers.BorrowController",
+    "Method": "GetExtendRequests",
+    "RelativePath": "api/Borrow/extend-requests",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagement.Controllers.BorrowController",
     "Method": "GetReceiptById",
     "RelativePath": "api/Borrow/Get-detail-borrow-by-id{id}",
     "HttpMethod": "GET",
@@ -500,8 +510,8 @@
   },
   {
     "ContainingType": "LibraryManagement.Controllers.BorrowController",
-    "Method": "GetOverdueBooks",
-    "RelativePath": "api/Borrow/overdue-books",
+    "Method": "GetOverdueBooksList",
+    "RelativePath": "api/Borrow/overdue-books-list",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -522,6 +532,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagement.Controllers.BorrowController",
+    "Method": "GetPendingBorrowRequests",
+    "RelativePath": "api/Borrow/pending-borrow-requests",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -822,7 +842,7 @@
   },
   {
     "ContainingType": "LibraryManagement.Controllers.AuthorizationDemoEndpoints\u002B\u003C\u003Ec",
-    "Method": "\u003CMapAuthorizationDemoEndpoints\u003Eb__0_2",
+    "Method": "\u003CMapAuthorizationDemoEndpoints\u003Eb__0_3",
     "RelativePath": "api/GuestAccess",
     "HttpMethod": "GET",
     "IsController": false,
@@ -991,6 +1011,50 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "LibraryManagement.Controllers.AuthorizationDemoEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapAuthorizationDemoEndpoints\u003Eb__0_2",
+    "RelativePath": "api/MemberAccess2",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LibraryManagement.Controllers.PenaltyController",
+    "Method": "GetAllPenalties",
+    "RelativePath": "api/Penalty/all-penalties",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagement.Controllers.PenaltyController",
+    "Method": "GetPenaltiesByUserId",
+    "RelativePath": "api/Penalty/user-penalties/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "Microsoft.AspNetCore.Routing.IdentityApiEndpointRouteBuilderExtensions\u002B\u003C\u003Ec__DisplayClass1_0\u00601[[LibraryManagement.Models.User, LibraryManagement, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",

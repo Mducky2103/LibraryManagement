@@ -656,7 +656,31 @@
         }
       }
     },
-    "/api/Borrow/overdue-books": {
+    "/api/Borrow/pending-borrow-requests": {
+      "get": {
+        "tags": [
+          "Borrow"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Borrow/extend-requests": {
+      "get": {
+        "tags": [
+          "Borrow"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Borrow/overdue-books-list": {
       "get": {
         "tags": [
           "Borrow"
@@ -1568,6 +1592,25 @@
         }
       }
     },
+    "/api/MemberAccess2": {
+      "get": {
+        "tags": [
+          "LibraryManagement"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/GuestAccess": {
       "get": {
         "tags": [
@@ -1583,6 +1626,40 @@
                 }
               }
             }
+          }
+        }
+      }
+    },
+    "/api/Penalty/all-penalties": {
+      "get": {
+        "tags": [
+          "Penalty"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Penalty/user-penalties/{userId}": {
+      "get": {
+        "tags": [
+          "Penalty"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
           }
         }
       }

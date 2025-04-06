@@ -22,7 +22,11 @@ namespace LibraryManagement.Controllers
             {
                 return "Member";
             });
-
+            app.MapGet("/MemberAccess2",
+            [Authorize(Roles = "Member")] () =>
+            {
+                return "Member2";
+            });
             //Guest (truy cập thông tin chung)
             app.MapGet("/GuestAccess", () => "Guest Access: Public Library Information")
                .AllowAnonymous();

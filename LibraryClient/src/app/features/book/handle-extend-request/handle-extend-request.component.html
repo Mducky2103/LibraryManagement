@@ -1,0 +1,44 @@
+<div class="container mt-4">
+    <h2>Extend Borrow Request List (Waiting for approval)</h2>
+
+    <table class="table table-bordered mt-3">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Book Name</th>
+                <th>User Email</th>
+                <th>Borrowed Date</th>
+                <th>Due Date</th>
+                <th>Notes</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let request of extendBorrowRequests">
+                <td>{{ request.id }}</td>
+                <td>{{ request.bookName }}</td>
+                <td>{{ request.userEmail }}</td>
+                <td>{{ request.borrowedDate | date: 'dd/MM/yyyy' }}</td>
+                <td>{{ request.dueDate | date: 'dd/MM/yyyy' }}</td>
+                <td>{{ request.notes ? request.notes : 'Empty' }}</td>
+                <td>
+                    <button class="btn btn-success" (click)="approveRequest(request.id)">Approve</button>
+                    <button class="btn btn-danger" (click)="cancelRequest(request.id)">Cancel</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="pagination">
+    <button (click)="onPageChange(currentPage - 1)" [disabled]="currentPage === 1"
+        style="background-color: none;border:none">Previous</button>
+    <span> ({{extendBorrowRequests.length}} item) Page {{ currentPage }} of {{ totalPages }}</span>
+    <button (click)="onPageChange(currentPage + 1)" [disabled]="currentPage === totalPages"
+        style="background-color: none;border:none">Next</button>
+</div>
+
+@if (extendBorrowRequests.length === 0) {
+<div class="no-books-message">
+    <p>No data to display.</p>
+</div>
+}

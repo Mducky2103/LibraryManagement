@@ -1,0 +1,116 @@
+/* Cải thiện giao diện bảng */
+table.table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background-color: #f9f9f9;
+}
+
+table.table th,
+table.table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+table.table th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+table.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table.table tr:hover {
+    background-color: #ddd;
+}
+
+/* Cải thiện giao diện nút */
+button.btn {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button.btn-success {
+    background-color: #28a745;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+button.btn-success:hover {
+    background-color: #218838;
+}
+
+button.btn-danger {
+    background-color: #dc3545;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+button.btn-danger:hover {
+    background-color: #c82333;
+}
+
+/* Cải thiện giao diện phân trang */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.pagination button {
+    margin: 0 5px;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pagination button:hover {
+    background-color: #e2e6ea;
+}
+
+.pagination button:disabled {
+    background-color: #e9ecef;
+    cursor: not-allowed;
+}
+
+.pagination span {
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+/* Thông báo khi không có dữ liệu */
+.no-books-message {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #6c757d;
+}
+
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1050;
+}
+
+.modal-content {
+    width: 400px;
+}
