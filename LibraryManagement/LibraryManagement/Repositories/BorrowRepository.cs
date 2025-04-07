@@ -153,6 +153,27 @@ namespace LibraryManagement.Repositories
                 .ToListAsync();
         }
 
+        //Lấy danh sách sách đang được mượn của tất cả user (chưa quá hạn trả sách)
+        public async Task<object> GetAllBorrowedBook()
+        {
+            return await _context.BorrowReceiptDetails
+                .Include(brd => brd.Books)
+                .Include(brd => brd.BorrowReceipt)
+                .ThenInclude(br => br.User)
+                .Where(brd => brd.Status == BorrowStatus.Approved && brd.DueDate > DateTime.Now)
+                .Select(brd => new
+                {
+                    brd.Id,
+                    BookName = brd.Books.Name,
+                    UserEmail = brd.BorrowReceipt.User.Email,
+                    brd.BorrowedDate,
+                    brd.DueDate,
+                    brd.Status,
+                    brd.Notes
+                })
+                .ToListAsync();
+        }
+
         // Thêm một yêu cầu mượn sách mới
         public async Task AddBorrowRequestAsync(BorrowReceipt borrowReceipt)
         {

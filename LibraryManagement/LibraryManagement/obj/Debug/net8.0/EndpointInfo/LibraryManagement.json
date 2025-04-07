@@ -758,6 +758,18 @@
         }
       }
     },
+    "/api/Borrow/all-borrowed-book": {
+      "get": {
+        "tags": [
+          "Borrow"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Borrow/Get-detail-borrow-by-id{id}": {
       "get": {
         "tags": [

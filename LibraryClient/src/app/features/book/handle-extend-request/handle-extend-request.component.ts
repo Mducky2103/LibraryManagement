@@ -18,6 +18,7 @@ export class HandleExtendRequestComponent {
   pageSize: number = 7;
   totalBooks: number = 0;
   totalPages: number = 0;
+  hasData: boolean = false
 
   constructor(private service: BorrowService,
     private authService: AuthService,
@@ -30,17 +31,26 @@ export class HandleExtendRequestComponent {
   onGetData() {
     this.service.getExtendRequestList().subscribe(
       (data) => {
-        this.extendBorrowRequests = data;
+        this.extendBorrowRequests = data || [];
+        this.hasData = this.extendBorrowRequests.length > 0;
 
-        this.totalBooks = this.extendBorrowRequests.length;
-        this.totalPages = Math.ceil(this.totalBooks / this.pageSize);
+        if (this.hasData) {
+          this.totalBooks = this.extendBorrowRequests.length;
+          this.totalPages = Math.ceil(this.totalBooks / this.pageSize);
 
-        const startIndex = (this.currentPage - 1) * this.pageSize;
-        const endIndex = startIndex + this.pageSize;
-        this.extendBorrowRequests = this.extendBorrowRequests.slice(startIndex, endIndex);
+          const startIndex = (this.currentPage - 1) * this.pageSize;
+          const endIndex = startIndex + this.pageSize;
+          this.extendBorrowRequests = this.extendBorrowRequests.slice(startIndex, endIndex);
+        } else {
+          this.totalPages = 0;
+          this.currentPage = 1;
+        }
       },
       (error) => {
         console.error('Error fetching pending borrow requests', error);
+        this.hasData = false;
+        this.totalPages = 0;
+        this.extendBorrowRequests = [];
       }
     );
   }
@@ -72,8 +82,10 @@ export class HandleExtendRequestComponent {
 
 
   onPageChange(page: number): void {
-    this.currentPage = page;
-    this.onGetData();
+    if (this.hasData) {
+      this.currentPage = page;
+      this.onGetData();
+    }
   }
 
 } 

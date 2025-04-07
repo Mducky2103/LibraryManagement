@@ -82,6 +82,7 @@ export class BookBrowingComponent implements OnInit {
         this.service.dueDateborrow(this.selectedBook.id, newDueDate).subscribe((data) => {
           this.toatrService.info(data.message);
           this.closeExtendModal();
+          this.onGetData();
         })
 
       } else {

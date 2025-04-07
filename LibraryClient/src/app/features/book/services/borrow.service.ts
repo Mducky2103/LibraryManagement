@@ -55,5 +55,7 @@ export class BorrowService {
   returnOverdueBookWithPenalty(detailId: number): Observable<any> {
     return this.http.put(`${API_URL}/borrow/return-book-and-apply-penalty/${detailId}`, {});
   }
-
+  getAllBorrowedBooks(): Observable<any> {
+    return this.http.get(`${API_URL}/borrow/all-borrowed-book`);
+  }
 }

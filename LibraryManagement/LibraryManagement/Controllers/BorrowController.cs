@@ -119,6 +119,19 @@ namespace LibraryManagement.Controllers
             return Ok(borrowHistory);
         }
 
+        //Xem danh sách sách đang được cho mượn của tất cả user
+        [HttpGet("all-borrowed-book")]
+        [Authorize(Roles = "Admin, Librarian")]
+        public async Task<IActionResult> GetAllBorrowedBooks()
+        {
+            var borrowedBooks = await _borrowService.GetAllBorrowedBookAsync();
+            if (borrowedBooks == null)
+            {
+                return NotFound("Không tìm thấy sách đang được cho mượn.");
+            }
+            return Ok(borrowedBooks);
+        }
+
         // Lấy thông tin chi tiết của một phiếu mượn theo ID
         [HttpGet("Get-detail-borrow-by-id{id}")]
         [Authorize]

@@ -36,6 +36,9 @@
         <li class="nav-item" [appHideIfClaimsNotMet]="claimReq.memberaccess2">
             <a class="nav-link" routerLink="/user-penalties/:id">Your Penalty</a>
         </li>
+        <li class="nav-item" [appHideIfClaimsNotMet]="claimReq.adminOrLibrarian">
+            <a class="nav-link" routerLink="/all-borrowed-book">All Borrowed Books</a>
+        </li>
     </ul>
 </nav>
 <div id="main">

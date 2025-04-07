@@ -17,6 +17,7 @@ namespace LibraryManagement.Services.Interface
         Task<object> GetPendingBorrowRequestsAsync();
         Task<object> GetExtendRequestsAsync();
         Task<object> GetOverdueBooksListAsync();
+        Task<object> GetAllBorrowedBookAsync();
         Task<bool> ReturnBookAsync(int receiptDetailId);
         Task<bool> ReturnBookAndApplyPenaltyAsync(int receiptDetailId);
         Task<IEnumerable<object>> GetOverdueBooksByUserAsync(string userId);

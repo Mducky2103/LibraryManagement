@@ -389,6 +389,16 @@
   },
   {
     "ContainingType": "LibraryManagement.Controllers.BorrowController",
+    "Method": "GetAllBorrowedBooks",
+    "RelativePath": "api/Borrow/all-borrowed-book",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibraryManagement.Controllers.BorrowController",
     "Method": "ApproveBorrowRequest",
     "RelativePath": "api/Borrow/approve-borrow-book/{detailId}",
     "HttpMethod": "PUT",

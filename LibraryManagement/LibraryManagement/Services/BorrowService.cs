@@ -84,6 +84,12 @@ namespace LibraryManagement.Services
         {
             return await _borrowRepository.GetAllOverdueBook();
         }
+
+        // Lấy danh sách những quyển sách đang trong trạng thái Borrowed (Đang mượn)
+        public async Task<object> GetAllBorrowedBookAsync()
+        {
+            return await _borrowRepository.GetAllBorrowedBook();
+        }
         // Thủ thư phê duyệt yêu cầu mượn sách
         public async Task<bool> ApproveBorrowRequestAsync(int receiptDetailId)
         {

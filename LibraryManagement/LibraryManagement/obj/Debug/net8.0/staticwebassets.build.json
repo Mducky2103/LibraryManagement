@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FeN2dYb7bZIZo1yC2VHx7qFx6okOQsc1MMO7O2gqXdU=",
+  "Hash": "GInV5lmbe73hgifidl4BHAO/6H33ubQ+zzahh0VCsIo=",
   "Source": "LibraryManagement",
   "BasePath": "_content/LibraryManagement",
   "Mode": "Default",
@@ -57,6 +57,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\4ce3eb96-9150-4f7b-8dab-d044fa9c7868.jpg"
+    },
+    {
+      "Identity": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\71cLLaYEAGL._AC_UF1000,1000_QL80_.jpg",
+      "SourceId": "LibraryManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\",
+      "BasePath": "_content/LibraryManagement",
+      "RelativePath": "images/71cLLaYEAGL._AC_UF1000,1000_QL80_#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ko1t7eqn88",
+      "Integrity": "PJPrYWATgc+2BISHZC5ZeLzlGkaqELPGLyIKtrJ4rfo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\71cLLaYEAGL._AC_UF1000,1000_QL80_.jpg"
     },
     {
       "Identity": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\76a1d29326661fdadcd7fc8046abbbdc.jpg.webp",
@@ -227,6 +248,48 @@
       "OriginalItemSpec": "wwwroot\\images\\f027aa0f8b619769ca1b78dbc579bb77.jpg.webp"
     },
     {
+      "Identity": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\f914130ad14e9bb8a1624cdca23b8610.jpg.webp",
+      "SourceId": "LibraryManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\",
+      "BasePath": "_content/LibraryManagement",
+      "RelativePath": "images/f914130ad14e9bb8a1624cdca23b8610.jpg#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g8s9yls4cq",
+      "Integrity": "0HJfHClfOuXO+uu6DTtAvLaq3RuG3lPRmawefa+4H6s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\f914130ad14e9bb8a1624cdca23b8610.jpg.webp"
+    },
+    {
+      "Identity": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\images.jpg",
+      "SourceId": "LibraryManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\",
+      "BasePath": "_content/LibraryManagement",
+      "RelativePath": "images/images#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wmq5t9fyqv",
+      "Integrity": "6HhIR40TABnGF5wdHDRXcSAR2nTN03s4wLFwpYxXqtY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\images.jpg"
+    },
+    {
       "Identity": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\lich_su_sach_-_bia_1_ee2af9044fd549d89e0429aad039ddf0.jpg",
       "SourceId": "LibraryManagement",
       "SourceType": "Discovered",
@@ -267,6 +330,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\mau-bia-sach-dep.jpg"
+    },
+    {
+      "Identity": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\nhung-tu-nhan-cua-dia-ly-d98b64e0-0eb0-45ca-825f-04c22cfb0b09-4faa0e6f-b87d-4444-9741-61fa522e19bd.webp",
+      "SourceId": "LibraryManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\",
+      "BasePath": "_content/LibraryManagement",
+      "RelativePath": "images/nhung-tu-nhan-cua-dia-ly-d98b64e0-0eb0-45ca-825f-04c22cfb0b09-4faa0e6f-b87d-4444-9741-61fa522e19bd#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rbryvch8vs",
+      "Integrity": "KQJcHvOIPZbI+k44Mjb/NoVoVUdnUpJOfdtjK3iRQgA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\nhung-tu-nhan-cua-dia-ly-d98b64e0-0eb0-45ca-825f-04c22cfb0b09-4faa0e6f-b87d-4444-9741-61fa522e19bd.webp"
     },
     {
       "Identity": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\nxbtre_full_09462021_024609.jpg",
@@ -311,6 +395,90 @@
       "OriginalItemSpec": "wwwroot\\images\\Screenshot 2024-07-27 145556.png"
     },
     {
+      "Identity": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\sg-11134201-7rbnl-lqe91h035clj30@resize_w900_nl.webp",
+      "SourceId": "LibraryManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\",
+      "BasePath": "_content/LibraryManagement",
+      "RelativePath": "images/sg-11134201-7rbnl-lqe91h035clj30@resize_w900_nl#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wtbf7ssnov",
+      "Integrity": "XD8mun0tsYrjNDCyK3nwi6Zi+EsaqmtjsiKh9Ew7F10=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\sg-11134201-7rbnl-lqe91h035clj30@resize_w900_nl.webp"
+    },
+    {
+      "Identity": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\shopping.webp",
+      "SourceId": "LibraryManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\",
+      "BasePath": "_content/LibraryManagement",
+      "RelativePath": "images/shopping#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "d9ceoxopi4",
+      "Integrity": "kTHQUrbworYRo7NB2psFK6rS0xx0QlON9yTIeuc/5z4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\shopping.webp"
+    },
+    {
+      "Identity": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\s-l1600.webp",
+      "SourceId": "LibraryManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\",
+      "BasePath": "_content/LibraryManagement",
+      "RelativePath": "images/s-l1600#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "06iu9y5pcu",
+      "Integrity": "iEcWro/iSTO53Fwoy5+9ffdnbYZNZcLOWcl79+v6Nrw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\s-l1600.webp"
+    },
+    {
+      "Identity": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\Súng,_Vi_trùng_và_Thép_bìa_sách.png",
+      "SourceId": "LibraryManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\",
+      "BasePath": "_content/LibraryManagement",
+      "RelativePath": "images/Súng,_Vi_trùng_và_Thép_bìa_sách#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "t28x52xrsz",
+      "Integrity": "2xsJiF2pLFvkfnnLXE7Iyt9kPMvFpB85H+IH2DGOnl0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Súng,_Vi_trùng_và_Thép_bìa_sách.png"
+    },
+    {
       "Identity": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\trang-tri-bia-sach-5.jpg",
       "SourceId": "LibraryManagement",
       "SourceType": "Discovered",
@@ -330,6 +498,90 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\trang-tri-bia-sach-5.jpg"
+    },
+    {
+      "Identity": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\vn-11134201-7r98o-luspe4z32qczc0@resize_w900_nl.webp",
+      "SourceId": "LibraryManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\",
+      "BasePath": "_content/LibraryManagement",
+      "RelativePath": "images/vn-11134201-7r98o-luspe4z32qczc0@resize_w900_nl#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bvnk4gqkvn",
+      "Integrity": "KeawexYPiZOJSXN/Sf66k9N3YfTWDLDLdo/WBt9lM1A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\vn-11134201-7r98o-luspe4z32qczc0@resize_w900_nl.webp"
+    },
+    {
+      "Identity": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\vn-11134207-7r98o-lmy1orvgofrz5e@resize_w900_nl.webp",
+      "SourceId": "LibraryManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\",
+      "BasePath": "_content/LibraryManagement",
+      "RelativePath": "images/vn-11134207-7r98o-lmy1orvgofrz5e@resize_w900_nl#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k3zc8h7hf5",
+      "Integrity": "UCfm7jezR/y1naUmJszZvbDCqz+BSB8L9OUimAXr5d8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\vn-11134207-7r98o-lmy1orvgofrz5e@resize_w900_nl.webp"
+    },
+    {
+      "Identity": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\vn-11134207-7ras8-m406qunioq7422@resize_w900_nl.webp",
+      "SourceId": "LibraryManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\",
+      "BasePath": "_content/LibraryManagement",
+      "RelativePath": "images/vn-11134207-7ras8-m406qunioq7422@resize_w900_nl#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p2bew5m8vq",
+      "Integrity": "keMn4PjjaN53h59OYNrCU5fYmGE5BwvewEBQZ/DNN5I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\vn-11134207-7ras8-m406qunioq7422@resize_w900_nl.webp"
+    },
+    {
+      "Identity": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\vn-11134207-7ras8-m406r6w4rydr01@resize_w900_nl.webp",
+      "SourceId": "LibraryManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\",
+      "BasePath": "_content/LibraryManagement",
+      "RelativePath": "images/vn-11134207-7ras8-m406r6w4rydr01@resize_w900_nl#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2a677eub3z",
+      "Integrity": "iho9iyqhhlsaWrdH1BNoi2IyzI/NwLZykmK4hEXQjNs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\vn-11134207-7ras8-m406r6w4rydr01@resize_w900_nl.webp"
     }
   ],
   "Endpoints": [
@@ -494,6 +746,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-owUx8WSPygkebW7VNbIFG3JCHe+BNHocW4ndS6v4Vfc="
+        }
+      ]
+    },
+    {
+      "Route": "images/71cLLaYEAGL._AC_UF1000,1000_QL80_.jpg",
+      "AssetFile": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\71cLLaYEAGL._AC_UF1000,1000_QL80_.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38379"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PJPrYWATgc+2BISHZC5ZeLzlGkaqELPGLyIKtrJ4rfo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 05:10:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PJPrYWATgc+2BISHZC5ZeLzlGkaqELPGLyIKtrJ4rfo="
+        }
+      ]
+    },
+    {
+      "Route": "images/71cLLaYEAGL._AC_UF1000,1000_QL80_.ko1t7eqn88.jpg",
+      "AssetFile": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\71cLLaYEAGL._AC_UF1000,1000_QL80_.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38379"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PJPrYWATgc+2BISHZC5ZeLzlGkaqELPGLyIKtrJ4rfo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 05:10:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ko1t7eqn88"
+        },
+        {
+          "Name": "label",
+          "Value": "images/71cLLaYEAGL._AC_UF1000,1000_QL80_.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PJPrYWATgc+2BISHZC5ZeLzlGkaqELPGLyIKtrJ4rfo="
         }
       ]
     },
@@ -1154,6 +1488,170 @@
       ]
     },
     {
+      "Route": "images/f914130ad14e9bb8a1624cdca23b8610.jpg.g8s9yls4cq.webp",
+      "AssetFile": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\f914130ad14e9bb8a1624cdca23b8610.jpg.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51472"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0HJfHClfOuXO+uu6DTtAvLaq3RuG3lPRmawefa+4H6s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 05:05:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g8s9yls4cq"
+        },
+        {
+          "Name": "label",
+          "Value": "images/f914130ad14e9bb8a1624cdca23b8610.jpg.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0HJfHClfOuXO+uu6DTtAvLaq3RuG3lPRmawefa+4H6s="
+        }
+      ]
+    },
+    {
+      "Route": "images/f914130ad14e9bb8a1624cdca23b8610.jpg.webp",
+      "AssetFile": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\f914130ad14e9bb8a1624cdca23b8610.jpg.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51472"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0HJfHClfOuXO+uu6DTtAvLaq3RuG3lPRmawefa+4H6s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 05:05:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0HJfHClfOuXO+uu6DTtAvLaq3RuG3lPRmawefa+4H6s="
+        }
+      ]
+    },
+    {
+      "Route": "images/images.jpg",
+      "AssetFile": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\images.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "109154"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6HhIR40TABnGF5wdHDRXcSAR2nTN03s4wLFwpYxXqtY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 05:22:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6HhIR40TABnGF5wdHDRXcSAR2nTN03s4wLFwpYxXqtY="
+        }
+      ]
+    },
+    {
+      "Route": "images/images.wmq5t9fyqv.jpg",
+      "AssetFile": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\images.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "109154"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6HhIR40TABnGF5wdHDRXcSAR2nTN03s4wLFwpYxXqtY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 05:22:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wmq5t9fyqv"
+        },
+        {
+          "Name": "label",
+          "Value": "images/images.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6HhIR40TABnGF5wdHDRXcSAR2nTN03s4wLFwpYxXqtY="
+        }
+      ]
+    },
+    {
       "Route": "images/lich_su_sach_-_bia_1_ee2af9044fd549d89e0429aad039ddf0.gecu6gwsi4.jpg",
       "AssetFile": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\lich_su_sach_-_bia_1_ee2af9044fd549d89e0429aad039ddf0.jpg",
       "Selectors": [],
@@ -1314,6 +1812,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-jDj8IKYtHyupU90EOxY/Y+A68X5xaqE5tnc4vE/qjg0="
+        }
+      ]
+    },
+    {
+      "Route": "images/nhung-tu-nhan-cua-dia-ly-d98b64e0-0eb0-45ca-825f-04c22cfb0b09-4faa0e6f-b87d-4444-9741-61fa522e19bd.rbryvch8vs.webp",
+      "AssetFile": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\nhung-tu-nhan-cua-dia-ly-d98b64e0-0eb0-45ca-825f-04c22cfb0b09-4faa0e6f-b87d-4444-9741-61fa522e19bd.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35270"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KQJcHvOIPZbI+k44Mjb/NoVoVUdnUpJOfdtjK3iRQgA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 05:19:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rbryvch8vs"
+        },
+        {
+          "Name": "label",
+          "Value": "images/nhung-tu-nhan-cua-dia-ly-d98b64e0-0eb0-45ca-825f-04c22cfb0b09-4faa0e6f-b87d-4444-9741-61fa522e19bd.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KQJcHvOIPZbI+k44Mjb/NoVoVUdnUpJOfdtjK3iRQgA="
+        }
+      ]
+    },
+    {
+      "Route": "images/nhung-tu-nhan-cua-dia-ly-d98b64e0-0eb0-45ca-825f-04c22cfb0b09-4faa0e6f-b87d-4444-9741-61fa522e19bd.webp",
+      "AssetFile": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\nhung-tu-nhan-cua-dia-ly-d98b64e0-0eb0-45ca-825f-04c22cfb0b09-4faa0e6f-b87d-4444-9741-61fa522e19bd.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35270"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KQJcHvOIPZbI+k44Mjb/NoVoVUdnUpJOfdtjK3iRQgA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 05:19:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KQJcHvOIPZbI+k44Mjb/NoVoVUdnUpJOfdtjK3iRQgA="
         }
       ]
     },
@@ -1482,6 +2062,334 @@
       ]
     },
     {
+      "Route": "images/sg-11134201-7rbnl-lqe91h035clj30@resize_w900_nl.webp",
+      "AssetFile": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\sg-11134201-7rbnl-lqe91h035clj30@resize_w900_nl.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "100956"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XD8mun0tsYrjNDCyK3nwi6Zi+EsaqmtjsiKh9Ew7F10=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 04:16:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XD8mun0tsYrjNDCyK3nwi6Zi+EsaqmtjsiKh9Ew7F10="
+        }
+      ]
+    },
+    {
+      "Route": "images/sg-11134201-7rbnl-lqe91h035clj30@resize_w900_nl.wtbf7ssnov.webp",
+      "AssetFile": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\sg-11134201-7rbnl-lqe91h035clj30@resize_w900_nl.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "100956"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XD8mun0tsYrjNDCyK3nwi6Zi+EsaqmtjsiKh9Ew7F10=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 04:16:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wtbf7ssnov"
+        },
+        {
+          "Name": "label",
+          "Value": "images/sg-11134201-7rbnl-lqe91h035clj30@resize_w900_nl.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XD8mun0tsYrjNDCyK3nwi6Zi+EsaqmtjsiKh9Ew7F10="
+        }
+      ]
+    },
+    {
+      "Route": "images/shopping.d9ceoxopi4.webp",
+      "AssetFile": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\shopping.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30418"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kTHQUrbworYRo7NB2psFK6rS0xx0QlON9yTIeuc/5z4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 05:13:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d9ceoxopi4"
+        },
+        {
+          "Name": "label",
+          "Value": "images/shopping.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kTHQUrbworYRo7NB2psFK6rS0xx0QlON9yTIeuc/5z4="
+        }
+      ]
+    },
+    {
+      "Route": "images/shopping.webp",
+      "AssetFile": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\shopping.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30418"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kTHQUrbworYRo7NB2psFK6rS0xx0QlON9yTIeuc/5z4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 05:13:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kTHQUrbworYRo7NB2psFK6rS0xx0QlON9yTIeuc/5z4="
+        }
+      ]
+    },
+    {
+      "Route": "images/s-l1600.06iu9y5pcu.webp",
+      "AssetFile": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\s-l1600.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "479912"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iEcWro/iSTO53Fwoy5+9ffdnbYZNZcLOWcl79+v6Nrw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 05:16:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "06iu9y5pcu"
+        },
+        {
+          "Name": "label",
+          "Value": "images/s-l1600.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iEcWro/iSTO53Fwoy5+9ffdnbYZNZcLOWcl79+v6Nrw="
+        }
+      ]
+    },
+    {
+      "Route": "images/s-l1600.webp",
+      "AssetFile": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\s-l1600.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "479912"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iEcWro/iSTO53Fwoy5+9ffdnbYZNZcLOWcl79+v6Nrw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 05:16:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iEcWro/iSTO53Fwoy5+9ffdnbYZNZcLOWcl79+v6Nrw="
+        }
+      ]
+    },
+    {
+      "Route": "images/Súng,_Vi_trùng_và_Thép_bìa_sách.png",
+      "AssetFile": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\Súng,_Vi_trùng_và_Thép_bìa_sách.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "190709"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2xsJiF2pLFvkfnnLXE7Iyt9kPMvFpB85H+IH2DGOnl0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 05:18:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2xsJiF2pLFvkfnnLXE7Iyt9kPMvFpB85H+IH2DGOnl0="
+        }
+      ]
+    },
+    {
+      "Route": "images/Súng,_Vi_trùng_và_Thép_bìa_sách.t28x52xrsz.png",
+      "AssetFile": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\Súng,_Vi_trùng_và_Thép_bìa_sách.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "190709"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2xsJiF2pLFvkfnnLXE7Iyt9kPMvFpB85H+IH2DGOnl0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 05:18:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t28x52xrsz"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Súng,_Vi_trùng_và_Thép_bìa_sách.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2xsJiF2pLFvkfnnLXE7Iyt9kPMvFpB85H+IH2DGOnl0="
+        }
+      ]
+    },
+    {
       "Route": "images/trang-tri-bia-sach-5.jpg",
       "AssetFile": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\trang-tri-bia-sach-5.jpg",
       "Selectors": [],
@@ -1560,6 +2468,334 @@
         {
           "Name": "integrity",
           "Value": "sha256-3LwCx35pBNy9z/v5z4IObT0fHbkfKiAEV7vb2TmWRdk="
+        }
+      ]
+    },
+    {
+      "Route": "images/vn-11134201-7r98o-luspe4z32qczc0@resize_w900_nl.bvnk4gqkvn.webp",
+      "AssetFile": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\vn-11134201-7r98o-luspe4z32qczc0@resize_w900_nl.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "134900"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KeawexYPiZOJSXN/Sf66k9N3YfTWDLDLdo/WBt9lM1A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 05:07:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bvnk4gqkvn"
+        },
+        {
+          "Name": "label",
+          "Value": "images/vn-11134201-7r98o-luspe4z32qczc0@resize_w900_nl.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KeawexYPiZOJSXN/Sf66k9N3YfTWDLDLdo/WBt9lM1A="
+        }
+      ]
+    },
+    {
+      "Route": "images/vn-11134201-7r98o-luspe4z32qczc0@resize_w900_nl.webp",
+      "AssetFile": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\vn-11134201-7r98o-luspe4z32qczc0@resize_w900_nl.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "134900"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KeawexYPiZOJSXN/Sf66k9N3YfTWDLDLdo/WBt9lM1A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 05:07:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KeawexYPiZOJSXN/Sf66k9N3YfTWDLDLdo/WBt9lM1A="
+        }
+      ]
+    },
+    {
+      "Route": "images/vn-11134207-7r98o-lmy1orvgofrz5e@resize_w900_nl.k3zc8h7hf5.webp",
+      "AssetFile": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\vn-11134207-7r98o-lmy1orvgofrz5e@resize_w900_nl.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "97506"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UCfm7jezR/y1naUmJszZvbDCqz+BSB8L9OUimAXr5d8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 04:11:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k3zc8h7hf5"
+        },
+        {
+          "Name": "label",
+          "Value": "images/vn-11134207-7r98o-lmy1orvgofrz5e@resize_w900_nl.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UCfm7jezR/y1naUmJszZvbDCqz+BSB8L9OUimAXr5d8="
+        }
+      ]
+    },
+    {
+      "Route": "images/vn-11134207-7r98o-lmy1orvgofrz5e@resize_w900_nl.webp",
+      "AssetFile": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\vn-11134207-7r98o-lmy1orvgofrz5e@resize_w900_nl.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "97506"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UCfm7jezR/y1naUmJszZvbDCqz+BSB8L9OUimAXr5d8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 04:11:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UCfm7jezR/y1naUmJszZvbDCqz+BSB8L9OUimAXr5d8="
+        }
+      ]
+    },
+    {
+      "Route": "images/vn-11134207-7ras8-m406qunioq7422@resize_w900_nl.p2bew5m8vq.webp",
+      "AssetFile": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\vn-11134207-7ras8-m406qunioq7422@resize_w900_nl.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "157854"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"keMn4PjjaN53h59OYNrCU5fYmGE5BwvewEBQZ/DNN5I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 04:45:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p2bew5m8vq"
+        },
+        {
+          "Name": "label",
+          "Value": "images/vn-11134207-7ras8-m406qunioq7422@resize_w900_nl.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-keMn4PjjaN53h59OYNrCU5fYmGE5BwvewEBQZ/DNN5I="
+        }
+      ]
+    },
+    {
+      "Route": "images/vn-11134207-7ras8-m406qunioq7422@resize_w900_nl.webp",
+      "AssetFile": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\vn-11134207-7ras8-m406qunioq7422@resize_w900_nl.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "157854"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"keMn4PjjaN53h59OYNrCU5fYmGE5BwvewEBQZ/DNN5I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 04:45:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-keMn4PjjaN53h59OYNrCU5fYmGE5BwvewEBQZ/DNN5I="
+        }
+      ]
+    },
+    {
+      "Route": "images/vn-11134207-7ras8-m406r6w4rydr01@resize_w900_nl.2a677eub3z.webp",
+      "AssetFile": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\vn-11134207-7ras8-m406r6w4rydr01@resize_w900_nl.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "172362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iho9iyqhhlsaWrdH1BNoi2IyzI/NwLZykmK4hEXQjNs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 05:02:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2a677eub3z"
+        },
+        {
+          "Name": "label",
+          "Value": "images/vn-11134207-7ras8-m406r6w4rydr01@resize_w900_nl.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iho9iyqhhlsaWrdH1BNoi2IyzI/NwLZykmK4hEXQjNs="
+        }
+      ]
+    },
+    {
+      "Route": "images/vn-11134207-7ras8-m406r6w4rydr01@resize_w900_nl.webp",
+      "AssetFile": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\wwwroot\\images\\vn-11134207-7ras8-m406r6w4rydr01@resize_w900_nl.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "172362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iho9iyqhhlsaWrdH1BNoi2IyzI/NwLZykmK4hEXQjNs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 07 Apr 2025 05:02:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iho9iyqhhlsaWrdH1BNoi2IyzI/NwLZykmK4hEXQjNs="
         }
       ]
     }

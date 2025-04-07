@@ -26,6 +26,7 @@ import { OverdueListComponent } from './features/book/overdue-list/overdue-list.
 import { UserOverdueListComponent } from './features/book/user-overdue-list/user-overdue-list.component';
 import { AllPenaltiesComponent } from './features/penalty/all-penalties/all-penalties.component';
 import { UserPenaltiesComponent } from './features/penalty/user-penalties/user-penalties.component';
+import { AllBorrowedBookComponent } from './features/book/all-borrowed-book/all-borrowed-book.component';
 export const routes: Routes = [
     { path: '', redirectTo: 'signin', pathMatch: 'full' },
     {
@@ -128,6 +129,12 @@ export const routes: Routes = [
                 path: 'user-penalties/:id', //Xem danh sách hình phạt của người dùng
                 component: UserPenaltiesComponent,
                 data: { claimReq: claimReq.memberaccess2 },
+                canActivate: [authGuard]
+            },
+            {
+                path: 'all-borrowed-book', //Xem danh sách tất cả các sách đã mượn
+                component: AllBorrowedBookComponent,
+                data: { claimReq: claimReq.adminOrLibrarian },
                 canActivate: [authGuard]
             }
         ]

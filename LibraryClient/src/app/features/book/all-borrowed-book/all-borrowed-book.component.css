@@ -8,10 +8,45 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Heading styling */
-h2 {
-    color: #333;
+/* Search bar styling */
+.search-bar {
     margin-bottom: 20px;
+}
+
+.form-control {
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+}
+
+/* Card styling */
+.card {
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-header {
+    /* Header của card dùng màu xanh lá cây */
+    color: white;
+    padding: 15px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card-header h3 {
+    margin: 0;
     font-weight: 600;
 }
 
@@ -21,7 +56,6 @@ h2 {
     border-collapse: separate;
     border-spacing: 0;
     font-size: 16px;
-    /* Tăng kích thước chữ để dễ đọc hơn */
 }
 
 .table-bordered {
@@ -31,7 +65,6 @@ h2 {
 .table-bordered th,
 .table-bordered td {
     border: 1px solid #dee2e6;
-    /* Đảm bảo viền rõ ràng */
 }
 
 .table-hover tbody tr:hover {
@@ -42,33 +75,21 @@ h2 {
 /* Table header styling */
 .table thead th {
     background-color: #4CAF50;
-    /* Sử dụng màu xanh lá cây #4CAF50 */
+    /* Sử dụng màu xanh lá cây cho header */
     color: white;
     padding: 15px;
     text-align: left;
     border-bottom: 2px solid #388E3C;
     /* Đường viền dưới đậm hơn */
     font-weight: 600;
-    /* Đậm hơn để nổi bật */
-}
-
-.table thead th:first-child {
-    border-top-left-radius: 4px;
-}
-
-.table thead th:last-child {
-    border-top-right-radius: 4px;
 }
 
 /* Table body styling */
 .table tbody td {
     padding: 15px;
-    /* Tăng padding để dễ đọc hơn */
     vertical-align: middle;
     color: #333;
-    /* Màu chữ đậm hơn cho dễ nhìn */
     background-color: #fff;
-    /* Đảm bảo nền trắng cho dữ liệu */
 }
 
 .table tbody tr:last-child td {
@@ -80,6 +101,43 @@ h2 {
     content: "Empty";
     color: #888;
     font-style: italic;
+}
+
+/* Status styling */
+.status-pending {
+    color: #ffc107;
+    /* Vàng - trạng thái chờ */
+    font-weight: 500;
+}
+
+.status-approved {
+    color: #28a745;
+    /* Xanh lá - trạng thái đã duyệt */
+    font-weight: 500;
+}
+
+.status-returned {
+    color: #6c757d;
+    /* Xám - trạng thái đã trả */
+    font-weight: 500;
+}
+
+.status-overdue {
+    color: #dc3545;
+    /* Đỏ - trạng thái quá hạn */
+    font-weight: 500;
+}
+
+.status-canceled {
+    color: #6c757d;
+    /* Xám - trạng thái bị hủy */
+    font-weight: 500;
+}
+
+.status-unknown {
+    color: #17a2b8;
+    /* Xanh dương - trạng thái không rõ */
+    font-weight: 500;
 }
 
 /* Pagination styling */
@@ -95,7 +153,6 @@ h2 {
 
 .pagination button {
     padding: 10px 20px;
-    /* Tăng kích thước nút để dễ nhấn */
     background-color: #4CAF50;
     /* Giữ màu xanh lá cây */
     color: white;
@@ -104,7 +161,6 @@ h2 {
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.2s ease;
     font-weight: 500;
-    /* Đậm hơn để nổi bật */
 }
 
 .pagination button:disabled {
@@ -131,16 +187,18 @@ h2 {
 .no-books-message {
     text-align: center;
     padding: 30px;
-    /* Tăng padding để nổi bật hơn */
     color: #666;
     font-style: italic;
     background-color: #f8f9fa;
-    /* Nền nhạt để dễ nhận diện */
     border-radius: 4px;
 }
 
 /* Responsive design */
 @media (max-width: 768px) {
+    .search-bar .form-control {
+        width: 100%;
+    }
+
     .table thead {
         display: none;
     }
@@ -177,7 +235,6 @@ h2 {
         text-align: right;
         color: #4CAF50;
         background-color: #f0f0f0;
-        /* Nền nhạt cho nhãn trên mobile */
         padding: 5px;
         border-radius: 3px;
     }
@@ -189,6 +246,33 @@ h2 {
 
     .pagination button {
         width: 100%;
-        /* Nút full width trên mobile */
     }
+
+    .card {
+        width: 100%;
+    }
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.search-bar input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+    outline: none;
 }

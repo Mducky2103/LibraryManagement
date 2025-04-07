@@ -12,6 +12,7 @@ namespace LibraryManagement.Repositories.Interface
         Task<object> GetAllPendingRequest();
         Task<object> GetAllPendingRequest2();
         Task<object> GetAllOverdueBook();
+        Task<object> GetAllBorrowedBook();
         Task<IEnumerable<object>> GetBorrowedBooksByUserAsync(string userId);
         Task AddBorrowRequestAsync(BorrowReceipt borrowReceipt);
         Task UpdateBorrowStatusAsync(int detailId, BorrowStatus status);
