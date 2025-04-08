@@ -1202,7 +1202,7 @@
     "Parameters": [
       {
         "Name": "loginModel",
-        "Type": "LibraryManagement.Controllers.LoginModel",
+        "Type": "LibraryManagement.ViewModels.LoginModel",
         "IsRequired": true
       }
     ],
@@ -1224,7 +1224,7 @@
     "Parameters": [
       {
         "Name": "userRegistrationModel",
-        "Type": "LibraryManagement.Controllers.UserRegistrationModel",
+        "Type": "LibraryManagement.ViewModels.UserRegistrationModel",
         "IsRequired": true
       }
     ],

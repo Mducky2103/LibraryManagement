@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\LibraryManagement\\LibraryManagement\\LibraryManagement.Test\\LibraryManagement.Test.csproj": {}
+    "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement.Test\\LibraryManagement.Test.csproj": {}
   },
   "projects": {
-    "D:\\LibraryManagement\\LibraryManagement\\LibraryManagement.Test\\LibraryManagement.Test.csproj": {
+    "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement.Test\\LibraryManagement.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LibraryManagement\\LibraryManagement\\LibraryManagement.Test\\LibraryManagement.Test.csproj",
+        "projectUniqueName": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement.Test\\LibraryManagement.Test.csproj",
         "projectName": "LibraryManagement.Test",
-        "projectPath": "D:\\LibraryManagement\\LibraryManagement\\LibraryManagement.Test\\LibraryManagement.Test.csproj",
+        "projectPath": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement.Test\\LibraryManagement.Test.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\LibraryManagement\\LibraryManagement\\LibraryManagement.Test\\obj\\",
+        "outputPath": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\LibraryManagement\\LibraryManagement\\LibraryManagement\\LibraryManagement.csproj": {
-                "projectPath": "D:\\LibraryManagement\\LibraryManagement\\LibraryManagement\\LibraryManagement.csproj"
+              "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\LibraryManagement.csproj": {
+                "projectPath": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\LibraryManagement.csproj"
               }
             }
           }
@@ -48,7 +48,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -65,6 +65,10 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.13.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
             },
             "NUnit": {
               "target": "Package",
@@ -91,18 +95,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\LibraryManagement\\LibraryManagement\\LibraryManagement\\LibraryManagement.csproj": {
+    "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\LibraryManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LibraryManagement\\LibraryManagement\\LibraryManagement\\LibraryManagement.csproj",
+        "projectUniqueName": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\LibraryManagement.csproj",
         "projectName": "LibraryManagement",
-        "projectPath": "D:\\LibraryManagement\\LibraryManagement\\LibraryManagement\\LibraryManagement.csproj",
+        "projectPath": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\LibraryManagement.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\LibraryManagement\\LibraryManagement\\LibraryManagement\\obj\\",
+        "outputPath": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -135,7 +139,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -191,7 +195,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

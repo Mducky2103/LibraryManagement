@@ -473,10 +473,10 @@ D:\Campuslink.NET\Code\LibraryManagement\LibraryManagement\LibraryManagement\obj
 D:\Campuslink.NET\Code\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.LibraryManagement.props
 D:\Campuslink.NET\Code\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.LibraryManagement.props
 D:\Campuslink.NET\Code\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Campuslink.NET\Code\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\Campuslink.NET\Code\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryM.685EF3B5.Up2Date
 D:\Campuslink.NET\Code\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.dll
 D:\Campuslink.NET\Code\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\refint\LibraryManagement.dll
 D:\Campuslink.NET\Code\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.pdb
 D:\Campuslink.NET\Code\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\LibraryManagement.genruntimeconfig.cache
 D:\Campuslink.NET\Code\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\ref\LibraryManagement.dll
-D:\Campuslink.NET\Code\LibraryManagement\LibraryManagement\LibraryManagement\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
