@@ -73,6 +73,10 @@
     margin-bottom: 20px;
 }
 
+.book-grid a {
+    text-decoration: none;
+}
+
 .loading {
     text-align: center;
     font-size: 16px;

@@ -29,8 +29,8 @@ export class UserBookListComponent implements OnInit {
   categories: Category[] = [];
   searchTerm: string = '';
   selectedCategoryId: number = 0;
-  itemsPerLoad: number = 8;
-  currentItems: number = 8;
+  itemsPerLoad: number = 12;
+  currentItems: number = 12;
   isLoading: boolean = false;
 
   constructor(
@@ -58,6 +58,17 @@ export class UserBookListComponent implements OnInit {
         this.isLoading = false;
       }
     });
+  }
+
+  onScroll(): void {
+    const scrollTop = window.scrollY;
+    const windowHeight = window.innerHeight;
+    const documentHeight = document.body.scrollHeight;
+
+    // Khi cuộn gần tới cuối trang (100px cách đáy)
+    if (scrollTop + windowHeight >= documentHeight - 100 && this.canLoadMore && !this.isLoading) {
+      this.loadMore();
+    }
   }
 
   loadCategories(): void {

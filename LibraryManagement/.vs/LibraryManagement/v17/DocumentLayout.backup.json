@@ -58,8 +58,7 @@
               "RelativeToolTip": "LibraryManagement\\Program.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAC4AAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T15:43:09.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-06T15:43:09.443Z"
             },
             {
               "$type": "Document",
@@ -69,7 +68,7 @@
               "RelativeDocumentMoniker": "LibraryManagement\\Controllers\\BorrowController.cs",
               "ToolTip": "D:\\Campuslink.NET\\Code\\LibraryManagement\\LibraryManagement\\LibraryManagement\\Controllers\\BorrowController.cs",
               "RelativeToolTip": "LibraryManagement\\Controllers\\BorrowController.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAkwH8AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAkwIQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T15:52:26.401Z",
               "EditorCaption": ""
@@ -84,8 +83,7 @@
               "RelativeToolTip": "LibraryManagement\\Repositories\\BorrowRepository.cs",
               "ViewState": "AgIAAIsAAAAAAAAAAAAkwJwAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T15:11:09.636Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T15:11:09.636Z"
             },
             {
               "$type": "Document",
@@ -97,8 +95,7 @@
               "RelativeToolTip": "LibraryManagement\\Repositories\\Interface\\IBorrowRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAawA4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T13:52:04.899Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T13:52:04.899Z"
             },
             {
               "$type": "Document",
@@ -110,8 +107,7 @@
               "RelativeToolTip": "LibraryManagement\\Services\\BorrowService.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAkwFgAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T13:52:38.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T13:52:38.749Z"
             },
             {
               "$type": "Document",
@@ -123,8 +119,7 @@
               "RelativeToolTip": "LibraryManagement\\Services\\Interface\\IBorrowService.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAYwBMAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T13:52:35.6Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T13:52:35.6Z"
             }
           ]
         }

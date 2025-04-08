@@ -23,15 +23,21 @@
     </nav>
 
     <!-- Danh sách sách -->
-    <div class="book-grid">
-        <div *ngIf="isLoading" class="loading">Loading...</div>
-        <a *ngFor="let book of displayedBooks" [routerLink]="['/book-detail', book.id]">
-            <app-book-item [book]="book"></app-book-item>
-        </a>
+
+
+    <div (window:scroll)="onScroll()" class="scroll-container">
+        <div class="book-grid">
+            <div *ngIf="isLoading" class="loading">Loading...</div>
+            <a *ngFor="let book of displayedBooks" [routerLink]="['/book-detail', book.id]">
+                <app-book-item [book]="book"></app-book-item>
+            </a>
+        </div>
+
+        <div *ngIf="canLoadMore && !isLoading" class="load-more">Đang tải thêm...</div>
     </div>
 
     <!-- Nút Xem Thêm -->
-    <div class="load-more" *ngIf="canLoadMore">
+    <!-- <div class="load-more" *ngIf="canLoadMore">
         <a (click)="loadMore()">More</a>
-    </div>
+    </div> -->
 </div>
